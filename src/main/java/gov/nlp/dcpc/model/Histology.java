@@ -18,4 +18,8 @@ public class Histology extends Synonym {
 
     @Relationship(type="SYNONYM_OF", direction=Relationship.INCOMING)
     private List<Synonym> synonyms;
+
+    public String toString() {
+        return super.toString();
+    }
 }

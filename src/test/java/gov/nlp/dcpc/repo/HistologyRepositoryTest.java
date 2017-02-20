@@ -23,11 +23,12 @@ public class HistologyRepositoryTest {
         Histology h = histologyRepository.findByCode("8000/3");
         System.out.println("h = " + h);
         assert h != null;
+        assert h.getCode().equals("8000/3");
     }
 
     @Test
     public void findByHistology() {
-        List<Histology> list = histologyRepository.findByHistology(8000l);
+        List<Histology> list = histologyRepository.findByHistology(8000);
         assert list != null && list.size() > 0;
         for (Histology h: list) {
             System.out.println("h = " + h.getName());

@@ -57,6 +57,13 @@
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>RELEASE</version>
 		</dependency>
+
+		<!-- scala -->
+		<dependency>
+			<groupId>org.scalactic</groupId>
+			<artifactId>scalactic_2.11</artifactId>
+			<version>3.0.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>

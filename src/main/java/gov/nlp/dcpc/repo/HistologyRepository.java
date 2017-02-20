@@ -13,6 +13,12 @@ import java.util.List;
 @RepositoryRestResource(collectionResourceRel = "MORTH_CODE", path = "histology")
 public interface HistologyRepository extends PagingAndSortingRepository<Histology, Long> {
     public Histology findByCode(@Param("code") String code);
-    public List<Histology> findByHistology(@Param("hist") Long code);
-    public List<Histology> findByNameContainingIgnoreCase(@Param("name") String name);
+    public List<Histology> findByHistology(@Param("hist") int code);
+    public List<Histology> findByNameContaining(@Param("name") String name);
+
+    public List<Histology> findByFamily(@Param("family") String family);
+
+    //TODO::method to find histology by site
+    //TODO::method to find all synonyms of a histology
+    //TODO::method to find all histologies by name or synonym (regExp) - Retrieve Histology only, not synonyms.
 }

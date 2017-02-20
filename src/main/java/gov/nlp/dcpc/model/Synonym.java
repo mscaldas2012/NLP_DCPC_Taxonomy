@@ -13,7 +13,8 @@ public class Synonym {
     @GraphId
     private Long id;
 
-    private long histology;
+    private int histology;
+    private int family;
     private String code;
     private String name;
     private int behavior;
