@@ -1,6 +1,7 @@
 package gov.nlp.dcpc.repo;
 
 import gov.nlp.dcpc.model.Histology;
+import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
@@ -18,7 +19,13 @@ public interface HistologyRepository extends PagingAndSortingRepository<Histolog
 
     public List<Histology> findByFamily(@Param("family") String family);
 
-    //TODO::method to find histology by site
-    //TODO::method to find all synonyms of a histology
+    //method to find histology by site
+    public List<Histology> findBySitesName(@Param("site") String site);
+    public List<Histology> findBySitesCode(@Param("code") String code);
+
+
     //TODO::method to find all histologies by name or synonym (regExp) - Retrieve Histology only, not synonyms.
+    @Query("MATCH(h:MORPH_CODE) WHERE(h.name =~ '.*Round.*') return h union  OPTIONAL MATCH (h)<-[r:SYNONYM_OF]-(s:SYNONYM) WHERE(s.name =~ '.*Round.*') return h")
+    public List<Histology> findByNameContainingOrSynonymsNameContaining(@Param("synonym") String synonym);
+
 }

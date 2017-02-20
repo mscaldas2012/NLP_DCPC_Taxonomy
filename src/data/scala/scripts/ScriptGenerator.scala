@@ -10,13 +10,13 @@ import util.CSVReader
   * Generates Neo4J Script files to load data into graphs
   *
   * Scripts will create nodes for:
-  *    - Morphology code (MORTH_CODE)
+  *    - Histology code (HISTOLOGY_CODE)
   *    - its synonyms (SYNONYM)
   *    - sites (SITE).
   * Relationships will be created for:
   *    - sites and subsites (PART_OF)
-  *    - Morphology and its synonyms (SYNONYM_OF) and
-  *    - morphology and sites where it can occur (OCCURS_IN)
+  *    - Histology and its synonyms (SYNONYM_OF) and
+  *    - Histology and sites where it can occur (OCCURS_IN)
   */
 
 class ScriptGenerator {
@@ -49,12 +49,17 @@ class ScriptGenerator {
         pw.close
     }
 
-    def generateNeo4JScriptsForMorphology(filename: String): Unit = {
+    //TODO: Create Relationship between "see also" histologies: Reg Ex: see also M\-([0-9]{4}/[0-9]
+    //TODO: Separate Name and Descirption on Histologies - clean up the names.
+    //  Get rid of sites; \((C[0-9]{2}\.[_[0-9]](, *)?)*\)
+    //  Get rid of see also
+
+    def generateNeo4JScriptsForHistology(filename: String): Unit = {
         var reader: CSVReader = new CSVReader()
         var lines = reader.readFile(filename, "\\|")
         var index = 1
         var previousRow: Array[String] = null
-        val pw = new PrintWriter(new File("neo4j_morphologyCodes.txt"))
+        val pw = new PrintWriter(new File("neo4j_HistologyCodes.txt"))
         for (row <- lines) {
             if (row.length == 2) {
                 previousRow = row
@@ -63,10 +68,15 @@ class ScriptGenerator {
                 val hist = code.substring(0, code.indexOf("/"))
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
-                val name = row(1).toUpperCase()
-                pw.write(s"CREATE ($codename:MORPH_CODE { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name'})\n")
+                val description = row(1)
+                var name = row(1).toUpperCase().replaceAll("\\((C[0-9]{2}\\.[_[0-9]](, *)?)*\\)","").trim() //Remove location parenthesis.
+                //val relationship =  name.match("\\(see also M-((\\d{4}/\\d))\\)", "")
+                name = name.replaceAll("\\(SEE ALSO M-((\\d{4}/\\d))\\)", "")
+                pw.write(s"CREATE ($codename:MORPH_CODE { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
             } else {
-                val name = row(0).toUpperCase()
+                val description = row(0)
+                var name = row(0).toUpperCase().replaceAll("\\((C[0-9]{2}\\.[_[0-9]](, *)?)*\\)", "").trim()
+                name = name.replaceAll("\\(SEE ALSO M-((\\d{4}/\\d))\\)", "")
                 val paddedVal = f"${index}%09d"
                 val code = previousRow(0)
                 val codename = "H" + code.replaceAllLiterally("/", "_")
@@ -74,7 +84,7 @@ class ScriptGenerator {
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
                 val synCode = s"SYN_$paddedVal"
-                pw.write(s"CREATE ($synCode:SYNONYM { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name'})\n")
+                pw.write(s"CREATE ($synCode:SYNONYM { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
                 pw.write(s"CREATE ($synCode)-[:SYNONYM_OF]->($codename)\n")
                 index += 1
             }
@@ -108,6 +118,8 @@ object ScriptGenerator {
 object ScriptGeneratorApp extends App {
     var sg: ScriptGenerator = new ScriptGenerator()
     sg.generateNeo4JScriptForSites("src/data/resources/sites.txt")
-    sg.generateNeo4JScriptsForMorphology("src/data/resources/morphology.txt")
+    sg.generateNeo4JScriptsForHistology("src/data/resources/histology.txt")
     sg.generateNeo4JScriptsForHistSiteRelationship("src/data/resources/histology_site_rel.txt")
 }
+
+

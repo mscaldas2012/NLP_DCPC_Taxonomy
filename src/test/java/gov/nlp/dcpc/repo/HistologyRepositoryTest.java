@@ -29,20 +29,42 @@ public class HistologyRepositoryTest {
     @Test
     public void findByHistology() {
         List<Histology> list = histologyRepository.findByHistology(8000);
-        assert list != null && list.size() > 0;
-        for (Histology h: list) {
-            System.out.println("h = " + h.getName());
-        }
+        validateAndPrint(list);
     }
 
     @Test
     public void findByName() {
-        List<Histology> list = histologyRepository.findByNameContainingIgnoreCase("Tumor");
+        List<Histology> list = histologyRepository.findByNameContaining("Verrucous");
+        validateAndPrint(list);
+    }
+
+
+
+    @Test
+    public void findBySiteName() {
+       List<Histology> list = histologyRepository.findBySitesName("PLACENTA");
+       validateAndPrint(list);
+    }
+
+    @Test
+    public void findBySiteCode() {
+        List<Histology> list = histologyRepository.findBySitesCode("C58");
+        validateAndPrint(list);
+    }
+
+    @Test
+    public void findBySynonym() {
+        List<Histology> list = histologyRepository.findByNameContainingOrSynonymsNameContaining("Round");
+        validateAndPrint(list);
+    }
+
+
+    private void validateAndPrint(List<Histology> list) {
         assert list != null && list.size() > 0;
+        System.out.println("list.size() = " + list.size());
         for (Histology h: list) {
             System.out.println("h = " + h);
         }
-
     }
 
 }
