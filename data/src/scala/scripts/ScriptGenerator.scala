@@ -60,36 +60,56 @@ class ScriptGenerator {
         var index = 1
         var previousRow: Array[String] = null
         val pw = new PrintWriter(new File("neo4j_HistologyCodes.txt"))
+
+        val seeAlso = "SEE ALSO M-(\\d{4}/\\d)"
+        val seeAlsoReg = (".*" + seeAlso + ".*").r
+
+        val siteListing = "\\((C[0-9]{2}\\.[_[0-9]](, *)?)*\\)"
+        var seeAlsoRelationships = scala.collection.mutable.HashMap.empty[String,String]
         for (row <- lines) {
             if (row.length == 2) {
                 previousRow = row
                 val code = row(0)
-                val codename = "H" + code.replaceAllLiterally("/", "_")
+                val codename = getNeo4jNodeNameForHistology(code)
                 val hist = code.substring(0, code.indexOf("/"))
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
                 val description = row(1)
-                var name = row(1).toUpperCase().replaceAll("\\((C[0-9]{2}\\.[_[0-9]](, *)?)*\\)","").trim() //Remove location parenthesis.
-                //val relationship =  name.match("\\(see also M-((\\d{4}/\\d))\\)", "")
-                name = name.replaceAll("\\(SEE ALSO M-((\\d{4}/\\d))\\)", "")
-                pw.write(s"CREATE ($codename:MORPH_CODE { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
+                var name = row(1).toUpperCase().replaceAll(siteListing,"").trim() //Remove SITE parenthesis.
+                name match {
+                    case seeAlsoReg(histCode) => {  seeAlsoRelationships += (getNeo4jNodeNameForHistology(histCode) -> codename)}
+                    case _ => {}
+                }
+                name = name.replaceAll(seeAlso, "").replaceAll("\\(\\)", "").replaceAll(", \\)", ")")
+
+                pw.write(s"CREATE ($codename:HISTOLOGY { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
+
             } else {
                 val description = row(0)
-                var name = row(0).toUpperCase().replaceAll("\\((C[0-9]{2}\\.[_[0-9]](, *)?)*\\)", "").trim()
-                name = name.replaceAll("\\(SEE ALSO M-((\\d{4}/\\d))\\)", "")
                 val paddedVal = f"${index}%09d"
                 val code = previousRow(0)
-                val codename = "H" + code.replaceAllLiterally("/", "_")
+                val codename = getNeo4jNodeNameForHistology(code)
                 val hist = code.substring(0, code.indexOf("/"))
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
                 val synCode = s"SYN_$paddedVal"
+
+                var name = row(0).toUpperCase().replaceAll(siteListing, "").trim()
+                name = name.replaceAll(seeAlso, "").replaceAll("\\(\\)", "").replaceAll(", \\)", ")")
+
                 pw.write(s"CREATE ($synCode:SYNONYM { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
                 pw.write(s"CREATE ($synCode)-[:SYNONYM_OF]->($codename)\n")
                 index += 1
             }
         }
+        //add see also relationships:
+        for ((k,v) <- seeAlsoRelationships) pw.write(s"CREATE ($k)-[:SEE_ALSO]->($v)\n")
+
         pw.close
+    }
+
+    private def getNeo4jNodeNameForHistology(code: String) = {
+        "H" + code.replaceAllLiterally("/", "_")
     }
 
     def generateNeo4JScriptsForHistSiteRelationship(filename: String): Unit = {
@@ -103,7 +123,7 @@ class ScriptGenerator {
             val sites = row(0).split(",").map(_.trim)
             for (elem <- sites) {
                 val histCode = row(1)
-                pw.write(s"MATCH(h:MORPH_CODE {code:'$histCode'}), (s:SITE {code:'$elem'}) CREATE(h)-[:OCCURS_IN]->(s) ;\n\n")
+                pw.write(s"MATCH(h:HISTOLOGY_CODE {code:'$histCode'}), (s:SITE {code:'$elem'}) CREATE(h)-[:OCCURS_IN]->(s) ;\n\n")
             }
         }
         pw.close
@@ -117,9 +137,24 @@ object ScriptGenerator {
 
 object ScriptGeneratorApp extends App {
     var sg: ScriptGenerator = new ScriptGenerator()
-    sg.generateNeo4JScriptForSites("src/data/resources/sites.txt")
-    sg.generateNeo4JScriptsForHistology("src/data/resources/histology.txt")
-    sg.generateNeo4JScriptsForHistSiteRelationship("src/data/resources/histology_site_rel.txt")
+    //sg.generateNeo4JScriptForSites("data/src/resources/sites.txt")
+    //sg.generateNeo4JScriptsForHistology("data/src/resources/histology.txt")
+    sg.generateNeo4JScriptsForHistSiteRelationship("data/src/resources/histology_site_rel.txt")
+}
+
+object TestRegExp extends App {
+    val seeAlso = ".*SEE ALSO M-(\\d{4}/\\d).*"
+    val seeAlsoReg = seeAlso.r
+
+    val name ="  9930/3|Myeloid sarcoma (SEE ALSO M-9861/3)"
+    name match {
+        case seeAlsoReg( gp, _*) => { println(s"$gp is the code i'm looking for ")}
+        case _ => {}
+    }
+    val date = """(\d\d\d\d)-(\d\d)-(\d\d)""".r
+    "2004-01-20" match {
+        case date(year, month, day) => println(s"$year was a good year for PLs.")
+    }
 }
 
 

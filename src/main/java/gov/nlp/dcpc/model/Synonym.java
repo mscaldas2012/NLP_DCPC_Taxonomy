@@ -17,5 +17,6 @@ public class Synonym {
     private int family;
     private String code;
     private String name;
+    private String description;
     private int behavior;
 }

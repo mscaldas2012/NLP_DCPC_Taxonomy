@@ -10,7 +10,7 @@ import java.util.List;
  * Created by marcelo on 2/18/17.
  */
 @Data
-@NodeEntity(label="MORPH_CODE")
+@NodeEntity(label="HISTOLOGY_CODE")
 public class Histology extends Synonym {
 
     @Relationship(type="OCCURS_IN", direction=Relationship.OUTGOING)

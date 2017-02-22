@@ -13,6 +13,10 @@ import java.util.List;
  */
 @RepositoryRestResource(collectionResourceRel = "SITE", path = "site")
 public interface SiteRepository extends PagingAndSortingRepository<Site, Long> {
+//    public List<Site> findMainSites() {
+//        return findBySubcodeIsNull();
+//    }
+
     public Site findByCode(@Param("code") String code);
     //Retrieves a whole family (Site and Subsites)
     public List<Site> findByMaincode(@Param("maincode") String mainCode);

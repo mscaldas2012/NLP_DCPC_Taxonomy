@@ -27,4 +27,4 @@ Match ()-(r:SYNONYM_OF)->() delete r
 Match ()-[r:SUBCLASS)->() delete r
 Match (n:SYNONYM) delete n
 Match (n:SITE) delete n
-Match (n:MORTH_CODE) delete n
+Match (n:HISTOLOGY_CODE) delete n

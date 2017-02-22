@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by marcelo on 2/18/17.
  */
-@RepositoryRestResource(collectionResourceRel = "MORTH_CODE", path = "histology")
+@RepositoryRestResource(collectionResourceRel = "HISTOLOGY_CODE", path = "histology")
 public interface HistologyRepository extends PagingAndSortingRepository<Histology, Long> {
     public Histology findByCode(@Param("code") String code);
     public List<Histology> findByHistology(@Param("hist") int code);
@@ -25,7 +25,7 @@ public interface HistologyRepository extends PagingAndSortingRepository<Histolog
 
 
     //TODO::method to find all histologies by name or synonym (regExp) - Retrieve Histology only, not synonyms.
-    @Query("MATCH(h:MORPH_CODE) WHERE(h.name =~ '.*Round.*') return h union  OPTIONAL MATCH (h)<-[r:SYNONYM_OF]-(s:SYNONYM) WHERE(s.name =~ '.*Round.*') return h")
+    @Query("MATCH(h:HISTOLOGY_CODE) WHERE(h.name =~ '.*Round.*') return h union  OPTIONAL MATCH (h)<-[r:SYNONYM_OF]-(s:SYNONYM) WHERE(s.name =~ '.*Round.*') return h")
     public List<Histology> findByNameContainingOrSynonymsNameContaining(@Param("synonym") String synonym);
 
 }

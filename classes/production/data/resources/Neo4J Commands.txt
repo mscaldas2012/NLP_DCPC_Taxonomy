@@ -1,0 +1,30 @@
+
+# Retrieve All MORPH Codes by Site (Ex. BREAST):
+Match (h:HISTOLOGY_CODE)-[r:OCCURS_IN]->(s:SITE {name:'BREAST'}) return h
+
+#Retrieve  a specific node:
+Match (h:HISTOLOGY_CODE {name:'Intracystic carcinoma, NOS'}) return h
+
+#Retrieve Morhp codes with NOS in the name:
+Match (h:HISTOLOGY_CODE) Where h.name =~ '.*NOS' return h
+or
+Match (h:HISTOLOGY_CODE) Where h.name CONTAINS 'NOS' return h
+
+#Retrieve morhp code 8000
+Match (h:HISTOLOGY_CODE) Where h.histology = 8000 return h
+or
+Match (h:HISTOLOGY_CODE {histology:8000}) return h;
+
+#Count how many sites a histology has:
+Match(h:HISTOLOGY_CODE)-[r:OCCURS_IN]-() return h, count(r)
+
+#Retrieve how many histologies per site.
+
+#Delete all :
+Match ()-[r:OCCURS_IN]->() delete r
+Match ()-(r:PART_OF]->() delete r
+Match ()-(r:SYNONYM_OF)->() delete r
+Match ()-[r:SUBCLASS)->() delete r
+Match (n:SYNONYM) delete n
+Match (n:SITE) delete n
+Match (n:HISTOLOGY_CODE) delete n
