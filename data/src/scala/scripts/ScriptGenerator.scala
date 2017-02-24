@@ -75,6 +75,7 @@ class ScriptGenerator {
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
                 val description = row(1)
+
                 var name = row(1).toUpperCase().replaceAll(siteListing,"").trim() //Remove SITE parenthesis.
                 name match {
                     case seeAlsoReg(histCode) => {  seeAlsoRelationships += (getNeo4jNodeNameForHistology(histCode) -> codename)}
@@ -85,13 +86,14 @@ class ScriptGenerator {
                 pw.write(s"CREATE ($codename:HISTOLOGY { code: '$code', family: $family, histology: $hist, behavior: $behavior, name: '$name', description: '$description'})\n")
 
             } else {
-                val description = row(0)
-                val paddedVal = f"${index}%09d"
                 val code = previousRow(0)
                 val codename = getNeo4jNodeNameForHistology(code)
                 val hist = code.substring(0, code.indexOf("/"))
                 val family = code.substring(0,3)
                 val behavior = code.substring(code.indexOf("/") + 1)
+                val description = row(0)
+
+                val paddedVal = f"${index}%09d"
                 val synCode = s"SYN_$paddedVal"
 
                 var name = row(0).toUpperCase().replaceAll(siteListing, "").trim()
@@ -123,7 +125,7 @@ class ScriptGenerator {
             val sites = row(0).split(",").map(_.trim)
             for (elem <- sites) {
                 val histCode = row(1)
-                pw.write(s"MATCH(h:HISTOLOGY_CODE {code:'$histCode'}), (s:SITE {code:'$elem'}) CREATE(h)-[:OCCURS_IN]->(s) ;\n\n")
+                pw.write(s"MATCH(h:HISTOLOGY {code:'$histCode'}), (s:SITE {code:'$elem'}) CREATE(h)-[:OCCURS_IN]->(s) ;\n\n")
             }
         }
         pw.close
@@ -137,8 +139,8 @@ object ScriptGenerator {
 
 object ScriptGeneratorApp extends App {
     var sg: ScriptGenerator = new ScriptGenerator()
-    //sg.generateNeo4JScriptForSites("data/src/resources/sites.txt")
-    //sg.generateNeo4JScriptsForHistology("data/src/resources/histology.txt")
+    sg.generateNeo4JScriptForSites("data/src/resources/sites.txt")
+    sg.generateNeo4JScriptsForHistology("data/src/resources/histology.txt")
     sg.generateNeo4JScriptsForHistSiteRelationship("data/src/resources/histology_site_rel.txt")
 }
 
@@ -155,6 +157,9 @@ object TestRegExp extends App {
     "2004-01-20" match {
         case date(year, month, day) => println(s"$year was a good year for PLs.")
     }
+
+
+
 }
 
 

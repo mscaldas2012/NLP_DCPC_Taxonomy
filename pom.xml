@@ -64,6 +64,14 @@
 			<artifactId>scalactic_2.11</artifactId>
 			<version>3.0.1</version>
 		</dependency>
+
+        <!-- NLP -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>0.7.2</version>
+        </dependency>
+
 	</dependencies>
 
 	<build>

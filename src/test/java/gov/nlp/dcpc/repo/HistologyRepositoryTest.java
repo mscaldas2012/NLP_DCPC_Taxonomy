@@ -17,6 +17,8 @@ import java.util.List;
 public class HistologyRepositoryTest {
     @Autowired
     HistologyRepository histologyRepository;
+    @Autowired
+    //HistologyRepositoryImpl histologyRepo;
 
     @Test
     public void findByCode() {
@@ -34,7 +36,7 @@ public class HistologyRepositoryTest {
 
     @Test
     public void findByName() {
-        List<Histology> list = histologyRepository.findByNameContaining("Verrucous");
+        List<Histology> list = histologyRepository.findByNameContaining("VERRUCOUS");
         validateAndPrint(list);
     }
 
@@ -54,9 +56,21 @@ public class HistologyRepositoryTest {
 
     @Test
     public void findBySynonym() {
-        List<Histology> list = histologyRepository.findByNameContainingOrSynonymsNameContaining("Round");
+        List<Histology> list = histologyRepository.findByNameContainingOrSynonymsNameContaining("ROUND");
         validateAndPrint(list);
     }
+
+    @Test
+    public void findByCriteria() {
+        List<Histology> list = histologyRepository.findMatchingHistologies("breast", "carcinoma", "paget");
+        validateAndPrint(list);
+    }
+    @Test
+    public void findByCriteriaNoMatches() {
+        List<Histology> list = histologyRepository.findMatchingHistologies("lip");
+        assert list == null || list.size() == 0;
+    }
+
 
 
     private void validateAndPrint(List<Histology> list) {

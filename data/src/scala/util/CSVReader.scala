@@ -9,7 +9,7 @@ import scala.collection.mutable.ListBuffer
   */
 
 
-class CSVReader extends App {
+class CSVReader  {
 
    def readFile(filename: String, delim: String): ListBuffer[Array[String]] = {
       val bufferedSource = io.Source.fromFile(filename)

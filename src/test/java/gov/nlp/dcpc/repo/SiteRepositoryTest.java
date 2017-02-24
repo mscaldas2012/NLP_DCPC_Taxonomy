@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
@@ -59,6 +60,17 @@ public class SiteRepositoryTest {
         assert list != null && list.size() > 0;
         for  (Site s: list) {
             System.out.println("list = " + s);
+        }
+    }
+
+    @Test
+    public void findAllSites() {
+        Sort sort = new Sort(Sort.Direction.ASC, "name");
+
+        Iterable<Site> list = siteRepository.findAll(sort);
+        assert list != null ;
+        for (Site site : list) {
+            System.out.println("site = " + site);
         }
     }
 
