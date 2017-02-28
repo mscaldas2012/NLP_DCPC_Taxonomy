@@ -20,7 +20,7 @@ class BagOfWords {
         for (line <- bufferedSource.getLines) {
             val row = line.split("[|, ]").map(_.trim.replaceAll("\"",""))
             for (w <- row) {
-                if (!w.isEmpty()) {
+                if (!w.isEmpty) {
                     val uw = w.toUpperCase()
                     uw match {
                         case siteListing(_*) => {}
@@ -58,7 +58,7 @@ object BagOfWordsApp extends App {
     for ((k,v) <- bag) {
         if (v > 0) {
             var p  =f"${v.toFloat / totalWords * 100f}%.2f"
-            println(s"$k -> $v ($p)")
+            println(s"$k -> $v ($p%)")
         }
     }
 

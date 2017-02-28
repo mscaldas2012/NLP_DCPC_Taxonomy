@@ -11,7 +11,7 @@ import scala.collection.mutable.ListBuffer
 
 class CSVReader  {
 
-   def readFile(filename: String, delim: String): ListBuffer[Array[String]] = {
+   def  readFile(filename: String, delim: String): ListBuffer[Array[String]] = {
       val bufferedSource = io.Source.fromFile(filename)
      // var row:Array[String] = null
       var lines = new ListBuffer[Array[String]]()

@@ -6,7 +6,11 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import scala.collection.Iterator;
+import scala.collection.mutable.ListBuffer;
+import util.CSVReader;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -61,8 +65,8 @@ public class HistologyRepositoryTest {
     }
 
     @Test
-    public void findByCriteria() {
-        List<Histology> list = histologyRepository.findMatchingHistologies("breast", "carcinoma", "paget");
+    public void findByMatchingHistologyTerms() {
+        List<Histology> list = histologyRepository.findMatchingHistologies("hidroadenoma");
         validateAndPrint(list);
     }
     @Test
@@ -71,6 +75,39 @@ public class HistologyRepositoryTest {
         assert list == null || list.size() == 0;
     }
 
+
+    @Test
+    public void findTermsFromCDCDump() {
+        CSVReader reader = new CSVReader();
+        ListBuffer<String[]> lines = reader.readFile("src/test/resources/CDCDumpFindings.csv", " ");
+        Iterator it = lines.iterator();
+        while (it.hasNext()) {
+            String[] row = (String[]) it.next();
+            List validValues = new ArrayList();
+            String allValues = "";
+            for (String s: row) {
+                if (!s.contains("?")) {
+                    if (s.contains("'")) {
+                        s = s.substring(0, s.indexOf("'") - 1);
+                    }
+                    allValues += s;
+                    validValues.add(s);
+                }
+            }
+            System.out.println(allValues);
+            String[] a = new String[1];
+            String[] validArray = (String[]) validValues.toArray(a);
+            try {
+                List<Histology> list = histologyRepository.findMatchingHistologies(validArray);
+                for (Histology h : list) {
+                    System.out.println("\th = " + h.getCode());
+                }
+            } catch (Exception e) {
+                System.out.println("Unable to process " + allValues);
+            }
+        }
+
+    }
 
 
     private void validateAndPrint(List<Histology> list) {
