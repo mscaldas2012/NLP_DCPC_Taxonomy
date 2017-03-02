@@ -10,6 +10,7 @@ import scala.collection.mutable.ListBuffer
 class BagOfWords {
     val siteListing = "\\(?(C[0-9]{2}\\.[_[0-9]])\\)?".r
     val stopWords = "WITH|OF|THE|IN|OR|A|AND|ALSO| ".r
+    val histCode = "[0-9]{4}/[0-9]".r
 
 
     def createBagOfWords(filename: String): ListMap[String, Int] = {
@@ -25,6 +26,7 @@ class BagOfWords {
                     uw match {
                         case siteListing(_*) => {}
                         case stopWords(_*) => {}
+                        case histCode(_*) => {}
                         case _ => {
                             if (bagResult.contains(uw)) {
                                 bagResult(uw) = bagResult(uw) + 1

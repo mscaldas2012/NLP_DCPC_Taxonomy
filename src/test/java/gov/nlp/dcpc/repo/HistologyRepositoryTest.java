@@ -8,10 +8,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import scala.collection.Iterator;
 import scala.collection.mutable.ListBuffer;
+import util.BagOfWords;
 import util.CSVReader;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 /**
  * Created by marcelo on 2/18/17.
@@ -77,9 +83,15 @@ public class HistologyRepositoryTest {
 
 
     @Test
-    public void findTermsFromCDCDump() {
+    public void findTermsFromCDCDump() throws IOException {
         CSVReader reader = new CSVReader();
-        ListBuffer<String[]> lines = reader.readFile("src/test/resources/CDCDumpFindings.csv", " ");
+        BagOfWords bofw = new BagOfWords();
+        scala.collection.immutable.ListMap<String, Object> words = bofw.createBagOfWords("data/src/resources/histology.txt");
+        ListBuffer<String[]> lines = reader.readFile("src/test/resources/CDCDumpCleaned.txt", " ");
+
+        BufferedWriter bw = new BufferedWriter(new FileWriter("CDCDumpOutput-1.csv"));
+        //write the header:
+        bw.write("Term|NumberOfMatches|Matches|BagOfWordPresence\n");
         Iterator it = lines.iterator();
         while (it.hasNext()) {
             String[] row = (String[]) it.next();
@@ -90,23 +102,39 @@ public class HistologyRepositoryTest {
                     if (s.contains("'")) {
                         s = s.substring(0, s.indexOf("'") - 1);
                     }
-                    allValues += s;
+                    s = s.replaceAll(",","").replaceAll("\\(", "").replaceAll("\\)","");
+                    allValues += s + " ";
                     validValues.add(s);
                 }
             }
-            System.out.println(allValues);
             String[] a = new String[1];
             String[] validArray = (String[]) validValues.toArray(a);
+            String bagOfWordsPresence= "";
             try {
                 List<Histology> list = histologyRepository.findMatchingHistologies(validArray);
-                for (Histology h : list) {
-                    System.out.println("\th = " + h.getCode());
+                if (list.size() == 0) {
+                    bagOfWordsPresence = "";
+                    //Check if any of the words are in the bag of words:
+                    for (String s: validArray) {
+                        System.out.println("checking for = " + s);
+                        if (words.contains(s.toUpperCase().trim())) {
+                            bagOfWordsPresence += s + ", ";
+                        }
+                    }
+                    bw.write(allValues + "|" + list.size() + "|None|" + bagOfWordsPresence + "\n");
+                } else {
+                    String content = allValues + "|" + list.size() + "|";
+                    for (Histology h : list) {
+                        content += h.getCode() + ", ";
+                    }
+                    bw.write(content + "|" + "\n");
                 }
             } catch (Exception e) {
+                bw.write(allValues + "|Error" );
                 System.out.println("Unable to process " + allValues);
             }
         }
-
+        bw.close();
     }
 
 
