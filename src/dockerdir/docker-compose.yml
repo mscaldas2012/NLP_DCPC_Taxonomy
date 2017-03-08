@@ -1,0 +1,18 @@
+neo4j:
+  image: neo4j:latest
+  ports:
+    - "7474:7474"
+    - "7687:7687"
+    - "7473:7473"
+  volumes:
+    - $HOME/neo4j/data:/data
+    - $HOME/neo4j/logs:/logs
+    - $HOME/neo4j/import:/var/lib/neo4j/import
+#    - $HOME/neo4j/conf/:/conf/
+
+app:
+  image: codingservices
+  ports:
+    - "8080:8080"
+  links:
+    - neo4j

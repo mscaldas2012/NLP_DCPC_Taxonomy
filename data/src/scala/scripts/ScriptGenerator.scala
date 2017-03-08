@@ -38,11 +38,11 @@ class ScriptGenerator {
                 val subcodes = row(0).split('.').map(_.trim)
                 var maincode = subcodes(0)
                 var subcode = subcodes(1)
-                pw.write(s"CREATE ($codeName:SITE { code: '$code', maincode: '$maincode', subcode:'$subcode', name: '$name'})\n")
-                pw.write(s"CREATE ($codeName)-[:PART_OF]->($previouscodeline)\n")
+                pw.write(s"CREATE ($codeName:SITE { code: '$code', maincode: '$maincode', subcode:'$subcode', name: '$name'});\n\n")
+                pw.write(s"MATCH(c:SITE {code:'$code'}), (p:SITE {code:'$previouscodeline'}) CREATE (c)-[:PART_OF]->(p);\n\n")
             }
             else {
-                pw.write(s"CREATE ($codeName:SITE { code: '$code', maincode: '$code', name: '$name'})\n")
+                pw.write(s"CREATE ($codeName:SITE { code: '$code', maincode: '$code', name: '$name'});\n\n")
                 previouscodeline = row(0)
             }
         }

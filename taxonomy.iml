@@ -182,6 +182,6 @@
     <orderEntry type="library" name="Maven: org.bytedeco.javacpp-presets:leptonica:macosx-x86_64:1.73-1.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco.javacpp-presets:leptonica:windows-x86_64:1.73-1.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco.javacpp-presets:leptonica:linux-ppc64le:1.73-1.3" level="project" />
-    <orderEntry type="module" module-name="data" scope="TEST" />
+    <orderEntry type="module" module-name="data" scope="RUNTIME" />
   </component>
 </module>

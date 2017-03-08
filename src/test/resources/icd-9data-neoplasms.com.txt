@@ -1,0 +1,350 @@
+
+/2015/Volume1/140-239/140-149/default.htm;140-149;  Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx
+/2015/Volume1/140-239/150-159/default.htm;150-159;  Malignant Neoplasm Of Digestive Organs And Peritoneum
+/2015/Volume1/140-239/160-165/default.htm;160-165;  Malignant Neoplasm Of Respiratory And Intrathoracic Organs
+/2015/Volume1/140-239/170-176/default.htm;170-176;  Malignant Neoplasm Of Bone, Connective Tissue, Skin, And Breast
+/2015/Volume1/140-239/179-189/default.htm;179-189;  Malignant Neoplasm Of Genitourinary Organs
+/2015/Volume1/140-239/190-199/default.htm;190-199;  Malignant Neoplasm Of Other And Unspecified Sites
+/2015/Volume1/140-239/200-209/default.htm;200-209;  Malignant Neoplasm Of Lymphatic And Hematopoietic Tissue
+/2015/Volume1/140-239/210-229/default.htm;210-229;  Benign Neoplasms
+/2015/Volume1/140-239/230-234/default.htm;230-234;  Carcinoma In Situ
+/2015/Volume1/140-239/235-238/default.htm;235-238;  Neoplasms Of Uncertain Behavior
+/2015/Volume1/140-239/239-239/default.htm;239-239;  Neoplasms Of Unspecified Nature
+
+				
+				
+regexp:
+<a href="(.*)htm".*>(.*)</a>(.*)</li>
+$1.htm\;$2\;$3
+
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="/v1.000.000.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+		<script type="text/javascript" src="/script/css3-mediaqueries.js"></script>
+		<script type='text/javascript' src="/script/html5.js"></script>
+		<script type='text/javascript' src="/script/respond.js"></script>
+    <![endif]-->
+
+	<!--[if lt IE 8]>
+	  <link href="/bootstrap-ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+	<link rel="canonical" href="http://www.icd9data.com/2015/Volume1/140-239/140-149/default.htm" />
+    <title>
+        ICD-9-CM Codes 140-149 : Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx
+    </title>
+
+</head>
+<body>
+    <div class="navbar-custom" role="navigation">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+                <div id="navbar-header">
+                    <div id="topNavFirstRow">
+                      <a href="/">
+                        <img id="imgHeader" src="/images/ICD9Data.com4.png" />
+                      </a>
+                    </div>
+
+                    <form action="/Search" method="get">
+                     <div class="input-group">
+                     <input id="siteSearch" type="Search" name="q" maxlength="80" placeholder="Search" class="form-control" x-webkit-speech="true"  autocomplete="off" />
+
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default btn-info" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+ </div></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+			<div class="col-md-10 contentWrapper">
+				<div class="navBreadcrumb"><a href="/">Home</a> > <a href="/2015/Volume1/default.htm">2015 ICD-9-CM Diagnosis Codes</a> > <a href="/2015/Volume1/140-239/default.htm">Neoplasms <span class="identifier">140-239</span></a> > <div class="codeIdentifier">Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx <span class="identifier">140-149</span> > </div></div>
+
+				<ul class="definitionList">
+				<li><a href="/2015/Volume1/140-239/140-149/140/default.htm" class="identifier" >140</a> Malignant neoplasm of lip</li>
+				<li><a href="/2015/Volume1/140-239/140-149/141/default.htm" class="identifier" >141</a> Malignant neoplasm of tongue</li><li><a href="/2015/Volume1/140-239/140-149/142/default.htm" class="identifier" >142</a> Malignant neoplasm of major salivary glands</li><li><a href="/2015/Volume1/140-239/140-149/143/default.htm" class="identifier" >143</a> Malignant neoplasm of gum</li><li><a href="/2015/Volume1/140-239/140-149/144/default.htm" class="identifier" >144</a> Malignant neoplasm of floor of mouth</li><li><a href="/2015/Volume1/140-239/140-149/145/default.htm" class="identifier" >145</a> Malignant neoplasm of other and unspecified parts of mouth</li><li><a href="/2015/Volume1/140-239/140-149/146/default.htm" class="identifier" >146</a> Malignant neoplasm of oropharynx</li><li><a href="/2015/Volume1/140-239/140-149/147/default.htm" class="identifier" >147</a> Malignant neoplasm of nasopharynx</li><li><a href="/2015/Volume1/140-239/140-149/148/default.htm" class="identifier" >148</a> Malignant neoplasm of hypopharynx</li><li><a href="/2015/Volume1/140-239/140-149/149/default.htm" class="identifier" >149</a> Malignant neoplasm of other and ill-defined sites within the lip oral cavity and pharynx</li></ul><div class="threeDigitAdsense"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <ins class="adsbygoogle icd9data-responsive-range-page"
+                                 style="display:inline-block"
+                                 data-ad-client="ca-pub-0778407999211149"
+                                 data-ad-slot="1843680012"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script></div><div class="navWrapper"><table class="navTable"><tr><td class="topNav" colspan="10"><a href="/2015/Volume1/140-239/default.htm"><img class="img divTextHelp" cluetipText="ICD-9-CM Code Sections &lt;span class=&quot;identifier&quot;&gt;140-239&lt;/span&gt;|Neoplasms&lt;br\&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;140-149&lt;/span&gt; Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;150-159&lt;/span&gt; Malignant Neoplasm Of Digestive Organs And Peritoneum&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;160-165&lt;/span&gt; Malignant Neoplasm Of Respiratory And Intrathoracic Organs&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;170-176&lt;/span&gt; Malignant Neoplasm Of Bone, Connective Tissue, Skin, And Breast&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;179-189&lt;/span&gt; Malignant Neoplasm Of Genitourinary Organs&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;190-199&lt;/span&gt; Malignant Neoplasm Of Other And Unspecified Sites&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;200-209&lt;/span&gt; Malignant Neoplasm Of Lymphatic And Hematopoietic Tissue&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;210-229&lt;/span&gt; Benign Neoplasms&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;230-234&lt;/span&gt; Carcinoma In Situ&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;235-238&lt;/span&gt; Neoplasms Of Uncertain Behavior&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;239-239&lt;/span&gt; Neoplasms Of Unspecified Nature&lt;/li&gt;&lt;/ul&gt;" width="12" height="12" src="/images/up.png" alt="" /><br/></a><a href="/2015/Volume1/140-239/default.htm" class="identifier" ><span class="identifier">140-239</span></a></td></tr><tr><td class="leftNavEmpty">&nbsp;</td><td class="navigator">ICD9Data.com Navigator</td><td class="rightNav"><a href="/2015/Volume1/140-239/150-159/default.htm" class="identifier" >150-159</a>&nbsp;<a href="/2015/Volume1/140-239/150-159/default.htm"><img class="img divTextHelp" cluetipText="ICD-9-CM Code Sections 150-159|Malignant Neoplasm Of Digestive Organs And Peritoneum&lt;br\&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;150&lt;/span&gt; Malignant neoplasm of esophagus&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;151&lt;/span&gt; Malignant neoplasm of stomach&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;152&lt;/span&gt; Malignant neoplasm of small intestine including duodenum&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;153&lt;/span&gt; Malignant neoplasm of colon&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;154&lt;/span&gt; Malignant neoplasm of rectum rectosigmoid junction and anus&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;155&lt;/span&gt; Malignant neoplasm of liver and intrahepatic bile ducts&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;156&lt;/span&gt; Malignant neoplasm of gallbladder and extrahepatic bile ducts&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;157&lt;/span&gt; Malignant neoplasm of pancreas&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;158&lt;/span&gt; Malignant neoplasm of retroperitoneum and peritoneum&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;159&lt;/span&gt; Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum&lt;/li&gt;&lt;/ul&gt;" width="12" height="12" src="/images/right.png" alt="" /></a></td></tr><tr><td class="bottomNav" colspan="10"><a href="/2015/Volume1/240-279/default.htm" class="identifier" >240-279</a><br/><a href="/2015/Volume1/240-279/default.htm"><img class="img divTextHelp" cluetipText="ICD-9-CM Code Sections 240-279|Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders&lt;br\&gt;&lt;ul&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;240-246&lt;/span&gt; Disorders Of Thyroid Gland&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;249-259&lt;/span&gt; Diseases Of Other Endocrine Glands&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;260-269&lt;/span&gt; Nutritional Deficiencies&lt;/li&gt;&lt;li&gt;&lt;span class=&quot;identifier&quot;&gt;270-279&lt;/span&gt; Other Metabolic Disorders And Immunity Disorders&lt;/li&gt;&lt;/ul&gt;" width="12" height="12" src="/images/down.png" alt="" /></a></td></tr></table></div><!--content-->
+
+				<div class="row pageFooter">
+				  <div class="col-sm-6">
+					<div class="footerSubHeading">Free ICD-9-CM Codes</div>
+					<ul>
+					<li><a href="/2015/Volume1/default.htm">2015</a>/<a href="/2015/Volume2/default.htm">Index</a> &middot; <a href="/2014/Volume1/default.htm">2014</a>/<a href="/2014/Volume2/default.htm">Index</a> &middot; <a href="/2013/Volume1/default.htm">2013</a>/<a href="/2013/Volume2/default.htm">Index</a></li>
+					<li><a href="/2012/Volume1/default.htm">2012</a>/<a href="/2012/Volume2/default.htm">Index</a> &middot; <a href="/2011/Volume1/default.htm">2011</a>/<a href="/2011/Volume2/default.htm">Index</a> &middot; <a href="/2010/Volume1/default.htm">2010</a>/<a href="/2010/Volume2/default.htm">Index</a></li>
+					<li><a href="/2009/Volume1/default.htm">2009</a>/<a href="/2009/Volume2/default.htm">Index</a> &middot; <a href="/2008/Volume1/default.htm">2008</a>/<a href="/2008/Volume2/default.htm">Index</a> &middot; <a href="/2007/Volume1/default.htm">2007</a>/<a href="/2007/Volume2/default.htm">Index</a></li>
+					</ul>
+
+					<div class="footerSubHeading">Site Information</div>
+					<ul>
+					<li><a href="/AboutUs">About</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></li>
+					</ul>
+
+					  </div>
+					  <div class="col-sm-6">
+					<div class="footerSubHeading">Free ICD-10-CM/PCS Codes</div>
+					<ul>
+					<li><a href="http://www.icd10data.com/ICD10CM/Codes">2016 ICD-10-CM Diagnosis Codes</a> &middot; <a href="http://www.icd10data.com/ICD10CM/Index">Index</a></li>
+					<li><a href="http://www.icd10data.com/Convert">Convert ICD-9-CM &lt;-&gt; 2016 ICD-10-CM</a></li>
+					<li><a href="http://www.icd10data.com/ICD10PCS/Codes">2016 ICD-10-PCS Procedure Codes</a>
+					</li>
+					</ul>
+
+
+					<div class="footerSubHeading">Free HCPCS Codes</div>
+					<ul>
+					<li><a href="/HCPCS/2016/default.htm">2016</a> &middot; <a href="/HCPCS/2015/default.htm">2015</a> &middot; <a href="/HCPCS/2014/default.htm">2014</a> &middot; <a href="/HCPCS/2013/default.htm">2013</a> &middot; <a href="/HCPCS/2012/default.htm">2012</a></li>
+					<li><a href="/HCPCS/2011/default.htm">2011</a> &middot; <a href="/HCPCS/2010/default.htm">2010</a> &middot; <a href="/HCPCS/2009/default.htm">2009</a> &middot; <a href="/HCPCS/2008/default.htm">2008</a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.cluetip.js"></script>
+    <script type="text/javascript" src="/script/script4.js"></script>
+
+    <!-- Begin comScore Tag -->
+
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "17601583" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=17601583&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-2806443-1");
+            pageTracker._trackPageview();
+        } catch (err) { }
+	</script>
+
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+	<script type="text/javascript">
+	  (function() {
+		var cx = '002446356171851566629:dllrgfayfjw';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			'//www.google.com/cse/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+
+		google.setOnLoadCallback(function() {
+			google.search.CustomSearchControl.attachAutoCompletionWithOptions(
+			  '002446356171851566629:dllrgfayfjw',
+			  document.getElementById('siteSearch'),
+			  'searchForm', null);
+		}
+		);
+	  })();
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="/v1.000.000.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+		<script type="text/javascript" src="/script/css3-mediaqueries.js"></script>
+		<script type='text/javascript' src="/script/html5.js"></script>
+		<script type='text/javascript' src="/script/respond.js"></script>
+    <![endif]-->
+
+	<!--[if lt IE 8]>
+	  <link href="/bootstrap-ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+	<link rel="canonical" href="http://www.icd9data.com/2015/Volume1/140-239/140-149/140/default.htm" />
+    <title>
+        ICD-9-CM Diagnosis Codes 140.* : Malignant neoplasm of lip
+    </title>
+
+</head>
+<body>
+    <div class="navbar-custom" role="navigation">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+                <div id="navbar-header">
+                    <div id="topNavFirstRow">
+                      <a href="/">
+                        <img id="imgHeader" src="/images/ICD9Data.com4.png" />
+                      </a>
+                    </div>
+
+                    <form action="/Search" method="get">
+                     <div class="input-group">
+                     <input id="siteSearch" type="Search" name="q" maxlength="80" placeholder="Search" class="form-control" x-webkit-speech="true"  autocomplete="off" />
+
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default btn-info" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+ </div></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+			<div class="col-md-10 contentWrapper">
+				<div class="navBreadcrumb"><a href="/">Home</a> > <a href="/2015/Volume1/default.htm">2015 ICD-9-CM Diagnosis Codes</a> > <a href="/2015/Volume1/140-239/default.htm">Neoplasms <span class="identifier">140-239</span></a> > <a href="/2015/Volume1/140-239/140-149/default.htm">Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx <span class="identifier">140-149</span></a> > <div class="codeIdentifier">Malignant neoplasm of lip <span class="identifier">140-</span> &gt;</div></div><div class="codeHierarchyInnerWrapper"><ul class="threeDigitDefinitionList"><li>A primary or metastatic malignant neoplasm involving the lip.</li></ul><ul class="codeHierarchyUL"><li class="hierarchyLine"><span class="localLine"><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_red.png" alt="Non-specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.htm" name="140"  class="identifier"  id="140" >140</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of lip</span> </span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.0.htm" name="140.0"  class="identifier"  id="140.0" >140.0</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of upper lip, vermilion border</span> <a href="http://www.icd10data.com/Convert/140.0" class="convertToIcd10" >convert 140.0 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.1.htm" name="140.1"  class="identifier"  id="140.1" >140.1</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of lower lip, vermilion border</span> <a href="http://www.icd10data.com/Convert/140.1" class="convertToIcd10" >convert 140.1 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.3.htm" name="140.3"  class="identifier"  id="140.3" >140.3</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of upper lip, inner aspect</span> <a href="http://www.icd10data.com/Convert/140.3" class="convertToIcd10" >convert 140.3 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.4.htm" name="140.4"  class="identifier"  id="140.4" >140.4</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of lower lip, inner aspect</span> <a href="http://www.icd10data.com/Convert/140.4" class="convertToIcd10" >convert 140.4 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.5.htm" name="140.5"  class="identifier"  id="140.5" >140.5</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of lip, unspecified, inner aspect</span> <a href="http://www.icd10data.com/Convert/140.5" class="convertToIcd10" >convert 140.5 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.6.htm" name="140.6"  class="identifier"  id="140.6" >140.6</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of commissure of lip</span> <a href="http://www.icd10data.com/Convert/140.6" class="convertToIcd10" >convert 140.6 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.8.htm" name="140.8"  class="identifier"  id="140.8" >140.8</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of other sites of lip</span> <a href="http://www.icd10data.com/Convert/140.8" class="convertToIcd10" >convert 140.8 to ICD-10-CM</a></span></li><li class="hierarchyLine"><span class="localLine"><img width="19" height="16" class="icon" src="/images/hr_L.gif" alt="" /><img width="16" height="16" class="specificImage" src="/images/bullet_triangle_green.png" alt="Specific code" /> <a href="/2015/Volume1/140-239/140-149/140/140.9.htm" name="140.9"  class="identifier"  id="140.9" >140.9</a> <span class="threeDigitCodeListDescription">Malignant neoplasm of lip, unspecified, vermilion border</span> <a href="http://www.icd10data.com/Convert/140.9" class="convertToIcd10" >convert 140.9 to ICD-10-CM</a></span></li></ul></div><!--content-->
+
+				<div class="row pageFooter">
+				  <div class="col-sm-6">
+					<div class="footerSubHeading">Free ICD-9-CM Codes</div>
+					<ul>
+					<li><a href="/2015/Volume1/default.htm">2015</a>/<a href="/2015/Volume2/default.htm">Index</a> &middot; <a href="/2014/Volume1/default.htm">2014</a>/<a href="/2014/Volume2/default.htm">Index</a> &middot; <a href="/2013/Volume1/default.htm">2013</a>/<a href="/2013/Volume2/default.htm">Index</a></li>
+					<li><a href="/2012/Volume1/default.htm">2012</a>/<a href="/2012/Volume2/default.htm">Index</a> &middot; <a href="/2011/Volume1/default.htm">2011</a>/<a href="/2011/Volume2/default.htm">Index</a> &middot; <a href="/2010/Volume1/default.htm">2010</a>/<a href="/2010/Volume2/default.htm">Index</a></li>
+					<li><a href="/2009/Volume1/default.htm">2009</a>/<a href="/2009/Volume2/default.htm">Index</a> &middot; <a href="/2008/Volume1/default.htm">2008</a>/<a href="/2008/Volume2/default.htm">Index</a> &middot; <a href="/2007/Volume1/default.htm">2007</a>/<a href="/2007/Volume2/default.htm">Index</a></li>
+					</ul>
+
+					<div class="footerSubHeading">Site Information</div>
+					<ul>
+					<li><a href="/AboutUs">About</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></li>
+					</ul>
+
+					  </div>
+					  <div class="col-sm-6">
+					<div class="footerSubHeading">Free ICD-10-CM/PCS Codes</div>
+					<ul>
+					<li><a href="http://www.icd10data.com/ICD10CM/Codes">2016 ICD-10-CM Diagnosis Codes</a> &middot; <a href="http://www.icd10data.com/ICD10CM/Index">Index</a></li>
+					<li><a href="http://www.icd10data.com/Convert">Convert ICD-9-CM &lt;-&gt; 2016 ICD-10-CM</a></li>
+					<li><a href="http://www.icd10data.com/ICD10PCS/Codes">2016 ICD-10-PCS Procedure Codes</a>
+					</li>
+					</ul>
+
+
+					<div class="footerSubHeading">Free HCPCS Codes</div>
+					<ul>
+					<li><a href="/HCPCS/2016/default.htm">2016</a> &middot; <a href="/HCPCS/2015/default.htm">2015</a> &middot; <a href="/HCPCS/2014/default.htm">2014</a> &middot; <a href="/HCPCS/2013/default.htm">2013</a> &middot; <a href="/HCPCS/2012/default.htm">2012</a></li>
+					<li><a href="/HCPCS/2011/default.htm">2011</a> &middot; <a href="/HCPCS/2010/default.htm">2010</a> &middot; <a href="/HCPCS/2009/default.htm">2009</a> &middot; <a href="/HCPCS/2008/default.htm">2008</a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery.cluetip.js"></script>
+    <script type="text/javascript" src="/script/script4.js"></script>
+
+    <!-- Begin comScore Tag -->
+
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "17601583" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=17601583&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-2806443-1");
+            pageTracker._trackPageview();
+        } catch (err) { }
+	</script>
+
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+	<script type="text/javascript">
+	  (function() {
+		var cx = '002446356171851566629:dllrgfayfjw';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			'//www.google.com/cse/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+
+		google.setOnLoadCallback(function() {
+			google.search.CustomSearchControl.attachAutoCompletionWithOptions(
+			  '002446356171851566629:dllrgfayfjw',
+			  document.getElementById('siteSearch'),
+			  'searchForm', null);
+		}
+		);
+	  })();
+	</script>
+</body>
+</html>
+
+
+
