@@ -4,3 +4,7 @@
 target/**
 out/**
 target/
+/src/dockerdir/db/
+out/
+/src/dockerdir/CodingServices.jar
+/classes/
