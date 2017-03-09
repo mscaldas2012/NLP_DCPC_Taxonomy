@@ -18,6 +18,9 @@ import org.jsoup.nodes.Node
   * For future reference, Seer has a spreadsheet to convert ICD-o-3 to ICD-9-CM to ICD-10 and ICD-10-CM
   * https://seer.cancer.gov/tools/conversion/
   */
+//TODO::Link ICD codes 140.1 -> 140 -> 140-149
+//TODO::Capture synonyms.
+//TODO::Capture Applies to
 class ICD9CodeGenerator {
     val rootURL = "http://www.icd9data.com"
 
@@ -28,9 +31,7 @@ class ICD9CodeGenerator {
         //<div class="definitionList">
         //if (doc.body.)
         val items: List[Element] = doc >> elementList("div .codeHierarchyInnerWrapper li")
-        println("========")
         for (item <- items) {
-            println("item text: " + item.text)
             var code = ""
             var name = ""
             var codeName = ""
@@ -44,12 +45,6 @@ class ICD9CodeGenerator {
                     pw.write(s"CREATE ($codeName:ICD_9 { code: '$code',  name: '$name'});\n\n")
                 }
             }
-//            for (c <- item.childNodes if c.isInstanceOf[ElementNode] && c.asInstanceOf[ElementNode].element.hasAttr("href")) {
-//                val url = c.asInstanceOf[ElementNode].element.attr("href")
-//                println("crawling " + url)
-//                crawSubPage2(rootURL + url, pw)
-//            }
-
         }
 
     }
@@ -59,11 +54,8 @@ class ICD9CodeGenerator {
         val browser = JsoupBrowser()
         val doc = browser.get(url)
         //<div class="definitionList">
-        //if (doc.body.)
         val items: List[Element] = doc >> elementList("div .definitionList li")
-        println("========")
         for (item <- items) {
-            //println("item text: " + item.text)
             var code = ""
             var name = ""
             var codeName = ""
@@ -83,11 +75,6 @@ class ICD9CodeGenerator {
             }
 
         }
-//        println("trying second level")
-//        val items2: List[Element] = doc >> elementList("ul .codeHierarchyUL ")
-//        for (item <- items2) {
-//            println("second level: " + item)
-//        }
     }
 
     def crawlICD9WebSite(): Unit = {
@@ -100,9 +87,7 @@ class ICD9CodeGenerator {
         val doc = browser.get(neoplasmURL)
         //<div class="definitionList">
         val items: List[Element] = doc >> elementList("div .definitionList li")
-        println("========")
         for (item <- items) {
-            //println("item text: " + item.text)
             var code = ""
             var name = ""
             var codeName = ""
@@ -122,17 +107,6 @@ class ICD9CodeGenerator {
 
         }
         pw.close()
-
-
-
-//        val html = Source.fromURL(rootURL)
-//        val s = html.mkString
-//        regextractor.findAllIn(s).matchData foreach {
-//            m => println(m.group(1) + "htm;" + m.group(2) + ";"+m.group(3) +"\n")
-//        }
-        //Gather content
-
-        //crawl each link
     }
 }
 

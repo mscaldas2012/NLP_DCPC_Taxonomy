@@ -8,3 +8,4 @@ target/
 out/
 /src/dockerdir/CodingServices.jar
 /classes/
+/venv/
