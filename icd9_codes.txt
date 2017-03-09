@@ -1,0 +1,2334 @@
+CREATE (ICD9_140_149:ICD_9_GROUP { group_code: '140-149',  name: 'Malignant Neoplasm Of Lip, Oral Cavity, And Pharynx'});
+
+CREATE (ICD9_140:ICD_9 { code: '140',  name: 'Malignant neoplasm of lip'});
+
+CREATE (ICD9_140_0:ICD_9 { code: '140.0',  name: 'Malignant neoplasm of upper lip, vermilion border '});
+
+CREATE (ICD9_140_1:ICD_9 { code: '140.1',  name: 'Malignant neoplasm of lower lip, vermilion border '});
+
+CREATE (ICD9_140_3:ICD_9 { code: '140.3',  name: 'Malignant neoplasm of upper lip, inner aspect '});
+
+CREATE (ICD9_140_4:ICD_9 { code: '140.4',  name: 'Malignant neoplasm of lower lip, inner aspect '});
+
+CREATE (ICD9_140_5:ICD_9 { code: '140.5',  name: 'Malignant neoplasm of lip, unspecified, inner aspect '});
+
+CREATE (ICD9_140_6:ICD_9 { code: '140.6',  name: 'Malignant neoplasm of commissure of lip '});
+
+CREATE (ICD9_140_8:ICD_9 { code: '140.8',  name: 'Malignant neoplasm of other sites of lip '});
+
+CREATE (ICD9_140_9:ICD_9 { code: '140.9',  name: 'Malignant neoplasm of lip, unspecified, vermilion border '});
+
+CREATE (ICD9_141:ICD_9 { code: '141',  name: 'Malignant neoplasm of tongue'});
+
+CREATE (ICD9_141_0:ICD_9 { code: '141.0',  name: 'Malignant neoplasm of base of tongue '});
+
+CREATE (ICD9_141_1:ICD_9 { code: '141.1',  name: 'Malignant neoplasm of dorsal surface of tongue '});
+
+CREATE (ICD9_141_2:ICD_9 { code: '141.2',  name: 'Malignant neoplasm of tip and lateral border of tongue '});
+
+CREATE (ICD9_141_3:ICD_9 { code: '141.3',  name: 'Malignant neoplasm of ventral surface of tongue '});
+
+CREATE (ICD9_141_4:ICD_9 { code: '141.4',  name: 'Malignant neoplasm of anterior two-thirds of tongue, part unspecified '});
+
+CREATE (ICD9_141_5:ICD_9 { code: '141.5',  name: 'Malignant neoplasm of junctional zone of tongue '});
+
+CREATE (ICD9_141_6:ICD_9 { code: '141.6',  name: 'Malignant neoplasm of lingual tonsil '});
+
+CREATE (ICD9_141_8:ICD_9 { code: '141.8',  name: 'Malignant neoplasm of other sites of tongue '});
+
+CREATE (ICD9_141_9:ICD_9 { code: '141.9',  name: 'Malignant neoplasm of tongue, unspecified '});
+
+CREATE (ICD9_142:ICD_9 { code: '142',  name: 'Malignant neoplasm of major salivary glands'});
+
+CREATE (ICD9_142_0:ICD_9 { code: '142.0',  name: 'Malignant neoplasm of parotid gland '});
+
+CREATE (ICD9_142_1:ICD_9 { code: '142.1',  name: 'Malignant neoplasm of submandibular gland '});
+
+CREATE (ICD9_142_2:ICD_9 { code: '142.2',  name: 'Malignant neoplasm of sublingual gland '});
+
+CREATE (ICD9_142_8:ICD_9 { code: '142.8',  name: 'Malignant neoplasm of other major salivary glands '});
+
+CREATE (ICD9_142_9:ICD_9 { code: '142.9',  name: 'Malignant neoplasm of salivary gland, unspecified '});
+
+CREATE (ICD9_143:ICD_9 { code: '143',  name: 'Malignant neoplasm of gum'});
+
+CREATE (ICD9_143_0:ICD_9 { code: '143.0',  name: 'Malignant neoplasm of upper gum '});
+
+CREATE (ICD9_143_1:ICD_9 { code: '143.1',  name: 'Malignant neoplasm of lower gum '});
+
+CREATE (ICD9_143_8:ICD_9 { code: '143.8',  name: 'Malignant neoplasm of other sites of gum '});
+
+CREATE (ICD9_143_9:ICD_9 { code: '143.9',  name: 'Malignant neoplasm of gum, unspecified '});
+
+CREATE (ICD9_144:ICD_9 { code: '144',  name: 'Malignant neoplasm of floor of mouth'});
+
+CREATE (ICD9_144_0:ICD_9 { code: '144.0',  name: 'Malignant neoplasm of anterior portion of floor of mouth '});
+
+CREATE (ICD9_144_1:ICD_9 { code: '144.1',  name: 'Malignant neoplasm of lateral portion of floor of mouth '});
+
+CREATE (ICD9_144_8:ICD_9 { code: '144.8',  name: 'Malignant neoplasm of other sites of floor of mouth '});
+
+CREATE (ICD9_144_9:ICD_9 { code: '144.9',  name: 'Malignant neoplasm of floor of mouth, part unspecified '});
+
+CREATE (ICD9_145:ICD_9 { code: '145',  name: 'Malignant neoplasm of other and unspecified parts of mouth'});
+
+CREATE (ICD9_145_0:ICD_9 { code: '145.0',  name: 'Malignant neoplasm of cheek mucosa '});
+
+CREATE (ICD9_145_1:ICD_9 { code: '145.1',  name: 'Malignant neoplasm of vestibule of mouth '});
+
+CREATE (ICD9_145_2:ICD_9 { code: '145.2',  name: 'Malignant neoplasm of hard palate '});
+
+CREATE (ICD9_145_3:ICD_9 { code: '145.3',  name: 'Malignant neoplasm of soft palate '});
+
+CREATE (ICD9_145_4:ICD_9 { code: '145.4',  name: 'Malignant neoplasm of uvula '});
+
+CREATE (ICD9_145_5:ICD_9 { code: '145.5',  name: 'Malignant neoplasm of palate, unspecified '});
+
+CREATE (ICD9_145_6:ICD_9 { code: '145.6',  name: 'Malignant neoplasm of retromolar area '});
+
+CREATE (ICD9_145_8:ICD_9 { code: '145.8',  name: 'Malignant neoplasm of other specified parts of mouth '});
+
+CREATE (ICD9_145_9:ICD_9 { code: '145.9',  name: 'Malignant neoplasm of mouth, unspecified '});
+
+CREATE (ICD9_146:ICD_9 { code: '146',  name: 'Malignant neoplasm of oropharynx'});
+
+CREATE (ICD9_146_0:ICD_9 { code: '146.0',  name: 'Malignant neoplasm of tonsil '});
+
+CREATE (ICD9_146_1:ICD_9 { code: '146.1',  name: 'Malignant neoplasm of tonsillar fossa '});
+
+CREATE (ICD9_146_2:ICD_9 { code: '146.2',  name: 'Malignant neoplasm of tonsillar pillars (anterior) (posterior) '});
+
+CREATE (ICD9_146_3:ICD_9 { code: '146.3',  name: 'Malignant neoplasm of vallecula epiglottica '});
+
+CREATE (ICD9_146_4:ICD_9 { code: '146.4',  name: 'Malignant neoplasm of anterior aspect of epiglottis '});
+
+CREATE (ICD9_146_5:ICD_9 { code: '146.5',  name: 'Malignant neoplasm of junctional region of oropharynx '});
+
+CREATE (ICD9_146_6:ICD_9 { code: '146.6',  name: 'Malignant neoplasm of lateral wall of oropharynx '});
+
+CREATE (ICD9_146_7:ICD_9 { code: '146.7',  name: 'Malignant neoplasm of posterior wall of oropharynx '});
+
+CREATE (ICD9_146_8:ICD_9 { code: '146.8',  name: 'Malignant neoplasm of other specified sites of oropharynx '});
+
+CREATE (ICD9_146_9:ICD_9 { code: '146.9',  name: 'Malignant neoplasm of oropharynx, unspecified site '});
+
+CREATE (ICD9_147:ICD_9 { code: '147',  name: 'Malignant neoplasm of nasopharynx'});
+
+CREATE (ICD9_147_0:ICD_9 { code: '147.0',  name: 'Malignant neoplasm of superior wall of nasopharynx '});
+
+CREATE (ICD9_147_1:ICD_9 { code: '147.1',  name: 'Malignant neoplasm of posterior wall of nasopharynx '});
+
+CREATE (ICD9_147_2:ICD_9 { code: '147.2',  name: 'Malignant neoplasm of lateral wall of nasopharynx '});
+
+CREATE (ICD9_147_3:ICD_9 { code: '147.3',  name: 'Malignant neoplasm of anterior wall of nasopharynx '});
+
+CREATE (ICD9_147_8:ICD_9 { code: '147.8',  name: 'Malignant neoplasm of other specified sites of nasopharynx '});
+
+CREATE (ICD9_147_9:ICD_9 { code: '147.9',  name: 'Malignant neoplasm of nasopharynx, unspecified site '});
+
+CREATE (ICD9_148:ICD_9 { code: '148',  name: 'Malignant neoplasm of hypopharynx'});
+
+CREATE (ICD9_148_0:ICD_9 { code: '148.0',  name: 'Malignant neoplasm of postcricoid region of hypopharynx '});
+
+CREATE (ICD9_148_1:ICD_9 { code: '148.1',  name: 'Malignant neoplasm of pyriform sinus '});
+
+CREATE (ICD9_148_2:ICD_9 { code: '148.2',  name: 'Malignant neoplasm of aryepiglottic fold, hypopharyngeal aspect '});
+
+CREATE (ICD9_148_3:ICD_9 { code: '148.3',  name: 'Malignant neoplasm of posterior hypopharyngeal wall '});
+
+CREATE (ICD9_148_8:ICD_9 { code: '148.8',  name: 'Malignant neoplasm of other specified sites of hypopharynx '});
+
+CREATE (ICD9_148_9:ICD_9 { code: '148.9',  name: 'Malignant neoplasm of hypopharynx, unspecified site '});
+
+CREATE (ICD9_149:ICD_9 { code: '149',  name: 'Malignant neoplasm of other and ill-defined sites within the lip oral cavity and pharynx'});
+
+CREATE (ICD9_149_0:ICD_9 { code: '149.0',  name: 'Malignant neoplasm of pharynx, unspecified '});
+
+CREATE (ICD9_149_1:ICD_9 { code: '149.1',  name: 'Malignant neoplasm of waldeyer's ring '});
+
+CREATE (ICD9_149_8:ICD_9 { code: '149.8',  name: 'Malignant neoplasm of other sites within the lip and oral cavity '});
+
+CREATE (ICD9_149_9:ICD_9 { code: '149.9',  name: 'Malignant neoplasm of ill-defined sites within the lip and oral cavity '});
+
+CREATE (ICD9_150_159:ICD_9_GROUP { group_code: '150-159',  name: 'Malignant Neoplasm Of Digestive Organs And Peritoneum'});
+
+CREATE (ICD9_150:ICD_9 { code: '150',  name: 'Malignant neoplasm of esophagus'});
+
+CREATE (ICD9_150_0:ICD_9 { code: '150.0',  name: 'Malignant neoplasm of cervical esophagus '});
+
+CREATE (ICD9_150_1:ICD_9 { code: '150.1',  name: 'Malignant neoplasm of thoracic esophagus '});
+
+CREATE (ICD9_150_2:ICD_9 { code: '150.2',  name: 'Malignant neoplasm of abdominal esophagus '});
+
+CREATE (ICD9_150_3:ICD_9 { code: '150.3',  name: 'Malignant neoplasm of upper third of esophagus '});
+
+CREATE (ICD9_150_4:ICD_9 { code: '150.4',  name: 'Malignant neoplasm of middle third of esophagus '});
+
+CREATE (ICD9_150_5:ICD_9 { code: '150.5',  name: 'Malignant neoplasm of lower third of esophagus '});
+
+CREATE (ICD9_150_8:ICD_9 { code: '150.8',  name: 'Malignant neoplasm of other specified part of esophagus '});
+
+CREATE (ICD9_150_9:ICD_9 { code: '150.9',  name: 'Malignant neoplasm of esophagus, unspecified site '});
+
+CREATE (ICD9_151:ICD_9 { code: '151',  name: 'Malignant neoplasm of stomach'});
+
+CREATE (ICD9_151_0:ICD_9 { code: '151.0',  name: 'Malignant neoplasm of cardia '});
+
+CREATE (ICD9_151_1:ICD_9 { code: '151.1',  name: 'Malignant neoplasm of pylorus '});
+
+CREATE (ICD9_151_2:ICD_9 { code: '151.2',  name: 'Malignant neoplasm of pyloric antrum '});
+
+CREATE (ICD9_151_3:ICD_9 { code: '151.3',  name: 'Malignant neoplasm of fundus of stomach '});
+
+CREATE (ICD9_151_4:ICD_9 { code: '151.4',  name: 'Malignant neoplasm of body of stomach '});
+
+CREATE (ICD9_151_5:ICD_9 { code: '151.5',  name: 'Malignant neoplasm of lesser curvature of stomach, unspecified '});
+
+CREATE (ICD9_151_6:ICD_9 { code: '151.6',  name: 'Malignant neoplasm of greater curvature of stomach, unspecified '});
+
+CREATE (ICD9_151_8:ICD_9 { code: '151.8',  name: 'Malignant neoplasm of other specified sites of stomach '});
+
+CREATE (ICD9_151_9:ICD_9 { code: '151.9',  name: 'Malignant neoplasm of stomach, unspecified site '});
+
+CREATE (ICD9_152:ICD_9 { code: '152',  name: 'Malignant neoplasm of small intestine including duodenum'});
+
+CREATE (ICD9_152_0:ICD_9 { code: '152.0',  name: 'Malignant neoplasm of duodenum '});
+
+CREATE (ICD9_152_1:ICD_9 { code: '152.1',  name: 'Malignant neoplasm of jejunum '});
+
+CREATE (ICD9_152_2:ICD_9 { code: '152.2',  name: 'Malignant neoplasm of ileum '});
+
+CREATE (ICD9_152_3:ICD_9 { code: '152.3',  name: 'Malignant neoplasm of Meckel's diverticulum '});
+
+CREATE (ICD9_152_8:ICD_9 { code: '152.8',  name: 'Malignant neoplasm of other specified sites of small intestine '});
+
+CREATE (ICD9_152_9:ICD_9 { code: '152.9',  name: 'Malignant neoplasm of small intestine, unspecified site '});
+
+CREATE (ICD9_153:ICD_9 { code: '153',  name: 'Malignant neoplasm of colon'});
+
+CREATE (ICD9_153_0:ICD_9 { code: '153.0',  name: 'Malignant neoplasm of hepatic flexure '});
+
+CREATE (ICD9_153_1:ICD_9 { code: '153.1',  name: 'Malignant neoplasm of transverse colon '});
+
+CREATE (ICD9_153_2:ICD_9 { code: '153.2',  name: 'Malignant neoplasm of descending colon '});
+
+CREATE (ICD9_153_3:ICD_9 { code: '153.3',  name: 'Malignant neoplasm of sigmoid colon '});
+
+CREATE (ICD9_153_4:ICD_9 { code: '153.4',  name: 'Malignant neoplasm of cecum '});
+
+CREATE (ICD9_153_5:ICD_9 { code: '153.5',  name: 'Malignant neoplasm of appendix vermiformis '});
+
+CREATE (ICD9_153_6:ICD_9 { code: '153.6',  name: 'Malignant neoplasm of ascending colon '});
+
+CREATE (ICD9_153_7:ICD_9 { code: '153.7',  name: 'Malignant neoplasm of splenic flexure '});
+
+CREATE (ICD9_153_8:ICD_9 { code: '153.8',  name: 'Malignant neoplasm of other specified sites of large intestine '});
+
+CREATE (ICD9_153_9:ICD_9 { code: '153.9',  name: 'Malignant neoplasm of colon, unspecified site '});
+
+CREATE (ICD9_154:ICD_9 { code: '154',  name: 'Malignant neoplasm of rectum rectosigmoid junction and anus'});
+
+CREATE (ICD9_154_0:ICD_9 { code: '154.0',  name: 'Malignant neoplasm of rectosigmoid junction '});
+
+CREATE (ICD9_154_1:ICD_9 { code: '154.1',  name: 'Malignant neoplasm of rectum '});
+
+CREATE (ICD9_154_2:ICD_9 { code: '154.2',  name: 'Malignant neoplasm of anal canal '});
+
+CREATE (ICD9_154_3:ICD_9 { code: '154.3',  name: 'Malignant neoplasm of anus, unspecified site '});
+
+CREATE (ICD9_154_8:ICD_9 { code: '154.8',  name: 'Malignant neoplasm of other sites of rectum, rectosigmoid junction, and anus '});
+
+CREATE (ICD9_155:ICD_9 { code: '155',  name: 'Malignant neoplasm of liver and intrahepatic bile ducts'});
+
+CREATE (ICD9_155_0:ICD_9 { code: '155.0',  name: 'Malignant neoplasm of liver, primary '});
+
+CREATE (ICD9_155_1:ICD_9 { code: '155.1',  name: 'Malignant neoplasm of intrahepatic bile ducts '});
+
+CREATE (ICD9_155_2:ICD_9 { code: '155.2',  name: 'Malignant neoplasm of liver, not specified as primary or secondary '});
+
+CREATE (ICD9_156:ICD_9 { code: '156',  name: 'Malignant neoplasm of gallbladder and extrahepatic bile ducts'});
+
+CREATE (ICD9_156_0:ICD_9 { code: '156.0',  name: 'Malignant neoplasm of gallbladder '});
+
+CREATE (ICD9_156_1:ICD_9 { code: '156.1',  name: 'Malignant neoplasm of extrahepatic bile ducts '});
+
+CREATE (ICD9_156_2:ICD_9 { code: '156.2',  name: 'Malignant neoplasm of ampulla of vater '});
+
+CREATE (ICD9_156_8:ICD_9 { code: '156.8',  name: 'Malignant neoplasm of other specified sites of gallbladder and extrahepatic bile ducts '});
+
+CREATE (ICD9_156_9:ICD_9 { code: '156.9',  name: 'Malignant neoplasm of biliary tract, part unspecified site '});
+
+CREATE (ICD9_157:ICD_9 { code: '157',  name: 'Malignant neoplasm of pancreas'});
+
+CREATE (ICD9_157_0:ICD_9 { code: '157.0',  name: 'Malignant neoplasm of head of pancreas '});
+
+CREATE (ICD9_157_1:ICD_9 { code: '157.1',  name: 'Malignant neoplasm of body of pancreas '});
+
+CREATE (ICD9_157_2:ICD_9 { code: '157.2',  name: 'Malignant neoplasm of tail of pancreas '});
+
+CREATE (ICD9_157_3:ICD_9 { code: '157.3',  name: 'Malignant neoplasm of pancreatic duct '});
+
+CREATE (ICD9_157_4:ICD_9 { code: '157.4',  name: 'Malignant neoplasm of islets of langerhans '});
+
+CREATE (ICD9_157_8:ICD_9 { code: '157.8',  name: 'Malignant neoplasm of other specified sites of pancreas '});
+
+CREATE (ICD9_157_9:ICD_9 { code: '157.9',  name: 'Malignant neoplasm of pancreas, part unspecified '});
+
+CREATE (ICD9_158:ICD_9 { code: '158',  name: 'Malignant neoplasm of retroperitoneum and peritoneum'});
+
+CREATE (ICD9_158_0:ICD_9 { code: '158.0',  name: 'Malignant neoplasm of retroperitoneum '});
+
+CREATE (ICD9_158_8:ICD_9 { code: '158.8',  name: 'Malignant neoplasm of specified parts of peritoneum '});
+
+CREATE (ICD9_158_9:ICD_9 { code: '158.9',  name: 'Malignant neoplasm of peritoneum, unspecified '});
+
+CREATE (ICD9_159:ICD_9 { code: '159',  name: 'Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum'});
+
+CREATE (ICD9_159_0:ICD_9 { code: '159.0',  name: 'Malignant neoplasm of intestinal tract, part unspecified '});
+
+CREATE (ICD9_159_1:ICD_9 { code: '159.1',  name: 'Malignant neoplasm of spleen, not elsewhere classified '});
+
+CREATE (ICD9_159_8:ICD_9 { code: '159.8',  name: 'Malignant neoplasm of other sites of digestive system and intra-abdominal organs '});
+
+CREATE (ICD9_159_9:ICD_9 { code: '159.9',  name: 'Malignant neoplasm of ill-defined sites within the digestive organs and peritoneum '});
+
+CREATE (ICD9_160_165:ICD_9_GROUP { group_code: '160-165',  name: 'Malignant Neoplasm Of Respiratory And Intrathoracic Organs'});
+
+CREATE (ICD9_160:ICD_9 { code: '160',  name: 'Malignant neoplasm of nasal cavities middle ear and accessory sinuses'});
+
+CREATE (ICD9_160_0:ICD_9 { code: '160.0',  name: 'Malignant neoplasm of nasal cavities '});
+
+CREATE (ICD9_160_1:ICD_9 { code: '160.1',  name: 'Malignant neoplasm of auditory tube, middle ear, and mastoid air cells '});
+
+CREATE (ICD9_160_2:ICD_9 { code: '160.2',  name: 'Malignant neoplasm of maxillary sinus '});
+
+CREATE (ICD9_160_3:ICD_9 { code: '160.3',  name: 'Malignant neoplasm of ethmoidal sinus '});
+
+CREATE (ICD9_160_4:ICD_9 { code: '160.4',  name: 'Malignant neoplasm of frontal sinus '});
+
+CREATE (ICD9_160_5:ICD_9 { code: '160.5',  name: 'Malignant neoplasm of sphenoidal sinus '});
+
+CREATE (ICD9_160_8:ICD_9 { code: '160.8',  name: 'Malignant neoplasm of other accessory sinuses '});
+
+CREATE (ICD9_160_9:ICD_9 { code: '160.9',  name: 'Malignant neoplasm of accessory sinus, unspecified '});
+
+CREATE (ICD9_161:ICD_9 { code: '161',  name: 'Malignant neoplasm of larynx'});
+
+CREATE (ICD9_161_0:ICD_9 { code: '161.0',  name: 'Malignant neoplasm of glottis '});
+
+CREATE (ICD9_161_1:ICD_9 { code: '161.1',  name: 'Malignant neoplasm of supraglottis '});
+
+CREATE (ICD9_161_2:ICD_9 { code: '161.2',  name: 'Malignant neoplasm of subglottis '});
+
+CREATE (ICD9_161_3:ICD_9 { code: '161.3',  name: 'Malignant neoplasm of laryngeal cartilages '});
+
+CREATE (ICD9_161_8:ICD_9 { code: '161.8',  name: 'Malignant neoplasm of other specified sites of larynx '});
+
+CREATE (ICD9_161_9:ICD_9 { code: '161.9',  name: 'Malignant neoplasm of larynx, unspecified '});
+
+CREATE (ICD9_162:ICD_9 { code: '162',  name: 'Malignant neoplasm of trachea bronchus and lung'});
+
+CREATE (ICD9_162_0:ICD_9 { code: '162.0',  name: 'Malignant neoplasm of trachea '});
+
+CREATE (ICD9_162_2:ICD_9 { code: '162.2',  name: 'Malignant neoplasm of main bronchus '});
+
+CREATE (ICD9_162_3:ICD_9 { code: '162.3',  name: 'Malignant neoplasm of upper lobe, bronchus or lung '});
+
+CREATE (ICD9_162_4:ICD_9 { code: '162.4',  name: 'Malignant neoplasm of middle lobe, bronchus or lung '});
+
+CREATE (ICD9_162_5:ICD_9 { code: '162.5',  name: 'Malignant neoplasm of lower lobe, bronchus or lung '});
+
+CREATE (ICD9_162_8:ICD_9 { code: '162.8',  name: 'Malignant neoplasm of other parts of bronchus or lung '});
+
+CREATE (ICD9_162_9:ICD_9 { code: '162.9',  name: 'Malignant neoplasm of bronchus and lung, unspecified '});
+
+CREATE (ICD9_163:ICD_9 { code: '163',  name: 'Malignant neoplasm of pleura'});
+
+CREATE (ICD9_163_0:ICD_9 { code: '163.0',  name: 'Malignant neoplasm of parietal pleura '});
+
+CREATE (ICD9_163_1:ICD_9 { code: '163.1',  name: 'Malignant neoplasm of visceral pleura '});
+
+CREATE (ICD9_163_8:ICD_9 { code: '163.8',  name: 'Malignant neoplasm of other specified sites of pleura '});
+
+CREATE (ICD9_163_9:ICD_9 { code: '163.9',  name: 'Malignant neoplasm of pleura, unspecified '});
+
+CREATE (ICD9_164:ICD_9 { code: '164',  name: 'Malignant neoplasm of thymus heart and mediastinum'});
+
+CREATE (ICD9_164_0:ICD_9 { code: '164.0',  name: 'Malignant neoplasm of thymus '});
+
+CREATE (ICD9_164_1:ICD_9 { code: '164.1',  name: 'Malignant neoplasm of heart '});
+
+CREATE (ICD9_164_2:ICD_9 { code: '164.2',  name: 'Malignant neoplasm of anterior mediastinum '});
+
+CREATE (ICD9_164_3:ICD_9 { code: '164.3',  name: 'Malignant neoplasm of posterior mediastinum '});
+
+CREATE (ICD9_164_8:ICD_9 { code: '164.8',  name: 'Malignant neoplasm of other parts of mediastinum '});
+
+CREATE (ICD9_164_9:ICD_9 { code: '164.9',  name: 'Malignant neoplasm of mediastinum, part unspecified '});
+
+CREATE (ICD9_165:ICD_9 { code: '165',  name: 'Malignant neoplasm of other and ill-defined sites within the respiratory system and intrathoracic organs'});
+
+CREATE (ICD9_165_0:ICD_9 { code: '165.0',  name: 'Malignant neoplasm of upper respiratory tract, part unspecified '});
+
+CREATE (ICD9_165_8:ICD_9 { code: '165.8',  name: 'Malignant neoplasm of other sites within the respiratory system and intrathoracic organs '});
+
+CREATE (ICD9_165_9:ICD_9 { code: '165.9',  name: 'Malignant neoplasm of ill-defined sites within the respiratory system '});
+
+CREATE (ICD9_170_176:ICD_9_GROUP { group_code: '170-176',  name: 'Malignant Neoplasm Of Bone, Connective Tissue, Skin, And Breast'});
+
+CREATE (ICD9_170:ICD_9 { code: '170',  name: 'Malignant neoplasm of bone and articular cartilage'});
+
+CREATE (ICD9_170_0:ICD_9 { code: '170.0',  name: 'Malignant neoplasm of bones of skull and face, except mandible '});
+
+CREATE (ICD9_170_1:ICD_9 { code: '170.1',  name: 'Malignant neoplasm of mandible '});
+
+CREATE (ICD9_170_2:ICD_9 { code: '170.2',  name: 'Malignant neoplasm of vertebral column, excluding sacrum and coccyx '});
+
+CREATE (ICD9_170_3:ICD_9 { code: '170.3',  name: 'Malignant neoplasm of ribs, sternum, and clavicle '});
+
+CREATE (ICD9_170_4:ICD_9 { code: '170.4',  name: 'Malignant neoplasm of scapula and long bones of upper limb '});
+
+CREATE (ICD9_170_5:ICD_9 { code: '170.5',  name: 'Malignant neoplasm of short bones of upper limb '});
+
+CREATE (ICD9_170_6:ICD_9 { code: '170.6',  name: 'Malignant neoplasm of pelvic bones, sacrum, and coccyx '});
+
+CREATE (ICD9_170_7:ICD_9 { code: '170.7',  name: 'Malignant neoplasm of long bones of lower limb '});
+
+CREATE (ICD9_170_8:ICD_9 { code: '170.8',  name: 'Malignant neoplasm of short bones of lower limb '});
+
+CREATE (ICD9_170_9:ICD_9 { code: '170.9',  name: 'Malignant neoplasm of bone and articular cartilage, site unspecified '});
+
+CREATE (ICD9_171:ICD_9 { code: '171',  name: 'Malignant neoplasm of connective and other soft tissue'});
+
+CREATE (ICD9_171_0:ICD_9 { code: '171.0',  name: 'Malignant neoplasm of connective and other soft tissue of head, face, and neck '});
+
+CREATE (ICD9_171_2:ICD_9 { code: '171.2',  name: 'Malignant neoplasm of connective and other soft tissue of upper limb, including shoulder '});
+
+CREATE (ICD9_171_3:ICD_9 { code: '171.3',  name: 'Malignant neoplasm of connective and other soft tissue of lower limb, including hip '});
+
+CREATE (ICD9_171_4:ICD_9 { code: '171.4',  name: 'Malignant neoplasm of connective and other soft tissue of thorax '});
+
+CREATE (ICD9_171_5:ICD_9 { code: '171.5',  name: 'Malignant neoplasm of connective and other soft tissue of abdomen '});
+
+CREATE (ICD9_171_6:ICD_9 { code: '171.6',  name: 'Malignant neoplasm of connective and other soft tissue of pelvis '});
+
+CREATE (ICD9_171_7:ICD_9 { code: '171.7',  name: 'Malignant neoplasm of connective and other soft tissue of trunk, unspecified '});
+
+CREATE (ICD9_171_8:ICD_9 { code: '171.8',  name: 'Malignant neoplasm of other specified sites of connective and other soft tissue '});
+
+CREATE (ICD9_171_9:ICD_9 { code: '171.9',  name: 'Malignant neoplasm of connective and other soft tissue, site unspecified '});
+
+CREATE (ICD9_172:ICD_9 { code: '172',  name: 'Malignant melanoma of skin'});
+
+CREATE (ICD9_172_0:ICD_9 { code: '172.0',  name: 'Malignant melanoma of skin of lip '});
+
+CREATE (ICD9_172_1:ICD_9 { code: '172.1',  name: 'Malignant melanoma of skin of eyelid, including canthus '});
+
+CREATE (ICD9_172_2:ICD_9 { code: '172.2',  name: 'Malignant melanoma of skin of ear and external auditory canal '});
+
+CREATE (ICD9_172_3:ICD_9 { code: '172.3',  name: 'Malignant melanoma of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_172_4:ICD_9 { code: '172.4',  name: 'Malignant melanoma of skin of scalp and neck '});
+
+CREATE (ICD9_172_5:ICD_9 { code: '172.5',  name: 'Malignant melanoma of skin of trunk, except scrotum '});
+
+CREATE (ICD9_172_6:ICD_9 { code: '172.6',  name: 'Malignant melanoma of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_172_7:ICD_9 { code: '172.7',  name: 'Malignant melanoma of skin of lower limb, including hip '});
+
+CREATE (ICD9_172_8:ICD_9 { code: '172.8',  name: 'Malignant melanoma of other specified sites of skin '});
+
+CREATE (ICD9_172_9:ICD_9 { code: '172.9',  name: 'Melanoma of skin, site unspecified '});
+
+CREATE (ICD9_173:ICD_9 { code: '173',  name: 'Oth and unspec malignant neoplasm of skin'});
+
+CREATE (ICD9_173_0:ICD_9 { code: '173.0',  name: 'Oth and unspec malignant neoplasm of skin of lip'});
+
+CREATE (ICD9_173_00:ICD_9 { code: '173.00',  name: 'Unspecified malignant neoplasm of skin of lip '});
+
+CREATE (ICD9_173_01:ICD_9 { code: '173.01',  name: 'Basal cell carcinoma of skin of lip '});
+
+CREATE (ICD9_173_02:ICD_9 { code: '173.02',  name: 'Squamous cell carcinoma of skin of lip '});
+
+CREATE (ICD9_173_09:ICD_9 { code: '173.09',  name: 'Other specified malignant neoplasm of skin of lip '});
+
+CREATE (ICD9_173_1:ICD_9 { code: '173.1',  name: 'Oth and unspec malignant neoplasm of eyelid, including canthus'});
+
+CREATE (ICD9_173_10:ICD_9 { code: '173.10',  name: 'Unspecified malignant neoplasm of eyelid, including canthus '});
+
+CREATE (ICD9_173_11:ICD_9 { code: '173.11',  name: 'Basal cell carcinoma of eyelid, including canthus '});
+
+CREATE (ICD9_173_12:ICD_9 { code: '173.12',  name: 'Squamous cell carcinoma of eyelid, including canthus '});
+
+CREATE (ICD9_173_19:ICD_9 { code: '173.19',  name: 'Other specified malignant neoplasm of eyelid, including canthus '});
+
+CREATE (ICD9_173_2:ICD_9 { code: '173.2',  name: 'Oth and unspec malignant neoplasm of skin of ear and external auditory canal'});
+
+CREATE (ICD9_173_20:ICD_9 { code: '173.20',  name: 'Unspecified malignant neoplasm of skin of ear and external auditory canal '});
+
+CREATE (ICD9_173_21:ICD_9 { code: '173.21',  name: 'Basal cell carcinoma of skin of ear and external auditory canal '});
+
+CREATE (ICD9_173_22:ICD_9 { code: '173.22',  name: 'Squamous cell carcinoma of skin of ear and external auditory canal '});
+
+CREATE (ICD9_173_29:ICD_9 { code: '173.29',  name: 'Other specified malignant neoplasm of skin of ear and external auditory canal '});
+
+CREATE (ICD9_173_3:ICD_9 { code: '173.3',  name: 'Oth and unspec malignant neoplasm of skin of oth and unspec parts of face'});
+
+CREATE (ICD9_173_30:ICD_9 { code: '173.30',  name: 'Unspecified malignant neoplasm of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_173_31:ICD_9 { code: '173.31',  name: 'Basal cell carcinoma of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_173_32:ICD_9 { code: '173.32',  name: 'Squamous cell carcinoma of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_173_39:ICD_9 { code: '173.39',  name: 'Other specified malignant neoplasm of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_173_4:ICD_9 { code: '173.4',  name: 'Oth and unspec malignant neoplasm of scalp and skin of neck'});
+
+CREATE (ICD9_173_40:ICD_9 { code: '173.40',  name: 'Unspecified malignant neoplasm of scalp and skin of neck '});
+
+CREATE (ICD9_173_41:ICD_9 { code: '173.41',  name: 'Basal cell carcinoma of scalp and skin of neck '});
+
+CREATE (ICD9_173_42:ICD_9 { code: '173.42',  name: 'Squamous cell carcinoma of scalp and skin of neck '});
+
+CREATE (ICD9_173_49:ICD_9 { code: '173.49',  name: 'Other specified malignant neoplasm of scalp and skin of neck '});
+
+CREATE (ICD9_173_5:ICD_9 { code: '173.5',  name: 'Oth and unspec malignant neoplasm of skin of trunk, except scrotum'});
+
+CREATE (ICD9_173_50:ICD_9 { code: '173.50',  name: 'Unspecified malignant neoplasm of skin of trunk, except scrotum '});
+
+CREATE (ICD9_173_51:ICD_9 { code: '173.51',  name: 'Basal cell carcinoma of skin of trunk, except scrotum '});
+
+CREATE (ICD9_173_52:ICD_9 { code: '173.52',  name: 'Squamous cell carcinoma of skin of trunk, except scrotum '});
+
+CREATE (ICD9_173_59:ICD_9 { code: '173.59',  name: 'Other specified malignant neoplasm of skin of trunk, except scrotum '});
+
+CREATE (ICD9_173_6:ICD_9 { code: '173.6',  name: 'Oth and unspec malignant neoplasm of skin of upper limb, including shoulder'});
+
+CREATE (ICD9_173_60:ICD_9 { code: '173.60',  name: 'Unspecified malignant neoplasm of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_173_61:ICD_9 { code: '173.61',  name: 'Basal cell carcinoma of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_173_62:ICD_9 { code: '173.62',  name: 'Squamous cell carcinoma of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_173_69:ICD_9 { code: '173.69',  name: 'Other specified malignant neoplasm of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_173_7:ICD_9 { code: '173.7',  name: 'Oth and unspec malignant neoplasm of skin of lower limb, including hip'});
+
+CREATE (ICD9_173_70:ICD_9 { code: '173.70',  name: 'Unspecified malignant neoplasm of skin of lower limb, including hip '});
+
+CREATE (ICD9_173_71:ICD_9 { code: '173.71',  name: 'Basal cell carcinoma of skin of lower limb, including hip '});
+
+CREATE (ICD9_173_72:ICD_9 { code: '173.72',  name: 'Squamous cell carcinoma of skin of lower limb, including hip '});
+
+CREATE (ICD9_173_79:ICD_9 { code: '173.79',  name: 'Other specified malignant neoplasm of skin of lower limb, including hip '});
+
+CREATE (ICD9_173_8:ICD_9 { code: '173.8',  name: 'Oth and unspec malignant neoplasm of oth spec sites of skin'});
+
+CREATE (ICD9_173_80:ICD_9 { code: '173.80',  name: 'Unspecified malignant neoplasm of other specified sites of skin '});
+
+CREATE (ICD9_173_81:ICD_9 { code: '173.81',  name: 'Basal cell carcinoma of other specified sites of skin '});
+
+CREATE (ICD9_173_82:ICD_9 { code: '173.82',  name: 'Squamous cell carcinoma of other specified sites of skin '});
+
+CREATE (ICD9_173_89:ICD_9 { code: '173.89',  name: 'Other specified malignant neoplasm of other specified sites of skin '});
+
+CREATE (ICD9_173_9:ICD_9 { code: '173.9',  name: 'Oth and unspec malignant neoplasm of skin, site unspec'});
+
+CREATE (ICD9_173_90:ICD_9 { code: '173.90',  name: 'Unspecified malignant neoplasm of skin, site unspecified '});
+
+CREATE (ICD9_173_91:ICD_9 { code: '173.91',  name: 'Basal cell carcinoma of skin, site unspecified '});
+
+CREATE (ICD9_173_92:ICD_9 { code: '173.92',  name: 'Squamous cell carcinoma of skin, site unspecified '});
+
+CREATE (ICD9_173_99:ICD_9 { code: '173.99',  name: 'Other specified malignant neoplasm of skin, site unspecified '});
+
+CREATE (ICD9_174:ICD_9 { code: '174',  name: 'Malignant neoplasm of female breast'});
+
+CREATE (ICD9_174_0:ICD_9 { code: '174.0',  name: 'Malignant neoplasm of nipple and areola of female breast '});
+
+CREATE (ICD9_174_1:ICD_9 { code: '174.1',  name: 'Malignant neoplasm of central portion of female breast '});
+
+CREATE (ICD9_174_2:ICD_9 { code: '174.2',  name: 'Malignant neoplasm of upper-inner quadrant of female breast '});
+
+CREATE (ICD9_174_3:ICD_9 { code: '174.3',  name: 'Malignant neoplasm of lower-inner quadrant of female breast '});
+
+CREATE (ICD9_174_4:ICD_9 { code: '174.4',  name: 'Malignant neoplasm of upper-outer quadrant of female breast '});
+
+CREATE (ICD9_174_5:ICD_9 { code: '174.5',  name: 'Malignant neoplasm of lower-outer quadrant of female breast '});
+
+CREATE (ICD9_174_6:ICD_9 { code: '174.6',  name: 'Malignant neoplasm of axillary tail of female breast '});
+
+CREATE (ICD9_174_8:ICD_9 { code: '174.8',  name: 'Malignant neoplasm of other specified sites of female breast '});
+
+CREATE (ICD9_174_9:ICD_9 { code: '174.9',  name: 'Malignant neoplasm of breast (female), unspecified '});
+
+CREATE (ICD9_175:ICD_9 { code: '175',  name: 'Malignant neoplasm of male breast'});
+
+CREATE (ICD9_175_0:ICD_9 { code: '175.0',  name: 'Malignant neoplasm of nipple and areola of male breast '});
+
+CREATE (ICD9_175_9:ICD_9 { code: '175.9',  name: 'Malignant neoplasm of other and unspecified sites of male breast '});
+
+CREATE (ICD9_176:ICD_9 { code: '176',  name: 'Kaposi's sarcoma'});
+
+CREATE (ICD9_176_0:ICD_9 { code: '176.0',  name: 'Kaposi's sarcoma, skin '});
+
+CREATE (ICD9_176_1:ICD_9 { code: '176.1',  name: 'Kaposi's sarcoma, soft tissue '});
+
+CREATE (ICD9_176_2:ICD_9 { code: '176.2',  name: 'Kaposi's sarcoma, palate '});
+
+CREATE (ICD9_176_3:ICD_9 { code: '176.3',  name: 'Kaposi's sarcoma, gastrointestinal sites '});
+
+CREATE (ICD9_176_4:ICD_9 { code: '176.4',  name: 'Kaposi's sarcoma, lung '});
+
+CREATE (ICD9_176_5:ICD_9 { code: '176.5',  name: 'Kaposi's sarcoma, lymph nodes '});
+
+CREATE (ICD9_176_8:ICD_9 { code: '176.8',  name: 'Kaposi's sarcoma, other specified sites '});
+
+CREATE (ICD9_176_9:ICD_9 { code: '176.9',  name: 'Kaposi's sarcoma, unspecified site '});
+
+CREATE (ICD9_179_189:ICD_9_GROUP { group_code: '179-189',  name: 'Malignant Neoplasm Of Genitourinary Organs'});
+
+CREATE (ICD9_179:ICD_9 { code: '179',  name: 'Malignant neoplasm of uterus, part unspecified'});
+
+CREATE (ICD9_180:ICD_9 { code: '180',  name: 'Malignant neoplasm of cervix uteri'});
+
+CREATE (ICD9_180_0:ICD_9 { code: '180.0',  name: 'Malignant neoplasm of endocervix '});
+
+CREATE (ICD9_180_1:ICD_9 { code: '180.1',  name: 'Malignant neoplasm of exocervix '});
+
+CREATE (ICD9_180_8:ICD_9 { code: '180.8',  name: 'Malignant neoplasm of other specified sites of cervix '});
+
+CREATE (ICD9_180_9:ICD_9 { code: '180.9',  name: 'Malignant neoplasm of cervix uteri, unspecified site '});
+
+CREATE (ICD9_181:ICD_9 { code: '181',  name: 'Malignant neoplasm of placenta'});
+
+CREATE (ICD9_182:ICD_9 { code: '182',  name: 'Malignant neoplasm of body of uterus'});
+
+CREATE (ICD9_182_0:ICD_9 { code: '182.0',  name: 'Malignant neoplasm of corpus uteri, except isthmus '});
+
+CREATE (ICD9_182_1:ICD_9 { code: '182.1',  name: 'Malignant neoplasm of isthmus '});
+
+CREATE (ICD9_182_8:ICD_9 { code: '182.8',  name: 'Malignant neoplasm of other specified sites of body of uterus '});
+
+CREATE (ICD9_183:ICD_9 { code: '183',  name: 'Malignant neoplasm of ovary and other uterine adnexa'});
+
+CREATE (ICD9_183_0:ICD_9 { code: '183.0',  name: 'Malignant neoplasm of ovary '});
+
+CREATE (ICD9_183_2:ICD_9 { code: '183.2',  name: 'Malignant neoplasm of fallopian tube '});
+
+CREATE (ICD9_183_3:ICD_9 { code: '183.3',  name: 'Malignant neoplasm of broad ligament of uterus '});
+
+CREATE (ICD9_183_4:ICD_9 { code: '183.4',  name: 'Malignant neoplasm of parametrium '});
+
+CREATE (ICD9_183_5:ICD_9 { code: '183.5',  name: 'Malignant neoplasm of round ligament of uterus '});
+
+CREATE (ICD9_183_8:ICD_9 { code: '183.8',  name: 'Malignant neoplasm of other specified sites of uterine adnexa '});
+
+CREATE (ICD9_183_9:ICD_9 { code: '183.9',  name: 'Malignant neoplasm of uterine adnexa, unspecified site '});
+
+CREATE (ICD9_184:ICD_9 { code: '184',  name: 'Malignant neoplasm of other and unspecified female genital organs'});
+
+CREATE (ICD9_184_0:ICD_9 { code: '184.0',  name: 'Malignant neoplasm of vagina '});
+
+CREATE (ICD9_184_1:ICD_9 { code: '184.1',  name: 'Malignant neoplasm of labia majora '});
+
+CREATE (ICD9_184_2:ICD_9 { code: '184.2',  name: 'Malignant neoplasm of labia minora '});
+
+CREATE (ICD9_184_3:ICD_9 { code: '184.3',  name: 'Malignant neoplasm of clitoris '});
+
+CREATE (ICD9_184_4:ICD_9 { code: '184.4',  name: 'Malignant neoplasm of vulva, unspecified site '});
+
+CREATE (ICD9_184_8:ICD_9 { code: '184.8',  name: 'Malignant neoplasm of other specified sites of female genital organs '});
+
+CREATE (ICD9_184_9:ICD_9 { code: '184.9',  name: 'Malignant neoplasm of female genital organ, site unspecified '});
+
+CREATE (ICD9_185:ICD_9 { code: '185',  name: 'Malignant neoplasm of prostate'});
+
+CREATE (ICD9_186:ICD_9 { code: '186',  name: 'Malignant neoplasm of testis'});
+
+CREATE (ICD9_186_0:ICD_9 { code: '186.0',  name: 'Malignant neoplasm of undescended testis '});
+
+CREATE (ICD9_186_9:ICD_9 { code: '186.9',  name: 'Malignant neoplasm of other and unspecified testis '});
+
+CREATE (ICD9_187:ICD_9 { code: '187',  name: 'Malignant neoplasm of penis and other male genital organs'});
+
+CREATE (ICD9_187_1:ICD_9 { code: '187.1',  name: 'Malignant neoplasm of prepuce '});
+
+CREATE (ICD9_187_2:ICD_9 { code: '187.2',  name: 'Malignant neoplasm of glans penis '});
+
+CREATE (ICD9_187_3:ICD_9 { code: '187.3',  name: 'Malignant neoplasm of body of penis '});
+
+CREATE (ICD9_187_4:ICD_9 { code: '187.4',  name: 'Malignant neoplasm of penis, part unspecified '});
+
+CREATE (ICD9_187_5:ICD_9 { code: '187.5',  name: 'Malignant neoplasm of epididymis '});
+
+CREATE (ICD9_187_6:ICD_9 { code: '187.6',  name: 'Malignant neoplasm of spermatic cord '});
+
+CREATE (ICD9_187_7:ICD_9 { code: '187.7',  name: 'Malignant neoplasm of scrotum '});
+
+CREATE (ICD9_187_8:ICD_9 { code: '187.8',  name: 'Malignant neoplasm of other specified sites of male genital organs '});
+
+CREATE (ICD9_187_9:ICD_9 { code: '187.9',  name: 'Malignant neoplasm of male genital organ, site unspecified '});
+
+CREATE (ICD9_188:ICD_9 { code: '188',  name: 'Malignant neoplasm of bladder'});
+
+CREATE (ICD9_188_0:ICD_9 { code: '188.0',  name: 'Malignant neoplasm of trigone of urinary bladder '});
+
+CREATE (ICD9_188_1:ICD_9 { code: '188.1',  name: 'Malignant neoplasm of dome of urinary bladder '});
+
+CREATE (ICD9_188_2:ICD_9 { code: '188.2',  name: 'Malignant neoplasm of lateral wall of urinary bladder '});
+
+CREATE (ICD9_188_3:ICD_9 { code: '188.3',  name: 'Malignant neoplasm of anterior wall of urinary bladder '});
+
+CREATE (ICD9_188_4:ICD_9 { code: '188.4',  name: 'Malignant neoplasm of posterior wall of urinary bladder '});
+
+CREATE (ICD9_188_5:ICD_9 { code: '188.5',  name: 'Malignant neoplasm of bladder neck '});
+
+CREATE (ICD9_188_6:ICD_9 { code: '188.6',  name: 'Malignant neoplasm of ureteric orifice '});
+
+CREATE (ICD9_188_7:ICD_9 { code: '188.7',  name: 'Malignant neoplasm of urachus '});
+
+CREATE (ICD9_188_8:ICD_9 { code: '188.8',  name: 'Malignant neoplasm of other specified sites of bladder '});
+
+CREATE (ICD9_188_9:ICD_9 { code: '188.9',  name: 'Malignant neoplasm of bladder, part unspecified '});
+
+CREATE (ICD9_189:ICD_9 { code: '189',  name: 'Malignant neoplasm of kidney and other and unspecified urinary organs'});
+
+CREATE (ICD9_189_0:ICD_9 { code: '189.0',  name: 'Malignant neoplasm of kidney, except pelvis '});
+
+CREATE (ICD9_189_1:ICD_9 { code: '189.1',  name: 'Malignant neoplasm of renal pelvis '});
+
+CREATE (ICD9_189_2:ICD_9 { code: '189.2',  name: 'Malignant neoplasm of ureter '});
+
+CREATE (ICD9_189_3:ICD_9 { code: '189.3',  name: 'Malignant neoplasm of urethra '});
+
+CREATE (ICD9_189_4:ICD_9 { code: '189.4',  name: 'Malignant neoplasm of paraurethral glands '});
+
+CREATE (ICD9_189_8:ICD_9 { code: '189.8',  name: 'Malignant neoplasm of other specified sites of urinary organs '});
+
+CREATE (ICD9_189_9:ICD_9 { code: '189.9',  name: 'Malignant neoplasm of urinary organ, site unspecified '});
+
+CREATE (ICD9_190_199:ICD_9_GROUP { group_code: '190-199',  name: 'Malignant Neoplasm Of Other And Unspecified Sites'});
+
+CREATE (ICD9_190:ICD_9 { code: '190',  name: 'Malignant neoplasm of eye'});
+
+CREATE (ICD9_190_0:ICD_9 { code: '190.0',  name: 'Malignant neoplasm of eyeball, except conjunctiva, cornea, retina, and choroid '});
+
+CREATE (ICD9_190_1:ICD_9 { code: '190.1',  name: 'Malignant neoplasm of orbit '});
+
+CREATE (ICD9_190_2:ICD_9 { code: '190.2',  name: 'Malignant neoplasm of lacrimal gland '});
+
+CREATE (ICD9_190_3:ICD_9 { code: '190.3',  name: 'Malignant neoplasm of conjunctiva '});
+
+CREATE (ICD9_190_4:ICD_9 { code: '190.4',  name: 'Malignant neoplasm of cornea '});
+
+CREATE (ICD9_190_5:ICD_9 { code: '190.5',  name: 'Malignant neoplasm of retina '});
+
+CREATE (ICD9_190_6:ICD_9 { code: '190.6',  name: 'Malignant neoplasm of choroid '});
+
+CREATE (ICD9_190_7:ICD_9 { code: '190.7',  name: 'Malignant neoplasm of lacrimal duct '});
+
+CREATE (ICD9_190_8:ICD_9 { code: '190.8',  name: 'Malignant neoplasm of other specified sites of eye '});
+
+CREATE (ICD9_190_9:ICD_9 { code: '190.9',  name: 'Malignant neoplasm of eye, part unspecified '});
+
+CREATE (ICD9_191:ICD_9 { code: '191',  name: 'Malignant neoplasm of brain'});
+
+CREATE (ICD9_191_0:ICD_9 { code: '191.0',  name: 'Malignant neoplasm of cerebrum, except lobes and ventricles '});
+
+CREATE (ICD9_191_1:ICD_9 { code: '191.1',  name: 'Malignant neoplasm of frontal lobe '});
+
+CREATE (ICD9_191_2:ICD_9 { code: '191.2',  name: 'Malignant neoplasm of temporal lobe '});
+
+CREATE (ICD9_191_3:ICD_9 { code: '191.3',  name: 'Malignant neoplasm of parietal lobe '});
+
+CREATE (ICD9_191_4:ICD_9 { code: '191.4',  name: 'Malignant neoplasm of occipital lobe '});
+
+CREATE (ICD9_191_5:ICD_9 { code: '191.5',  name: 'Malignant neoplasm of ventricles '});
+
+CREATE (ICD9_191_6:ICD_9 { code: '191.6',  name: 'Malignant neoplasm of cerebellum nos '});
+
+CREATE (ICD9_191_7:ICD_9 { code: '191.7',  name: 'Malignant neoplasm of brain stem '});
+
+CREATE (ICD9_191_8:ICD_9 { code: '191.8',  name: 'Malignant neoplasm of other parts of brain '});
+
+CREATE (ICD9_191_9:ICD_9 { code: '191.9',  name: 'Malignant neoplasm of brain, unspecified '});
+
+CREATE (ICD9_192:ICD_9 { code: '192',  name: 'Malignant neoplasm of other and unspecified parts of nervous system'});
+
+CREATE (ICD9_192_0:ICD_9 { code: '192.0',  name: 'Malignant neoplasm of cranial nerves '});
+
+CREATE (ICD9_192_1:ICD_9 { code: '192.1',  name: 'Malignant neoplasm of cerebral meninges '});
+
+CREATE (ICD9_192_2:ICD_9 { code: '192.2',  name: 'Malignant neoplasm of spinal cord '});
+
+CREATE (ICD9_192_3:ICD_9 { code: '192.3',  name: 'Malignant neoplasm of spinal meninges '});
+
+CREATE (ICD9_192_8:ICD_9 { code: '192.8',  name: 'Malignant neoplasm of other specified sites of nervous system '});
+
+CREATE (ICD9_192_9:ICD_9 { code: '192.9',  name: 'Malignant neoplasm of nervous system, part unspecified '});
+
+CREATE (ICD9_193:ICD_9 { code: '193',  name: 'Malignant neoplasm of thyroid gland'});
+
+CREATE (ICD9_194:ICD_9 { code: '194',  name: 'Malignant neoplasm of other endocrine glands and related structures'});
+
+CREATE (ICD9_194_0:ICD_9 { code: '194.0',  name: 'Malignant neoplasm of adrenal gland '});
+
+CREATE (ICD9_194_1:ICD_9 { code: '194.1',  name: 'Malignant neoplasm of parathyroid gland '});
+
+CREATE (ICD9_194_3:ICD_9 { code: '194.3',  name: 'Malignant neoplasm of pituitary gland and craniopharyngeal duct '});
+
+CREATE (ICD9_194_4:ICD_9 { code: '194.4',  name: 'Malignant neoplasm of pineal gland '});
+
+CREATE (ICD9_194_5:ICD_9 { code: '194.5',  name: 'Malignant neoplasm of carotid body '});
+
+CREATE (ICD9_194_6:ICD_9 { code: '194.6',  name: 'Malignant neoplasm of aortic body and other paraganglia '});
+
+CREATE (ICD9_194_8:ICD_9 { code: '194.8',  name: 'Malignant neoplasm of other endocrine glands and related structures '});
+
+CREATE (ICD9_194_9:ICD_9 { code: '194.9',  name: 'Malignant neoplasm of endocrine gland, site unspecified '});
+
+CREATE (ICD9_195:ICD_9 { code: '195',  name: 'Malignant neoplasm of other and ill-defined sites'});
+
+CREATE (ICD9_195_0:ICD_9 { code: '195.0',  name: 'Malignant neoplasm of head, face, and neck '});
+
+CREATE (ICD9_195_1:ICD_9 { code: '195.1',  name: 'Malignant neoplasm of thorax '});
+
+CREATE (ICD9_195_2:ICD_9 { code: '195.2',  name: 'Malignant neoplasm of abdomen '});
+
+CREATE (ICD9_195_3:ICD_9 { code: '195.3',  name: 'Malignant neoplasm of pelvis '});
+
+CREATE (ICD9_195_4:ICD_9 { code: '195.4',  name: 'Malignant neoplasm of upper limb '});
+
+CREATE (ICD9_195_5:ICD_9 { code: '195.5',  name: 'Malignant neoplasm of lower limb '});
+
+CREATE (ICD9_195_8:ICD_9 { code: '195.8',  name: 'Malignant neoplasm of other specified sites '});
+
+CREATE (ICD9_196:ICD_9 { code: '196',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes'});
+
+CREATE (ICD9_196_0:ICD_9 { code: '196.0',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_196_1:ICD_9 { code: '196.1',  name: 'Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes '});
+
+CREATE (ICD9_196_2:ICD_9 { code: '196.2',  name: 'Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes '});
+
+CREATE (ICD9_196_3:ICD_9 { code: '196.3',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_196_5:ICD_9 { code: '196.5',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_196_6:ICD_9 { code: '196.6',  name: 'Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes '});
+
+CREATE (ICD9_196_8:ICD_9 { code: '196.8',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes of multiple sites '});
+
+CREATE (ICD9_196_9:ICD_9 { code: '196.9',  name: 'Secondary and unspecified malignant neoplasm of lymph nodes, site unspecified '});
+
+CREATE (ICD9_197:ICD_9 { code: '197',  name: 'Secondary malignant neoplasm of respiratory and digestive systems'});
+
+CREATE (ICD9_197_0:ICD_9 { code: '197.0',  name: 'Secondary malignant neoplasm of lung '});
+
+CREATE (ICD9_197_1:ICD_9 { code: '197.1',  name: 'Secondary malignant neoplasm of mediastinum '});
+
+CREATE (ICD9_197_2:ICD_9 { code: '197.2',  name: 'Secondary malignant neoplasm of pleura '});
+
+CREATE (ICD9_197_3:ICD_9 { code: '197.3',  name: 'Secondary malignant neoplasm of other respiratory organs '});
+
+CREATE (ICD9_197_4:ICD_9 { code: '197.4',  name: 'Secondary malignant neoplasm of small intestine including duodenum '});
+
+CREATE (ICD9_197_5:ICD_9 { code: '197.5',  name: 'Secondary malignant neoplasm of large intestine and rectum '});
+
+CREATE (ICD9_197_6:ICD_9 { code: '197.6',  name: 'Secondary malignant neoplasm of retroperitoneum and peritoneum '});
+
+CREATE (ICD9_197_7:ICD_9 { code: '197.7',  name: 'Malignant neoplasm of liver, secondary '});
+
+CREATE (ICD9_197_8:ICD_9 { code: '197.8',  name: 'Secondary malignant neoplasm of other digestive organs and spleen '});
+
+CREATE (ICD9_198:ICD_9 { code: '198',  name: 'Secondary malignant neoplasm of other specified sites'});
+
+CREATE (ICD9_198_0:ICD_9 { code: '198.0',  name: 'Secondary malignant neoplasm of kidney '});
+
+CREATE (ICD9_198_1:ICD_9 { code: '198.1',  name: 'Secondary malignant neoplasm of other urinary organs '});
+
+CREATE (ICD9_198_2:ICD_9 { code: '198.2',  name: 'Secondary malignant neoplasm of skin '});
+
+CREATE (ICD9_198_3:ICD_9 { code: '198.3',  name: 'Secondary malignant neoplasm of brain and spinal cord '});
+
+CREATE (ICD9_198_4:ICD_9 { code: '198.4',  name: 'Secondary malignant neoplasm of other parts of nervous system '});
+
+CREATE (ICD9_198_5:ICD_9 { code: '198.5',  name: 'Secondary malignant neoplasm of bone and bone marrow '});
+
+CREATE (ICD9_198_6:ICD_9 { code: '198.6',  name: 'Secondary malignant neoplasm of ovary '});
+
+CREATE (ICD9_198_7:ICD_9 { code: '198.7',  name: 'Secondary malignant neoplasm of adrenal gland '});
+
+CREATE (ICD9_198_8:ICD_9 { code: '198.8',  name: 'Secondary malignant neoplasm of other specified sites'});
+
+CREATE (ICD9_198_81:ICD_9 { code: '198.81',  name: 'Secondary malignant neoplasm of breast '});
+
+CREATE (ICD9_198_82:ICD_9 { code: '198.82',  name: 'Secondary malignant neoplasm of genital organs '});
+
+CREATE (ICD9_198_89:ICD_9 { code: '198.89',  name: 'Secondary malignant neoplasm of other specified sites '});
+
+CREATE (ICD9_199:ICD_9 { code: '199',  name: 'Malignant neoplasm without specification of site'});
+
+CREATE (ICD9_199_0:ICD_9 { code: '199.0',  name: 'Disseminated malignant neoplasm without specification of site '});
+
+CREATE (ICD9_199_1:ICD_9 { code: '199.1',  name: 'Other malignant neoplasm without specification of site '});
+
+CREATE (ICD9_199_2:ICD_9 { code: '199.2',  name: 'Malignant neoplasm associated with transplant organ '});
+
+CREATE (ICD9_200_209:ICD_9_GROUP { group_code: '200-209',  name: 'Malignant Neoplasm Of Lymphatic And Hematopoietic Tissue'});
+
+CREATE (ICD9_200:ICD_9 { code: '200',  name: 'Lymphosarcoma and reticulosarcoma and other specified malignant tumors of lymphatic tissue'});
+
+CREATE (ICD9_200_0:ICD_9 { code: '200.0',  name: 'Reticulosarcoma'});
+
+CREATE (ICD9_200_00:ICD_9 { code: '200.00',  name: 'Reticulosarcoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_01:ICD_9 { code: '200.01',  name: 'Reticulosarcoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_02:ICD_9 { code: '200.02',  name: 'Reticulosarcoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_03:ICD_9 { code: '200.03',  name: 'Reticulosarcoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_04:ICD_9 { code: '200.04',  name: 'Reticulosarcoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_05:ICD_9 { code: '200.05',  name: 'Reticulosarcoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_06:ICD_9 { code: '200.06',  name: 'Reticulosarcoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_07:ICD_9 { code: '200.07',  name: 'Reticulosarcoma, spleen '});
+
+CREATE (ICD9_200_08:ICD_9 { code: '200.08',  name: 'Reticulosarcoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_1:ICD_9 { code: '200.1',  name: 'Lymphosarcoma'});
+
+CREATE (ICD9_200_10:ICD_9 { code: '200.10',  name: 'Lymphosarcoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_11:ICD_9 { code: '200.11',  name: 'Lymphosarcoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_12:ICD_9 { code: '200.12',  name: 'Lymphosarcoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_13:ICD_9 { code: '200.13',  name: 'Lymphosarcoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_14:ICD_9 { code: '200.14',  name: 'Lymphosarcoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_15:ICD_9 { code: '200.15',  name: 'Lymphosarcoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_16:ICD_9 { code: '200.16',  name: 'Lymphosarcoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_17:ICD_9 { code: '200.17',  name: 'Lymphosarcoma, spleen '});
+
+CREATE (ICD9_200_18:ICD_9 { code: '200.18',  name: 'Lymphosarcoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_2:ICD_9 { code: '200.2',  name: 'Burkitt's tumor or lymphoma'});
+
+CREATE (ICD9_200_20:ICD_9 { code: '200.20',  name: 'Burkitt's tumor or lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_21:ICD_9 { code: '200.21',  name: 'Burkitt's tumor or lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_22:ICD_9 { code: '200.22',  name: 'Burkitt's tumor or lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_23:ICD_9 { code: '200.23',  name: 'Burkitt's tumor or lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_24:ICD_9 { code: '200.24',  name: 'Burkitt's tumor or lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_25:ICD_9 { code: '200.25',  name: 'Burkitt's tumor or lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_26:ICD_9 { code: '200.26',  name: 'Burkitt's tumor or lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_27:ICD_9 { code: '200.27',  name: 'Burkitt's tumor or lymphoma, spleen '});
+
+CREATE (ICD9_200_28:ICD_9 { code: '200.28',  name: 'Burkitt's tumor or lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_3:ICD_9 { code: '200.3',  name: 'Marginal zone lymphoma'});
+
+CREATE (ICD9_200_30:ICD_9 { code: '200.30',  name: 'Marginal zone lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_31:ICD_9 { code: '200.31',  name: 'Marginal zone lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_32:ICD_9 { code: '200.32',  name: 'Marginal zone lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_33:ICD_9 { code: '200.33',  name: 'Marginal zone lymphoma, intraabdominal lymph nodes '});
+
+CREATE (ICD9_200_34:ICD_9 { code: '200.34',  name: 'Marginal zone lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_35:ICD_9 { code: '200.35',  name: 'Marginal zone lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_36:ICD_9 { code: '200.36',  name: 'Marginal zone lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_37:ICD_9 { code: '200.37',  name: 'Marginal zone lymphoma, spleen '});
+
+CREATE (ICD9_200_38:ICD_9 { code: '200.38',  name: 'Marginal zone lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_4:ICD_9 { code: '200.4',  name: 'Mantle cell lymphoma'});
+
+CREATE (ICD9_200_40:ICD_9 { code: '200.40',  name: 'Mantle cell lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_41:ICD_9 { code: '200.41',  name: 'Mantle cell lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_42:ICD_9 { code: '200.42',  name: 'Mantle cell lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_43:ICD_9 { code: '200.43',  name: 'Mantle cell lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_44:ICD_9 { code: '200.44',  name: 'Mantle cell lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_45:ICD_9 { code: '200.45',  name: 'Mantle cell lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_46:ICD_9 { code: '200.46',  name: 'Mantle cell lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_47:ICD_9 { code: '200.47',  name: 'Mantle cell lymphoma, spleen '});
+
+CREATE (ICD9_200_48:ICD_9 { code: '200.48',  name: 'Mantle cell lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_5:ICD_9 { code: '200.5',  name: 'Primary central nervous system lymphoma'});
+
+CREATE (ICD9_200_50:ICD_9 { code: '200.50',  name: 'Primary central nervous system lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_51:ICD_9 { code: '200.51',  name: 'Primary central nervous system lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_52:ICD_9 { code: '200.52',  name: 'Primary central nervous system lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_53:ICD_9 { code: '200.53',  name: 'Primary central nervous system lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_54:ICD_9 { code: '200.54',  name: 'Primary central nervous system lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_55:ICD_9 { code: '200.55',  name: 'Primary central nervous system lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_56:ICD_9 { code: '200.56',  name: 'Primary central nervous system lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_57:ICD_9 { code: '200.57',  name: 'Primary central nervous system lymphoma, spleen '});
+
+CREATE (ICD9_200_58:ICD_9 { code: '200.58',  name: 'Primary central nervous system lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_6:ICD_9 { code: '200.6',  name: 'Anaplastic large cell lymphoma'});
+
+CREATE (ICD9_200_60:ICD_9 { code: '200.60',  name: 'Anaplastic large cell lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_61:ICD_9 { code: '200.61',  name: 'Anaplastic large cell lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_62:ICD_9 { code: '200.62',  name: 'Anaplastic large cell lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_63:ICD_9 { code: '200.63',  name: 'Anaplastic large cell lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_64:ICD_9 { code: '200.64',  name: 'Anaplastic large cell lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_65:ICD_9 { code: '200.65',  name: 'Anaplastic large cell lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_66:ICD_9 { code: '200.66',  name: 'Anaplastic large cell lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_67:ICD_9 { code: '200.67',  name: 'Anaplastic large cell lymphoma, spleen '});
+
+CREATE (ICD9_200_68:ICD_9 { code: '200.68',  name: 'Anaplastic large cell lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_7:ICD_9 { code: '200.7',  name: 'Large cell lymphoma'});
+
+CREATE (ICD9_200_70:ICD_9 { code: '200.70',  name: 'Large cell lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_71:ICD_9 { code: '200.71',  name: 'Large cell lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_72:ICD_9 { code: '200.72',  name: 'Large cell lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_73:ICD_9 { code: '200.73',  name: 'Large cell lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_74:ICD_9 { code: '200.74',  name: 'Large cell lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_75:ICD_9 { code: '200.75',  name: 'Large cell lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_76:ICD_9 { code: '200.76',  name: 'Large cell lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_77:ICD_9 { code: '200.77',  name: 'Large cell lymphoma, spleen '});
+
+CREATE (ICD9_200_78:ICD_9 { code: '200.78',  name: 'Large cell lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_200_8:ICD_9 { code: '200.8',  name: 'Other named variants of lymphosarcoma and reticulosarcoma'});
+
+CREATE (ICD9_200_80:ICD_9 { code: '200.80',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_200_81:ICD_9 { code: '200.81',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_200_82:ICD_9 { code: '200.82',  name: 'Other named variants of lymphosarcoma and reticulosarcoma,intrathoracic lymph nodes '});
+
+CREATE (ICD9_200_83:ICD_9 { code: '200.83',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_200_84:ICD_9 { code: '200.84',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_200_85:ICD_9 { code: '200.85',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_200_86:ICD_9 { code: '200.86',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_200_87:ICD_9 { code: '200.87',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, spleen '});
+
+CREATE (ICD9_200_88:ICD_9 { code: '200.88',  name: 'Other named variants of lymphosarcoma and reticulosarcoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201:ICD_9 { code: '201',  name: 'Hodgkin's disease'});
+
+CREATE (ICD9_201_0:ICD_9 { code: '201.0',  name: 'Hodgkin's paragranuloma'});
+
+CREATE (ICD9_201_00:ICD_9 { code: '201.00',  name: 'Hodgkin's paragranuloma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_01:ICD_9 { code: '201.01',  name: 'Hodgkin's paragranuloma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_02:ICD_9 { code: '201.02',  name: 'Hodgkin's paragranuloma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_03:ICD_9 { code: '201.03',  name: 'Hodgkin's paragranuloma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_04:ICD_9 { code: '201.04',  name: 'Hodgkin's paragranuloma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_05:ICD_9 { code: '201.05',  name: 'Hodgkin's paragranuloma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_06:ICD_9 { code: '201.06',  name: 'Hodgkin's paragranuloma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_07:ICD_9 { code: '201.07',  name: 'Hodgkin's paragranuloma, spleen '});
+
+CREATE (ICD9_201_08:ICD_9 { code: '201.08',  name: 'Hodgkin's paragranuloma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_1:ICD_9 { code: '201.1',  name: 'Hodgkin's granuloma'});
+
+CREATE (ICD9_201_10:ICD_9 { code: '201.10',  name: 'Hodgkin's granuloma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_11:ICD_9 { code: '201.11',  name: 'Hodgkin's granuloma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_12:ICD_9 { code: '201.12',  name: 'Hodgkin's granuloma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_13:ICD_9 { code: '201.13',  name: 'Hodgkin's granuloma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_14:ICD_9 { code: '201.14',  name: 'Hodgkin's granuloma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_15:ICD_9 { code: '201.15',  name: 'Hodgkin's granuloma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_16:ICD_9 { code: '201.16',  name: 'Hodgkin's granuloma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_17:ICD_9 { code: '201.17',  name: 'Hodgkin's granuloma, spleen '});
+
+CREATE (ICD9_201_18:ICD_9 { code: '201.18',  name: 'Hodgkin's granuloma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_2:ICD_9 { code: '201.2',  name: 'Hodgkin's sarcoma'});
+
+CREATE (ICD9_201_20:ICD_9 { code: '201.20',  name: 'Hodgkin's sarcoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_21:ICD_9 { code: '201.21',  name: 'Hodgkin's sarcoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_22:ICD_9 { code: '201.22',  name: 'Hodgkin's sarcoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_23:ICD_9 { code: '201.23',  name: 'Hodgkin's sarcoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_24:ICD_9 { code: '201.24',  name: 'Hodgkin's sarcoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_25:ICD_9 { code: '201.25',  name: 'Hodgkin's sarcoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_26:ICD_9 { code: '201.26',  name: 'Hodgkin's sarcoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_27:ICD_9 { code: '201.27',  name: 'Hodgkin's sarcoma, spleen '});
+
+CREATE (ICD9_201_28:ICD_9 { code: '201.28',  name: 'Hodgkin's sarcoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_4:ICD_9 { code: '201.4',  name: 'Hodgkin's disease lymphocytic-histiocytic predominance'});
+
+CREATE (ICD9_201_40:ICD_9 { code: '201.40',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_41:ICD_9 { code: '201.41',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_42:ICD_9 { code: '201.42',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_43:ICD_9 { code: '201.43',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_44:ICD_9 { code: '201.44',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_45:ICD_9 { code: '201.45',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_46:ICD_9 { code: '201.46',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_47:ICD_9 { code: '201.47',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, spleen '});
+
+CREATE (ICD9_201_48:ICD_9 { code: '201.48',  name: 'Hodgkin's disease, lymphocytic-histiocytic predominance, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_5:ICD_9 { code: '201.5',  name: 'Hodgkin's disease nodular sclerosis'});
+
+CREATE (ICD9_201_50:ICD_9 { code: '201.50',  name: 'Hodgkin's disease, nodular sclerosis, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_51:ICD_9 { code: '201.51',  name: 'Hodgkin's disease, nodular sclerosis, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_52:ICD_9 { code: '201.52',  name: 'Hodgkin's disease, nodular sclerosis, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_53:ICD_9 { code: '201.53',  name: 'Hodgkin's disease, nodular sclerosis, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_54:ICD_9 { code: '201.54',  name: 'Hodgkin's disease, nodular sclerosis, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_55:ICD_9 { code: '201.55',  name: 'Hodgkin's disease, nodular sclerosis, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_56:ICD_9 { code: '201.56',  name: 'Hodgkin's disease, nodular sclerosis, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_57:ICD_9 { code: '201.57',  name: 'Hodgkin's disease, nodular sclerosis, spleen '});
+
+CREATE (ICD9_201_58:ICD_9 { code: '201.58',  name: 'Hodgkin's disease, nodular sclerosis, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_6:ICD_9 { code: '201.6',  name: 'Hodgkin's disease mixed cellularity'});
+
+CREATE (ICD9_201_60:ICD_9 { code: '201.60',  name: 'Hodgkin's disease, mixed cellularity, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_61:ICD_9 { code: '201.61',  name: 'Hodgkin's disease, mixed cellularity, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_62:ICD_9 { code: '201.62',  name: 'Hodgkin's disease, mixed cellularity, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_63:ICD_9 { code: '201.63',  name: 'Hodgkin's disease, mixed cellularity, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_64:ICD_9 { code: '201.64',  name: 'Hodgkin's disease, mixed cellularity, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_65:ICD_9 { code: '201.65',  name: 'Hodgkin's disease, mixed cellularity, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_66:ICD_9 { code: '201.66',  name: 'Hodgkin's disease, mixed cellularity, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_67:ICD_9 { code: '201.67',  name: 'Hodgkin's disease, mixed cellularity, spleen '});
+
+CREATE (ICD9_201_68:ICD_9 { code: '201.68',  name: 'Hodgkin's disease, mixed cellularity, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_7:ICD_9 { code: '201.7',  name: 'Hodgkin's disease lymphocytic depletion'});
+
+CREATE (ICD9_201_70:ICD_9 { code: '201.70',  name: 'Hodgkin's disease, lymphocytic depletion, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_71:ICD_9 { code: '201.71',  name: 'Hodgkin's disease, lymphocytic depletion, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_72:ICD_9 { code: '201.72',  name: 'Hodgkin's disease, lymphocytic depletion, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_73:ICD_9 { code: '201.73',  name: 'Hodgkin's disease, lymphocytic depletion, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_74:ICD_9 { code: '201.74',  name: 'Hodgkin's disease, lymphocytic depletion, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_75:ICD_9 { code: '201.75',  name: 'Hodgkin's disease, lymphocytic depletion, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_76:ICD_9 { code: '201.76',  name: 'Hodgkin's disease, lymphocytic depletion, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_77:ICD_9 { code: '201.77',  name: 'Hodgkin's disease, lymphocytic depletion, spleen '});
+
+CREATE (ICD9_201_78:ICD_9 { code: '201.78',  name: 'Hodgkin's disease, lymphocytic depletion, lymph nodes of multiple sites '});
+
+CREATE (ICD9_201_9:ICD_9 { code: '201.9',  name: 'Hodgkin's disease unspecified type'});
+
+CREATE (ICD9_201_90:ICD_9 { code: '201.90',  name: 'Hodgkin's disease, unspecified type, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_201_91:ICD_9 { code: '201.91',  name: 'Hodgkin's disease, unspecified type, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_201_92:ICD_9 { code: '201.92',  name: 'Hodgkin's disease, unspecified type, intrathoracic lymph nodes '});
+
+CREATE (ICD9_201_93:ICD_9 { code: '201.93',  name: 'Hodgkin's disease, unspecified type, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_201_94:ICD_9 { code: '201.94',  name: 'Hodgkin's disease, unspecified type, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_201_95:ICD_9 { code: '201.95',  name: 'Hodgkin's disease, unspecified type, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_201_96:ICD_9 { code: '201.96',  name: 'Hodgkin's disease, unspecified type, intrapelvic lymph nodes '});
+
+CREATE (ICD9_201_97:ICD_9 { code: '201.97',  name: 'Hodgkin's disease, unspecified type, spleen '});
+
+CREATE (ICD9_201_98:ICD_9 { code: '201.98',  name: 'Hodgkin's disease, unspecified type, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202:ICD_9 { code: '202',  name: 'Other malignant neoplasms of lymphoid and histiocytic tissue'});
+
+CREATE (ICD9_202_0:ICD_9 { code: '202.0',  name: 'Nodular lymphoma'});
+
+CREATE (ICD9_202_00:ICD_9 { code: '202.00',  name: 'Nodular lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_01:ICD_9 { code: '202.01',  name: 'Nodular lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_02:ICD_9 { code: '202.02',  name: 'Nodular lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_03:ICD_9 { code: '202.03',  name: 'Nodular lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_04:ICD_9 { code: '202.04',  name: 'Nodular lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_05:ICD_9 { code: '202.05',  name: 'Nodular lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_06:ICD_9 { code: '202.06',  name: 'Nodular lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_07:ICD_9 { code: '202.07',  name: 'Nodular lymphoma, spleen '});
+
+CREATE (ICD9_202_08:ICD_9 { code: '202.08',  name: 'Nodular lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_1:ICD_9 { code: '202.1',  name: 'Mycosis fungoides'});
+
+CREATE (ICD9_202_10:ICD_9 { code: '202.10',  name: 'Mycosis fungoides, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_11:ICD_9 { code: '202.11',  name: 'Mycosis fungoides, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_12:ICD_9 { code: '202.12',  name: 'Mycosis fungoides, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_13:ICD_9 { code: '202.13',  name: 'Mycosis fungoides, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_14:ICD_9 { code: '202.14',  name: 'Mycosis fungoides, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_15:ICD_9 { code: '202.15',  name: 'Mycosis fungoides, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_16:ICD_9 { code: '202.16',  name: 'Mycosis fungoides, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_17:ICD_9 { code: '202.17',  name: 'Mycosis fungoides, spleen '});
+
+CREATE (ICD9_202_18:ICD_9 { code: '202.18',  name: 'Mycosis fungoides, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_2:ICD_9 { code: '202.2',  name: 'Sezary's disease'});
+
+CREATE (ICD9_202_20:ICD_9 { code: '202.20',  name: 'Sezary's disease, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_21:ICD_9 { code: '202.21',  name: 'Sezary's disease, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_22:ICD_9 { code: '202.22',  name: 'Sezary's disease, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_23:ICD_9 { code: '202.23',  name: 'Sezary's disease, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_24:ICD_9 { code: '202.24',  name: 'Sezary's disease, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_25:ICD_9 { code: '202.25',  name: 'Sezary's disease, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_26:ICD_9 { code: '202.26',  name: 'Sezary's disease, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_27:ICD_9 { code: '202.27',  name: 'Sezary's disease, spleen '});
+
+CREATE (ICD9_202_28:ICD_9 { code: '202.28',  name: 'Sezary's disease, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_3:ICD_9 { code: '202.3',  name: 'Malignant histiocytosis'});
+
+CREATE (ICD9_202_30:ICD_9 { code: '202.30',  name: 'Malignant histiocytosis, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_31:ICD_9 { code: '202.31',  name: 'Malignant histiocytosis, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_32:ICD_9 { code: '202.32',  name: 'Malignant histiocytosis, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_33:ICD_9 { code: '202.33',  name: 'Malignant histiocytosis, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_34:ICD_9 { code: '202.34',  name: 'Malignant histiocytosis, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_35:ICD_9 { code: '202.35',  name: 'Malignant histiocytosis, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_36:ICD_9 { code: '202.36',  name: 'Malignant histiocytosis, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_37:ICD_9 { code: '202.37',  name: 'Malignant histiocytosis, spleen '});
+
+CREATE (ICD9_202_38:ICD_9 { code: '202.38',  name: 'Malignant histiocytosis, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_4:ICD_9 { code: '202.4',  name: 'Leukemic reticuloendotheliosis'});
+
+CREATE (ICD9_202_40:ICD_9 { code: '202.40',  name: 'Leukemic reticuloendotheliosis, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_41:ICD_9 { code: '202.41',  name: 'Leukemic reticuloendotheliosis, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_42:ICD_9 { code: '202.42',  name: 'Leukemic reticuloendotheliosis, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_43:ICD_9 { code: '202.43',  name: 'Leukemic reticuloendotheliosis, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_44:ICD_9 { code: '202.44',  name: 'Leukemic reticuloendotheliosis, lymph nodes of axilla and upper arm '});
+
+CREATE (ICD9_202_45:ICD_9 { code: '202.45',  name: 'Leukemic reticuloendotheliosis, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_46:ICD_9 { code: '202.46',  name: 'Leukemic reticuloendotheliosis, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_47:ICD_9 { code: '202.47',  name: 'Leukemic reticuloendotheliosis, spleen '});
+
+CREATE (ICD9_202_48:ICD_9 { code: '202.48',  name: 'Leukemic reticuloendotheliosis, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_5:ICD_9 { code: '202.5',  name: 'Letterer-siwe disease'});
+
+CREATE (ICD9_202_50:ICD_9 { code: '202.50',  name: 'Letterer-siwe disease, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_51:ICD_9 { code: '202.51',  name: 'Letterer-siwe disease, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_52:ICD_9 { code: '202.52',  name: 'Letterer-siwe disease, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_53:ICD_9 { code: '202.53',  name: 'Letterer-siwe disease, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_54:ICD_9 { code: '202.54',  name: 'Letterer-siwe disease, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_55:ICD_9 { code: '202.55',  name: 'Letterer-siwe disease, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_56:ICD_9 { code: '202.56',  name: 'Letterer-siwe disease, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_57:ICD_9 { code: '202.57',  name: 'Letterer-siwe disease, spleen '});
+
+CREATE (ICD9_202_58:ICD_9 { code: '202.58',  name: 'Letterer-siwe disease, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_6:ICD_9 { code: '202.6',  name: 'Malignant mast cell tumors'});
+
+CREATE (ICD9_202_60:ICD_9 { code: '202.60',  name: 'Malignant mast cell tumors, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_61:ICD_9 { code: '202.61',  name: 'Malignant mast cell tumors, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_62:ICD_9 { code: '202.62',  name: 'Malignant mast cell tumors, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_63:ICD_9 { code: '202.63',  name: 'Malignant mast cell tumors, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_64:ICD_9 { code: '202.64',  name: 'Malignant mast cell tumors, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_65:ICD_9 { code: '202.65',  name: 'Malignant mast cell tumors, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_66:ICD_9 { code: '202.66',  name: 'Malignant mast cell tumors, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_67:ICD_9 { code: '202.67',  name: 'Malignant mast cell tumors, spleen '});
+
+CREATE (ICD9_202_68:ICD_9 { code: '202.68',  name: 'Malignant mast cell tumors, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_7:ICD_9 { code: '202.7',  name: 'Peripheral t-cell lymphoma'});
+
+CREATE (ICD9_202_70:ICD_9 { code: '202.70',  name: 'Peripheral T cell lymphoma, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_71:ICD_9 { code: '202.71',  name: 'Peripheral T cell lymphoma, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_72:ICD_9 { code: '202.72',  name: 'Peripheral T cell lymphoma, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_73:ICD_9 { code: '202.73',  name: 'Peripheral T cell lymphoma, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_74:ICD_9 { code: '202.74',  name: 'Peripheral T cell lymphoma, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_75:ICD_9 { code: '202.75',  name: 'Peripheral T cell lymphoma, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_76:ICD_9 { code: '202.76',  name: 'Peripheral T cell lymphoma, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_77:ICD_9 { code: '202.77',  name: 'Peripheral T cell lymphoma, spleen '});
+
+CREATE (ICD9_202_78:ICD_9 { code: '202.78',  name: 'Peripheral T cell lymphoma, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_8:ICD_9 { code: '202.8',  name: 'Other malignant lymphomas'});
+
+CREATE (ICD9_202_80:ICD_9 { code: '202.80',  name: 'Other malignant lymphomas, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_81:ICD_9 { code: '202.81',  name: 'Other malignant lymphomas, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_82:ICD_9 { code: '202.82',  name: 'Other malignant lymphomas, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_83:ICD_9 { code: '202.83',  name: 'Other malignant lymphomas, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_84:ICD_9 { code: '202.84',  name: 'Other malignant lymphomas, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_85:ICD_9 { code: '202.85',  name: 'Other malignant lymphomas, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_86:ICD_9 { code: '202.86',  name: 'Other malignant lymphomas, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_87:ICD_9 { code: '202.87',  name: 'Other malignant lymphomas, spleen '});
+
+CREATE (ICD9_202_88:ICD_9 { code: '202.88',  name: 'Other malignant lymphomas, lymph nodes of multiple sites '});
+
+CREATE (ICD9_202_9:ICD_9 { code: '202.9',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue'});
+
+CREATE (ICD9_202_90:ICD_9 { code: '202.90',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, unspecified site, extranodal and solid organ sites '});
+
+CREATE (ICD9_202_91:ICD_9 { code: '202.91',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, lymph nodes of head, face, and neck '});
+
+CREATE (ICD9_202_92:ICD_9 { code: '202.92',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, intrathoracic lymph nodes '});
+
+CREATE (ICD9_202_93:ICD_9 { code: '202.93',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, intra-abdominal lymph nodes '});
+
+CREATE (ICD9_202_94:ICD_9 { code: '202.94',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, lymph nodes of axilla and upper limb '});
+
+CREATE (ICD9_202_95:ICD_9 { code: '202.95',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, lymph nodes of inguinal region and lower limb '});
+
+CREATE (ICD9_202_96:ICD_9 { code: '202.96',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, intrapelvic lymph nodes '});
+
+CREATE (ICD9_202_97:ICD_9 { code: '202.97',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, spleen '});
+
+CREATE (ICD9_202_98:ICD_9 { code: '202.98',  name: 'Other and unspecified malignant neoplasms of lymphoid and histiocytic tissue, lymph nodes of multiple sites '});
+
+CREATE (ICD9_203:ICD_9 { code: '203',  name: 'Multiple myeloma and immunoproliferative neoplasms'});
+
+CREATE (ICD9_203_0:ICD_9 { code: '203.0',  name: 'Multiple myeloma'});
+
+CREATE (ICD9_203_00:ICD_9 { code: '203.00',  name: 'Multiple myeloma, without mention of having achieved remission '});
+
+CREATE (ICD9_203_01:ICD_9 { code: '203.01',  name: 'Multiple myeloma, in remission '});
+
+CREATE (ICD9_203_02:ICD_9 { code: '203.02',  name: 'Multiple myeloma, in relapse '});
+
+CREATE (ICD9_203_1:ICD_9 { code: '203.1',  name: 'Plasma cell leukemia'});
+
+CREATE (ICD9_203_10:ICD_9 { code: '203.10',  name: 'Plasma cell leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_203_11:ICD_9 { code: '203.11',  name: 'Plasma cell leukemia, in remission '});
+
+CREATE (ICD9_203_12:ICD_9 { code: '203.12',  name: 'Plasma cell leukemia, in relapse '});
+
+CREATE (ICD9_203_8:ICD_9 { code: '203.8',  name: 'Other immunoproliferative neoplasms'});
+
+CREATE (ICD9_203_80:ICD_9 { code: '203.80',  name: 'Other immunoproliferative neoplasms, without mention of having achieved remission '});
+
+CREATE (ICD9_203_81:ICD_9 { code: '203.81',  name: 'Other immunoproliferative neoplasms, in remission '});
+
+CREATE (ICD9_203_82:ICD_9 { code: '203.82',  name: 'Other immunoproliferative neoplasms, in relapse '});
+
+CREATE (ICD9_204:ICD_9 { code: '204',  name: 'Lymphoid leukemia'});
+
+CREATE (ICD9_204_0:ICD_9 { code: '204.0',  name: 'Lymphoid leukemia acute'});
+
+CREATE (ICD9_204_00:ICD_9 { code: '204.00',  name: 'Acute lymphoid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_204_01:ICD_9 { code: '204.01',  name: 'Acute lymphoid leukemia, in remission '});
+
+CREATE (ICD9_204_02:ICD_9 { code: '204.02',  name: 'Acute lymphoid leukemia, in relapse '});
+
+CREATE (ICD9_204_1:ICD_9 { code: '204.1',  name: 'Lymphoid leukemia chronic'});
+
+CREATE (ICD9_204_10:ICD_9 { code: '204.10',  name: 'Chronic lymphoid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_204_11:ICD_9 { code: '204.11',  name: 'Chronic lymphoid leukemia, in remission '});
+
+CREATE (ICD9_204_12:ICD_9 { code: '204.12',  name: 'Chronic lymphoid leukemia, in relapse '});
+
+CREATE (ICD9_204_2:ICD_9 { code: '204.2',  name: 'Lymphoid leukemia subacute'});
+
+CREATE (ICD9_204_20:ICD_9 { code: '204.20',  name: 'Subacute lymphoid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_204_21:ICD_9 { code: '204.21',  name: 'Subacute lymphoid leukemia, in remission '});
+
+CREATE (ICD9_204_22:ICD_9 { code: '204.22',  name: 'Subacute lymphoid leukemia, in relapse '});
+
+CREATE (ICD9_204_8:ICD_9 { code: '204.8',  name: 'Other lymphoid leukemia'});
+
+CREATE (ICD9_204_80:ICD_9 { code: '204.80',  name: 'Other lymphoid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_204_81:ICD_9 { code: '204.81',  name: 'Other lymphoid leukemia, in remission '});
+
+CREATE (ICD9_204_82:ICD_9 { code: '204.82',  name: 'Other lymphoid leukemia, in relapse '});
+
+CREATE (ICD9_204_9:ICD_9 { code: '204.9',  name: 'Unspecified lymphoid leukemia'});
+
+CREATE (ICD9_204_90:ICD_9 { code: '204.90',  name: 'Unspecified lymphoid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_204_91:ICD_9 { code: '204.91',  name: 'Unspecified lymphoid leukemia, in remission '});
+
+CREATE (ICD9_204_92:ICD_9 { code: '204.92',  name: 'Unspecified lymphoid leukemia, in relapse '});
+
+CREATE (ICD9_205:ICD_9 { code: '205',  name: 'Myeloid leukemia'});
+
+CREATE (ICD9_205_0:ICD_9 { code: '205.0',  name: 'Myeloid leukemia acute'});
+
+CREATE (ICD9_205_00:ICD_9 { code: '205.00',  name: 'Acute myeloid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_205_01:ICD_9 { code: '205.01',  name: 'Acute myeloid leukemia, in remission '});
+
+CREATE (ICD9_205_02:ICD_9 { code: '205.02',  name: 'Acute myeloid leukemia, in relapse '});
+
+CREATE (ICD9_205_1:ICD_9 { code: '205.1',  name: 'Myeloid leukemia chronic'});
+
+CREATE (ICD9_205_10:ICD_9 { code: '205.10',  name: 'Chronic myeloid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_205_11:ICD_9 { code: '205.11',  name: 'Chronic myeloid leukemia, in remission '});
+
+CREATE (ICD9_205_12:ICD_9 { code: '205.12',  name: 'Chronic myeloid leukemia, in relapse '});
+
+CREATE (ICD9_205_2:ICD_9 { code: '205.2',  name: 'Myeloid leukemia subacute'});
+
+CREATE (ICD9_205_20:ICD_9 { code: '205.20',  name: 'Subacute myeloid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_205_21:ICD_9 { code: '205.21',  name: 'Subacute myeloid leukemia,in remission '});
+
+CREATE (ICD9_205_22:ICD_9 { code: '205.22',  name: 'Subacute myeloid leukemia, in relapse '});
+
+CREATE (ICD9_205_3:ICD_9 { code: '205.3',  name: 'Myeloid sarcoma'});
+
+CREATE (ICD9_205_30:ICD_9 { code: '205.30',  name: 'Myeloid sarcoma, without mention of having achieved remission '});
+
+CREATE (ICD9_205_31:ICD_9 { code: '205.31',  name: 'Myeloid sarcoma, in remission '});
+
+CREATE (ICD9_205_32:ICD_9 { code: '205.32',  name: 'Myeloid sarcoma, in relapse '});
+
+CREATE (ICD9_205_8:ICD_9 { code: '205.8',  name: 'Other myeloid leukemia'});
+
+CREATE (ICD9_205_80:ICD_9 { code: '205.80',  name: 'Other myeloid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_205_81:ICD_9 { code: '205.81',  name: 'Other myeloid leukemia, in remission '});
+
+CREATE (ICD9_205_82:ICD_9 { code: '205.82',  name: 'Other myeloid leukemia, in relapse '});
+
+CREATE (ICD9_205_9:ICD_9 { code: '205.9',  name: 'Unspecified myeloid leukemia'});
+
+CREATE (ICD9_205_90:ICD_9 { code: '205.90',  name: 'Unspecified myeloid leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_205_91:ICD_9 { code: '205.91',  name: 'Unspecified myeloid leukemia, in remission '});
+
+CREATE (ICD9_205_92:ICD_9 { code: '205.92',  name: 'Unspecified myeloid leukemia, in relapse '});
+
+CREATE (ICD9_206:ICD_9 { code: '206',  name: 'Monocytic leukemia'});
+
+CREATE (ICD9_206_0:ICD_9 { code: '206.0',  name: 'Monocytic leukemia acute'});
+
+CREATE (ICD9_206_00:ICD_9 { code: '206.00',  name: 'Acute monocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_206_01:ICD_9 { code: '206.01',  name: 'Acute monocytic leukemia,in remission '});
+
+CREATE (ICD9_206_02:ICD_9 { code: '206.02',  name: 'Acute monocytic leukemia, in relapse '});
+
+CREATE (ICD9_206_1:ICD_9 { code: '206.1',  name: 'Monocytic leukemia chronic'});
+
+CREATE (ICD9_206_10:ICD_9 { code: '206.10',  name: 'Chronic monocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_206_11:ICD_9 { code: '206.11',  name: 'Chronic monocytic leukemia, in remission '});
+
+CREATE (ICD9_206_12:ICD_9 { code: '206.12',  name: 'Chronic monocytic leukemia, in relapse '});
+
+CREATE (ICD9_206_2:ICD_9 { code: '206.2',  name: 'Monocytic leukemia subacute'});
+
+CREATE (ICD9_206_20:ICD_9 { code: '206.20',  name: 'Subacute monocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_206_21:ICD_9 { code: '206.21',  name: 'Subacute monocytic leukemia, in remission '});
+
+CREATE (ICD9_206_22:ICD_9 { code: '206.22',  name: 'Subacute monocytic leukemia, in relapse '});
+
+CREATE (ICD9_206_8:ICD_9 { code: '206.8',  name: 'Other monocytic leukemia'});
+
+CREATE (ICD9_206_80:ICD_9 { code: '206.80',  name: 'Other monocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_206_81:ICD_9 { code: '206.81',  name: 'Other monocytic leukemia, in remission '});
+
+CREATE (ICD9_206_82:ICD_9 { code: '206.82',  name: 'Other monocytic leukemia, in relapse '});
+
+CREATE (ICD9_206_9:ICD_9 { code: '206.9',  name: 'Unspecified monocytic leukemia'});
+
+CREATE (ICD9_206_90:ICD_9 { code: '206.90',  name: 'Unspecified monocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_206_91:ICD_9 { code: '206.91',  name: 'Unspecified monocytic leukemia, in remission '});
+
+CREATE (ICD9_206_92:ICD_9 { code: '206.92',  name: 'Unspecified monocytic leukemia, in relapse '});
+
+CREATE (ICD9_207:ICD_9 { code: '207',  name: 'Other specified leukemia'});
+
+CREATE (ICD9_207_0:ICD_9 { code: '207.0',  name: 'Acute erythremia and erythroleukemia'});
+
+CREATE (ICD9_207_00:ICD_9 { code: '207.00',  name: 'Acute erythremia and erythroleukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_207_01:ICD_9 { code: '207.01',  name: 'Acute erythremia and erythroleukemia, in remission '});
+
+CREATE (ICD9_207_02:ICD_9 { code: '207.02',  name: 'Acute erythremia and erythroleukemia, in relapse '});
+
+CREATE (ICD9_207_1:ICD_9 { code: '207.1',  name: 'Chronic erythremia'});
+
+CREATE (ICD9_207_10:ICD_9 { code: '207.10',  name: 'Chronic erythremia, without mention of having achieved remission '});
+
+CREATE (ICD9_207_11:ICD_9 { code: '207.11',  name: 'Chronic erythremia, in remission '});
+
+CREATE (ICD9_207_12:ICD_9 { code: '207.12',  name: 'Chronic erythremia, in relapse '});
+
+CREATE (ICD9_207_2:ICD_9 { code: '207.2',  name: 'Megakaryocytic leukemia'});
+
+CREATE (ICD9_207_20:ICD_9 { code: '207.20',  name: 'Megakaryocytic leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_207_21:ICD_9 { code: '207.21',  name: 'Megakaryocytic leukemia, in remission '});
+
+CREATE (ICD9_207_22:ICD_9 { code: '207.22',  name: 'Megakaryocytic leukemia, in relapse '});
+
+CREATE (ICD9_207_8:ICD_9 { code: '207.8',  name: 'Other specified leukemia'});
+
+CREATE (ICD9_207_80:ICD_9 { code: '207.80',  name: 'Other specified leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_207_81:ICD_9 { code: '207.81',  name: 'Other specified leukemia, in remission '});
+
+CREATE (ICD9_207_82:ICD_9 { code: '207.82',  name: 'Other specified leukemia, in relapse '});
+
+CREATE (ICD9_208:ICD_9 { code: '208',  name: 'Leukemia of unspecified cell type'});
+
+CREATE (ICD9_208_0:ICD_9 { code: '208.0',  name: 'Leukemia of unspecified cell type acute'});
+
+CREATE (ICD9_208_00:ICD_9 { code: '208.00',  name: 'Acute leukemia of unspecified cell type, without mention of having achieved remission '});
+
+CREATE (ICD9_208_01:ICD_9 { code: '208.01',  name: 'Acute leukemia of unspecified cell type, in remission '});
+
+CREATE (ICD9_208_02:ICD_9 { code: '208.02',  name: 'Acute leukemia of unspecified cell type, in relapse '});
+
+CREATE (ICD9_208_1:ICD_9 { code: '208.1',  name: 'Leukemia of unspecified cell type chronic'});
+
+CREATE (ICD9_208_10:ICD_9 { code: '208.10',  name: 'Chronic leukemia of unspecified cell type, without mention of having achieved remission '});
+
+CREATE (ICD9_208_11:ICD_9 { code: '208.11',  name: 'Chronic leukemia of unspecified cell type, in remission '});
+
+CREATE (ICD9_208_12:ICD_9 { code: '208.12',  name: 'Chronic leukemia of unspecified cell type, in relapse '});
+
+CREATE (ICD9_208_2:ICD_9 { code: '208.2',  name: 'Leukemia of unspecified cell type subacute'});
+
+CREATE (ICD9_208_20:ICD_9 { code: '208.20',  name: 'Subacute leukemia of unspecified cell type, without mention of having achieved remission '});
+
+CREATE (ICD9_208_21:ICD_9 { code: '208.21',  name: 'Subacute leukemia of unspecified cell type, in remission '});
+
+CREATE (ICD9_208_22:ICD_9 { code: '208.22',  name: 'Subacute leukemia of unspecified cell type, in relapse '});
+
+CREATE (ICD9_208_8:ICD_9 { code: '208.8',  name: 'Other leukemia of unspecified cell type'});
+
+CREATE (ICD9_208_80:ICD_9 { code: '208.80',  name: 'Other leukemia of unspecified cell type, without mention of having achieved remission '});
+
+CREATE (ICD9_208_81:ICD_9 { code: '208.81',  name: 'Other leukemia of unspecified cell type, in remission '});
+
+CREATE (ICD9_208_82:ICD_9 { code: '208.82',  name: 'Other leukemia of unspecified cell type, in relapse '});
+
+CREATE (ICD9_208_9:ICD_9 { code: '208.9',  name: 'Unspecified leukemia'});
+
+CREATE (ICD9_208_90:ICD_9 { code: '208.90',  name: 'Unspecified leukemia, without mention of having achieved remission '});
+
+CREATE (ICD9_208_91:ICD_9 { code: '208.91',  name: 'Unspecified leukemia, in remission '});
+
+CREATE (ICD9_208_92:ICD_9 { code: '208.92',  name: 'Unspecified leukemia, in relapse '});
+
+CREATE (ICD9_209:ICD_9 { code: '209',  name: 'Neuroendocrine tumors'});
+
+CREATE (ICD9_209_0:ICD_9 { code: '209.0',  name: 'Malignant carcinoid tumors of the small intestine'});
+
+CREATE (ICD9_209_00:ICD_9 { code: '209.00',  name: 'Malignant carcinoid tumor of the small intestine, unspecified portion '});
+
+CREATE (ICD9_209_01:ICD_9 { code: '209.01',  name: 'Malignant carcinoid tumor of the duodenum '});
+
+CREATE (ICD9_209_02:ICD_9 { code: '209.02',  name: 'Malignant carcinoid tumor of the jejunum '});
+
+CREATE (ICD9_209_03:ICD_9 { code: '209.03',  name: 'Malignant carcinoid tumor of the ileum '});
+
+CREATE (ICD9_209_1:ICD_9 { code: '209.1',  name: 'Malignant carcinoid tumors of the appendix, large intestine, and rectum'});
+
+CREATE (ICD9_209_10:ICD_9 { code: '209.10',  name: 'Malignant carcinoid tumor of the large intestine, unspecified portion '});
+
+CREATE (ICD9_209_11:ICD_9 { code: '209.11',  name: 'Malignant carcinoid tumor of the appendix '});
+
+CREATE (ICD9_209_12:ICD_9 { code: '209.12',  name: 'Malignant carcinoid tumor of the cecum '});
+
+CREATE (ICD9_209_13:ICD_9 { code: '209.13',  name: 'Malignant carcinoid tumor of the ascending colon '});
+
+CREATE (ICD9_209_14:ICD_9 { code: '209.14',  name: 'Malignant carcinoid tumor of the transverse colon '});
+
+CREATE (ICD9_209_15:ICD_9 { code: '209.15',  name: 'Malignant carcinoid tumor of the descending colon '});
+
+CREATE (ICD9_209_16:ICD_9 { code: '209.16',  name: 'Malignant carcinoid tumor of the sigmoid colon '});
+
+CREATE (ICD9_209_17:ICD_9 { code: '209.17',  name: 'Malignant carcinoid tumor of the rectum '});
+
+CREATE (ICD9_209_2:ICD_9 { code: '209.2',  name: 'Malignant carcinoid tumors of other and unspecified sites'});
+
+CREATE (ICD9_209_20:ICD_9 { code: '209.20',  name: 'Malignant carcinoid tumor of unknown primary site '});
+
+CREATE (ICD9_209_21:ICD_9 { code: '209.21',  name: 'Malignant carcinoid tumor of the bronchus and lung '});
+
+CREATE (ICD9_209_22:ICD_9 { code: '209.22',  name: 'Malignant carcinoid tumor of the thymus '});
+
+CREATE (ICD9_209_23:ICD_9 { code: '209.23',  name: 'Malignant carcinoid tumor of the stomach '});
+
+CREATE (ICD9_209_24:ICD_9 { code: '209.24',  name: 'Malignant carcinoid tumor of the kidney '});
+
+CREATE (ICD9_209_25:ICD_9 { code: '209.25',  name: 'Malignant carcinoid tumor of foregut, not otherwise specified '});
+
+CREATE (ICD9_209_26:ICD_9 { code: '209.26',  name: 'Malignant carcinoid tumor of midgut, not otherwise specified '});
+
+CREATE (ICD9_209_27:ICD_9 { code: '209.27',  name: 'Malignant carcinoid tumor of hindgut, not otherwise specified '});
+
+CREATE (ICD9_209_29:ICD_9 { code: '209.29',  name: 'Malignant carcinoid tumor of other sites '});
+
+CREATE (ICD9_209_3:ICD_9 { code: '209.3',  name: 'Malignant poorly differentiated neuroendocrine tumors'});
+
+CREATE (ICD9_209_30:ICD_9 { code: '209.30',  name: 'Malignant poorly differentiated neuroendocrine carcinoma, any site '});
+
+CREATE (ICD9_209_31:ICD_9 { code: '209.31',  name: 'Merkel cell carcinoma of the face '});
+
+CREATE (ICD9_209_32:ICD_9 { code: '209.32',  name: 'Merkel cell carcinoma of the scalp and neck '});
+
+CREATE (ICD9_209_33:ICD_9 { code: '209.33',  name: 'Merkel cell carcinoma of the upper limb '});
+
+CREATE (ICD9_209_34:ICD_9 { code: '209.34',  name: 'Merkel cell carcinoma of the lower limb '});
+
+CREATE (ICD9_209_35:ICD_9 { code: '209.35',  name: 'Merkel cell carcinoma of the trunk '});
+
+CREATE (ICD9_209_36:ICD_9 { code: '209.36',  name: 'Merkel cell carcinoma of other sites '});
+
+CREATE (ICD9_209_4:ICD_9 { code: '209.4',  name: 'Benign carcinoid tumors of the small intestine'});
+
+CREATE (ICD9_209_40:ICD_9 { code: '209.40',  name: 'Benign carcinoid tumor of the small intestine, unspecified portion '});
+
+CREATE (ICD9_209_41:ICD_9 { code: '209.41',  name: 'Benign carcinoid tumor of the duodenum '});
+
+CREATE (ICD9_209_42:ICD_9 { code: '209.42',  name: 'Benign carcinoid tumor of the jejunum '});
+
+CREATE (ICD9_209_43:ICD_9 { code: '209.43',  name: 'Benign carcinoid tumor of the ileum '});
+
+CREATE (ICD9_209_5:ICD_9 { code: '209.5',  name: 'Benign carcinoid tumors of the appendix, large intestine, and rectum'});
+
+CREATE (ICD9_209_50:ICD_9 { code: '209.50',  name: 'Benign carcinoid tumor of the large intestine, unspecified portion '});
+
+CREATE (ICD9_209_51:ICD_9 { code: '209.51',  name: 'Benign carcinoid tumor of the appendix '});
+
+CREATE (ICD9_209_52:ICD_9 { code: '209.52',  name: 'Benign carcinoid tumor of the cecum '});
+
+CREATE (ICD9_209_53:ICD_9 { code: '209.53',  name: 'Benign carcinoid tumor of the ascending colon '});
+
+CREATE (ICD9_209_54:ICD_9 { code: '209.54',  name: 'Benign carcinoid tumor of the transverse colon '});
+
+CREATE (ICD9_209_55:ICD_9 { code: '209.55',  name: 'Benign carcinoid tumor of the descending colon '});
+
+CREATE (ICD9_209_56:ICD_9 { code: '209.56',  name: 'Benign carcinoid tumor of the sigmoid colon '});
+
+CREATE (ICD9_209_57:ICD_9 { code: '209.57',  name: 'Benign carcinoid tumor of the rectum '});
+
+CREATE (ICD9_209_6:ICD_9 { code: '209.6',  name: 'Benign carcinoid tumors of other and unspecified sites'});
+
+CREATE (ICD9_209_60:ICD_9 { code: '209.60',  name: 'Benign carcinoid tumor of unknown primary site '});
+
+CREATE (ICD9_209_61:ICD_9 { code: '209.61',  name: 'Benign carcinoid tumor of the bronchus and lung '});
+
+CREATE (ICD9_209_62:ICD_9 { code: '209.62',  name: 'Benign carcinoid tumor of the thymus '});
+
+CREATE (ICD9_209_63:ICD_9 { code: '209.63',  name: 'Benign carcinoid tumor of the stomach '});
+
+CREATE (ICD9_209_64:ICD_9 { code: '209.64',  name: 'Benign carcinoid tumor of the kidney '});
+
+CREATE (ICD9_209_65:ICD_9 { code: '209.65',  name: 'Benign carcinoid tumor of foregut, not otherwise specified '});
+
+CREATE (ICD9_209_66:ICD_9 { code: '209.66',  name: 'Benign carcinoid tumor of midgut, not otherwise specified '});
+
+CREATE (ICD9_209_67:ICD_9 { code: '209.67',  name: 'Benign carcinoid tumor of hindgut, not otherwise specified '});
+
+CREATE (ICD9_209_69:ICD_9 { code: '209.69',  name: 'Benign carcinoid tumor of other sites '});
+
+CREATE (ICD9_209_7:ICD_9 { code: '209.7',  name: 'Secondary neuroendocrine tumors'});
+
+CREATE (ICD9_209_70:ICD_9 { code: '209.70',  name: 'Secondary neuroendocrine tumor, unspecified site '});
+
+CREATE (ICD9_209_71:ICD_9 { code: '209.71',  name: 'Secondary neuroendocrine tumor of distant lymph nodes '});
+
+CREATE (ICD9_209_72:ICD_9 { code: '209.72',  name: 'Secondary neuroendocrine tumor of liver '});
+
+CREATE (ICD9_209_73:ICD_9 { code: '209.73',  name: 'Secondary neuroendocrine tumor of bone '});
+
+CREATE (ICD9_209_74:ICD_9 { code: '209.74',  name: 'Secondary neuroendocrine tumor of peritoneum '});
+
+CREATE (ICD9_209_75:ICD_9 { code: '209.75',  name: 'Secondary Merkel cell carcinoma '});
+
+CREATE (ICD9_209_79:ICD_9 { code: '209.79',  name: 'Secondary neuroendocrine tumor of other sites '});
+
+CREATE (ICD9_210_229:ICD_9_GROUP { group_code: '210-229',  name: 'Benign Neoplasms'});
+
+CREATE (ICD9_210:ICD_9 { code: '210',  name: 'Benign neoplasm of lip oral cavity and pharynx'});
+
+CREATE (ICD9_210_0:ICD_9 { code: '210.0',  name: 'Benign neoplasm of lip '});
+
+CREATE (ICD9_210_1:ICD_9 { code: '210.1',  name: 'Benign neoplasm of tongue '});
+
+CREATE (ICD9_210_2:ICD_9 { code: '210.2',  name: 'Benign neoplasm of major salivary glands '});
+
+CREATE (ICD9_210_3:ICD_9 { code: '210.3',  name: 'Benign neoplasm of floor of mouth '});
+
+CREATE (ICD9_210_4:ICD_9 { code: '210.4',  name: 'Benign neoplasm of other and unspecified parts of mouth '});
+
+CREATE (ICD9_210_5:ICD_9 { code: '210.5',  name: 'Benign neoplasm of tonsil '});
+
+CREATE (ICD9_210_6:ICD_9 { code: '210.6',  name: 'Benign neoplasm of other parts of oropharynx '});
+
+CREATE (ICD9_210_7:ICD_9 { code: '210.7',  name: 'Benign neoplasm of nasopharynx '});
+
+CREATE (ICD9_210_8:ICD_9 { code: '210.8',  name: 'Benign neoplasm of hypopharynx '});
+
+CREATE (ICD9_210_9:ICD_9 { code: '210.9',  name: 'Benign neoplasm of pharynx, unspecified '});
+
+CREATE (ICD9_211:ICD_9 { code: '211',  name: 'Benign neoplasm of other parts of digestive system'});
+
+CREATE (ICD9_211_0:ICD_9 { code: '211.0',  name: 'Benign neoplasm of esophagus '});
+
+CREATE (ICD9_211_1:ICD_9 { code: '211.1',  name: 'Benign neoplasm of stomach '});
+
+CREATE (ICD9_211_2:ICD_9 { code: '211.2',  name: 'Benign neoplasm of duodenum, jejunum, and ileum '});
+
+CREATE (ICD9_211_3:ICD_9 { code: '211.3',  name: 'Benign neoplasm of colon '});
+
+CREATE (ICD9_211_4:ICD_9 { code: '211.4',  name: 'Benign neoplasm of rectum and anal canal '});
+
+CREATE (ICD9_211_5:ICD_9 { code: '211.5',  name: 'Benign neoplasm of liver and biliary passages '});
+
+CREATE (ICD9_211_6:ICD_9 { code: '211.6',  name: 'Benign neoplasm of pancreas, except islets of Langerhans '});
+
+CREATE (ICD9_211_7:ICD_9 { code: '211.7',  name: 'Benign neoplasm of islets of Langerhans '});
+
+CREATE (ICD9_211_8:ICD_9 { code: '211.8',  name: 'Benign neoplasm of retroperitoneum and peritoneum '});
+
+CREATE (ICD9_211_9:ICD_9 { code: '211.9',  name: 'Benign neoplasm of other and unspecified site in the digestive system '});
+
+CREATE (ICD9_212:ICD_9 { code: '212',  name: 'Benign neoplasm of respiratory and intrathoracic organs'});
+
+CREATE (ICD9_212_0:ICD_9 { code: '212.0',  name: 'Benign neoplasm of nasal cavities, middle ear, and accessory sinuses '});
+
+CREATE (ICD9_212_1:ICD_9 { code: '212.1',  name: 'Benign neoplasm of larynx '});
+
+CREATE (ICD9_212_2:ICD_9 { code: '212.2',  name: 'Benign neoplasm of trachea '});
+
+CREATE (ICD9_212_3:ICD_9 { code: '212.3',  name: 'Benign neoplasm of bronchus and lung '});
+
+CREATE (ICD9_212_4:ICD_9 { code: '212.4',  name: 'Benign neoplasm of pleura '});
+
+CREATE (ICD9_212_5:ICD_9 { code: '212.5',  name: 'Benign neoplasm of mediastinum '});
+
+CREATE (ICD9_212_6:ICD_9 { code: '212.6',  name: 'Benign neoplasm of thymus '});
+
+CREATE (ICD9_212_7:ICD_9 { code: '212.7',  name: 'Benign neoplasm of heart '});
+
+CREATE (ICD9_212_8:ICD_9 { code: '212.8',  name: 'Benign neoplasm of other specified sites of respiratory and intrathoracic organs '});
+
+CREATE (ICD9_212_9:ICD_9 { code: '212.9',  name: 'Benign neoplasm of respiratory and intrathoracic organs, site unspecified '});
+
+CREATE (ICD9_213:ICD_9 { code: '213',  name: 'Benign neoplasm of bone and articular cartilage'});
+
+CREATE (ICD9_213_0:ICD_9 { code: '213.0',  name: 'Benign neoplasm of bones of skull and face '});
+
+CREATE (ICD9_213_1:ICD_9 { code: '213.1',  name: 'Benign neoplasm of lower jaw bone '});
+
+CREATE (ICD9_213_2:ICD_9 { code: '213.2',  name: 'Benign neoplasm of vertebral column, excluding sacrum and coccyx '});
+
+CREATE (ICD9_213_3:ICD_9 { code: '213.3',  name: 'Benign neoplasm of ribs, sternum, and clavicle '});
+
+CREATE (ICD9_213_4:ICD_9 { code: '213.4',  name: 'Benign neoplasm of scapula and long bones of upper limb '});
+
+CREATE (ICD9_213_5:ICD_9 { code: '213.5',  name: 'Benign neoplasm of short bones of upper limb '});
+
+CREATE (ICD9_213_6:ICD_9 { code: '213.6',  name: 'Benign neoplasm of pelvic bones, sacrum, and coccyx '});
+
+CREATE (ICD9_213_7:ICD_9 { code: '213.7',  name: 'Benign neoplasm of long bones of lower limb '});
+
+CREATE (ICD9_213_8:ICD_9 { code: '213.8',  name: 'Benign neoplasm of short bones of lower limb '});
+
+CREATE (ICD9_213_9:ICD_9 { code: '213.9',  name: 'Benign neoplasm of bone and articular cartilage, site unspecified '});
+
+CREATE (ICD9_214:ICD_9 { code: '214',  name: 'Lipoma'});
+
+CREATE (ICD9_214_0:ICD_9 { code: '214.0',  name: 'Lipoma of skin and subcutaneous tissue of face '});
+
+CREATE (ICD9_214_1:ICD_9 { code: '214.1',  name: 'Lipoma of other skin and subcutaneous tissue '});
+
+CREATE (ICD9_214_2:ICD_9 { code: '214.2',  name: 'Lipoma of intrathoracic organs '});
+
+CREATE (ICD9_214_3:ICD_9 { code: '214.3',  name: 'Lipoma of intra-abdominal organs '});
+
+CREATE (ICD9_214_4:ICD_9 { code: '214.4',  name: 'Lipoma of spermatic cord '});
+
+CREATE (ICD9_214_8:ICD_9 { code: '214.8',  name: 'Lipoma of other specified sites '});
+
+CREATE (ICD9_214_9:ICD_9 { code: '214.9',  name: 'Lipoma, unspecified site '});
+
+CREATE (ICD9_215:ICD_9 { code: '215',  name: 'Other benign neoplasm of connective and other soft tissue'});
+
+CREATE (ICD9_215_0:ICD_9 { code: '215.0',  name: 'Other benign neoplasm of connective and other soft tissue of head, face, and neck '});
+
+CREATE (ICD9_215_2:ICD_9 { code: '215.2',  name: 'Other benign neoplasm of connective and other soft tissue of upper limb, including shoulder '});
+
+CREATE (ICD9_215_3:ICD_9 { code: '215.3',  name: 'Other benign neoplasm of connective and other soft tissue of lower limb, including hip '});
+
+CREATE (ICD9_215_4:ICD_9 { code: '215.4',  name: 'Other benign neoplasm of connective and other soft tissue of thorax '});
+
+CREATE (ICD9_215_5:ICD_9 { code: '215.5',  name: 'Other benign neoplasm of connective and other soft tissue of abdomen '});
+
+CREATE (ICD9_215_6:ICD_9 { code: '215.6',  name: 'Other benign neoplasm of connective and other soft tissue of pelvis '});
+
+CREATE (ICD9_215_7:ICD_9 { code: '215.7',  name: 'Other benign neoplasm of connective and other soft tissue of trunk, unspecified '});
+
+CREATE (ICD9_215_8:ICD_9 { code: '215.8',  name: 'Other benign neoplasm of connective and other soft tissue of other specified sites '});
+
+CREATE (ICD9_215_9:ICD_9 { code: '215.9',  name: 'Other benign neoplasm of connective and other soft tissue, site unspecified '});
+
+CREATE (ICD9_216:ICD_9 { code: '216',  name: 'Benign neoplasm of skin'});
+
+CREATE (ICD9_216_0:ICD_9 { code: '216.0',  name: 'Benign neoplasm of skin of lip '});
+
+CREATE (ICD9_216_1:ICD_9 { code: '216.1',  name: 'Benign neoplasm of eyelid, including canthus '});
+
+CREATE (ICD9_216_2:ICD_9 { code: '216.2',  name: 'Benign neoplasm of ear and external auditory canal '});
+
+CREATE (ICD9_216_3:ICD_9 { code: '216.3',  name: 'Benign neoplasm of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_216_4:ICD_9 { code: '216.4',  name: 'Benign neoplasm of scalp and skin of neck '});
+
+CREATE (ICD9_216_5:ICD_9 { code: '216.5',  name: 'Benign neoplasm of skin of trunk, except scrotum '});
+
+CREATE (ICD9_216_6:ICD_9 { code: '216.6',  name: 'Benign neoplasm of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_216_7:ICD_9 { code: '216.7',  name: 'Benign neoplasm of skin of lower limb, including hip '});
+
+CREATE (ICD9_216_8:ICD_9 { code: '216.8',  name: 'Benign neoplasm of other specified sites of skin '});
+
+CREATE (ICD9_216_9:ICD_9 { code: '216.9',  name: 'Benign neoplasm of skin, site unspecified '});
+
+CREATE (ICD9_217:ICD_9 { code: '217',  name: 'Benign neoplasm of breast'});
+
+CREATE (ICD9_218:ICD_9 { code: '218',  name: 'Uterine leiomyoma'});
+
+CREATE (ICD9_218_0:ICD_9 { code: '218.0',  name: 'Submucous leiomyoma of uterus '});
+
+CREATE (ICD9_218_1:ICD_9 { code: '218.1',  name: 'Intramural leiomyoma of uterus '});
+
+CREATE (ICD9_218_2:ICD_9 { code: '218.2',  name: 'Subserous leiomyoma of uterus '});
+
+CREATE (ICD9_218_9:ICD_9 { code: '218.9',  name: 'Leiomyoma of uterus, unspecified '});
+
+CREATE (ICD9_219:ICD_9 { code: '219',  name: 'Other benign neoplasm of uterus'});
+
+CREATE (ICD9_219_0:ICD_9 { code: '219.0',  name: 'Benign neoplasm of cervix uteri '});
+
+CREATE (ICD9_219_1:ICD_9 { code: '219.1',  name: 'Benign neoplasm of corpus uteri '});
+
+CREATE (ICD9_219_8:ICD_9 { code: '219.8',  name: 'Benign neoplasm of other specified parts of uterus '});
+
+CREATE (ICD9_219_9:ICD_9 { code: '219.9',  name: 'Benign neoplasm of uterus, part unspecified '});
+
+CREATE (ICD9_220:ICD_9 { code: '220',  name: 'Benign neoplasm of ovary'});
+
+CREATE (ICD9_221:ICD_9 { code: '221',  name: 'Benign neoplasm of other female genital organs'});
+
+CREATE (ICD9_221_0:ICD_9 { code: '221.0',  name: 'Benign neoplasm of fallopian tube and uterine ligaments '});
+
+CREATE (ICD9_221_1:ICD_9 { code: '221.1',  name: 'Benign neoplasm of vagina '});
+
+CREATE (ICD9_221_2:ICD_9 { code: '221.2',  name: 'Benign neoplasm of vulva '});
+
+CREATE (ICD9_221_8:ICD_9 { code: '221.8',  name: 'Benign neoplasm of other specified sites of female genital organs '});
+
+CREATE (ICD9_221_9:ICD_9 { code: '221.9',  name: 'Benign neoplasm of female genital organ, site unspecified '});
+
+CREATE (ICD9_222:ICD_9 { code: '222',  name: 'Benign neoplasm of male genital organs'});
+
+CREATE (ICD9_222_0:ICD_9 { code: '222.0',  name: 'Benign neoplasm of testis '});
+
+CREATE (ICD9_222_1:ICD_9 { code: '222.1',  name: 'Benign neoplasm of penis '});
+
+CREATE (ICD9_222_2:ICD_9 { code: '222.2',  name: 'Benign neoplasm of prostate '});
+
+CREATE (ICD9_222_3:ICD_9 { code: '222.3',  name: 'Benign neoplasm of epididymis '});
+
+CREATE (ICD9_222_4:ICD_9 { code: '222.4',  name: 'Benign neoplasm of scrotum '});
+
+CREATE (ICD9_222_8:ICD_9 { code: '222.8',  name: 'Benign neoplasm of other specified sites of male genital organs '});
+
+CREATE (ICD9_222_9:ICD_9 { code: '222.9',  name: 'Benign neoplasm of male genital organ, site unspecified '});
+
+CREATE (ICD9_223:ICD_9 { code: '223',  name: 'Benign neoplasm of kidney and other urinary organs'});
+
+CREATE (ICD9_223_0:ICD_9 { code: '223.0',  name: 'Benign neoplasm of kidney, except pelvis '});
+
+CREATE (ICD9_223_1:ICD_9 { code: '223.1',  name: 'Benign neoplasm of renal pelvis '});
+
+CREATE (ICD9_223_2:ICD_9 { code: '223.2',  name: 'Benign neoplasm of ureter '});
+
+CREATE (ICD9_223_3:ICD_9 { code: '223.3',  name: 'Benign neoplasm of bladder '});
+
+CREATE (ICD9_223_8:ICD_9 { code: '223.8',  name: 'Benign neoplasm of other specified sites of urinary organs'});
+
+CREATE (ICD9_223_81:ICD_9 { code: '223.81',  name: 'Benign neoplasm of urethra '});
+
+CREATE (ICD9_223_89:ICD_9 { code: '223.89',  name: 'Benign neoplasm of other specified sites of urinary organs '});
+
+CREATE (ICD9_223_9:ICD_9 { code: '223.9',  name: 'Benign neoplasm of urinary organ, site unspecified '});
+
+CREATE (ICD9_224:ICD_9 { code: '224',  name: 'Benign neoplasm of eye'});
+
+CREATE (ICD9_224_0:ICD_9 { code: '224.0',  name: 'Benign neoplasm of eyeball, except conjunctiva, cornea, retina, and choroid '});
+
+CREATE (ICD9_224_1:ICD_9 { code: '224.1',  name: 'Benign neoplasm of orbit '});
+
+CREATE (ICD9_224_2:ICD_9 { code: '224.2',  name: 'Benign neoplasm of lacrimal gland '});
+
+CREATE (ICD9_224_3:ICD_9 { code: '224.3',  name: 'Benign neoplasm of conjunctiva '});
+
+CREATE (ICD9_224_4:ICD_9 { code: '224.4',  name: 'Benign neoplasm of cornea '});
+
+CREATE (ICD9_224_5:ICD_9 { code: '224.5',  name: 'Benign neoplasm of retina '});
+
+CREATE (ICD9_224_6:ICD_9 { code: '224.6',  name: 'Benign neoplasm of choroid '});
+
+CREATE (ICD9_224_7:ICD_9 { code: '224.7',  name: 'Benign neoplasm of lacrimal duct '});
+
+CREATE (ICD9_224_8:ICD_9 { code: '224.8',  name: 'Benign neoplasm of other specified parts of eye '});
+
+CREATE (ICD9_224_9:ICD_9 { code: '224.9',  name: 'Benign neoplasm of eye, part unspecified '});
+
+CREATE (ICD9_225:ICD_9 { code: '225',  name: 'Benign neoplasm of brain and other parts of nervous system'});
+
+CREATE (ICD9_225_0:ICD_9 { code: '225.0',  name: 'Benign neoplasm of brain '});
+
+CREATE (ICD9_225_1:ICD_9 { code: '225.1',  name: 'Benign neoplasm of cranial nerves '});
+
+CREATE (ICD9_225_2:ICD_9 { code: '225.2',  name: 'Benign neoplasm of cerebral meninges '});
+
+CREATE (ICD9_225_3:ICD_9 { code: '225.3',  name: 'Benign neoplasm of spinal cord '});
+
+CREATE (ICD9_225_4:ICD_9 { code: '225.4',  name: 'Benign neoplasm of spinal meninges '});
+
+CREATE (ICD9_225_8:ICD_9 { code: '225.8',  name: 'Benign neoplasm of other specified sites of nervous system '});
+
+CREATE (ICD9_225_9:ICD_9 { code: '225.9',  name: 'Benign neoplasm of nervous system, part unspecified '});
+
+CREATE (ICD9_226:ICD_9 { code: '226',  name: 'Benign neoplasm of thyroid glands'});
+
+CREATE (ICD9_227:ICD_9 { code: '227',  name: 'Benign neoplasm of other endocrine glands and related structures'});
+
+CREATE (ICD9_227_0:ICD_9 { code: '227.0',  name: 'Benign neoplasm of adrenal gland '});
+
+CREATE (ICD9_227_1:ICD_9 { code: '227.1',  name: 'Benign neoplasm of parathyroid gland '});
+
+CREATE (ICD9_227_3:ICD_9 { code: '227.3',  name: 'Benign neoplasm of pituitary gland and craniopharyngeal duct '});
+
+CREATE (ICD9_227_4:ICD_9 { code: '227.4',  name: 'Benign neoplasm of pineal gland '});
+
+CREATE (ICD9_227_5:ICD_9 { code: '227.5',  name: 'Benign neoplasm of carotid body '});
+
+CREATE (ICD9_227_6:ICD_9 { code: '227.6',  name: 'Benign neoplasm of aortic body and other paraganglia '});
+
+CREATE (ICD9_227_8:ICD_9 { code: '227.8',  name: 'Benign neoplasm of other endocrine glands and related structures '});
+
+CREATE (ICD9_227_9:ICD_9 { code: '227.9',  name: 'Benign neoplasm of endocrine gland, site unspecified '});
+
+CREATE (ICD9_228:ICD_9 { code: '228',  name: 'Hemangioma and lymphangioma any site'});
+
+CREATE (ICD9_228_0:ICD_9 { code: '228.0',  name: 'Hemangioma any site'});
+
+CREATE (ICD9_228_00:ICD_9 { code: '228.00',  name: 'Hemangioma of unspecified site '});
+
+CREATE (ICD9_228_01:ICD_9 { code: '228.01',  name: 'Hemangioma of skin and subcutaneous tissue '});
+
+CREATE (ICD9_228_02:ICD_9 { code: '228.02',  name: 'Hemangioma of intracranial structures '});
+
+CREATE (ICD9_228_03:ICD_9 { code: '228.03',  name: 'Hemangioma of retina '});
+
+CREATE (ICD9_228_04:ICD_9 { code: '228.04',  name: 'Hemangioma of intra-abdominal structures '});
+
+CREATE (ICD9_228_09:ICD_9 { code: '228.09',  name: 'Hemangioma of other sites '});
+
+CREATE (ICD9_228_1:ICD_9 { code: '228.1',  name: 'Lymphangioma, any site '});
+
+CREATE (ICD9_229:ICD_9 { code: '229',  name: 'Benign neoplasm of other and unspecified sites'});
+
+CREATE (ICD9_229_0:ICD_9 { code: '229.0',  name: 'Benign neoplasm of lymph nodes '});
+
+CREATE (ICD9_229_8:ICD_9 { code: '229.8',  name: 'Benign neoplasm of other specified sites '});
+
+CREATE (ICD9_229_9:ICD_9 { code: '229.9',  name: 'Benign neoplasm of unspecified site '});
+
+CREATE (ICD9_230_234:ICD_9_GROUP { group_code: '230-234',  name: 'Carcinoma In Situ'});
+
+CREATE (ICD9_230:ICD_9 { code: '230',  name: 'Carcinoma in situ of digestive organs'});
+
+CREATE (ICD9_230_0:ICD_9 { code: '230.0',  name: 'Carcinoma in situ of lip, oral cavity, and pharynx '});
+
+CREATE (ICD9_230_1:ICD_9 { code: '230.1',  name: 'Carcinoma in situ of esophagus '});
+
+CREATE (ICD9_230_2:ICD_9 { code: '230.2',  name: 'Carcinoma in situ of stomach '});
+
+CREATE (ICD9_230_3:ICD_9 { code: '230.3',  name: 'Carcinoma in situ of colon '});
+
+CREATE (ICD9_230_4:ICD_9 { code: '230.4',  name: 'Carcinoma in situ of rectum '});
+
+CREATE (ICD9_230_5:ICD_9 { code: '230.5',  name: 'Carcinoma in situ of anal canal '});
+
+CREATE (ICD9_230_6:ICD_9 { code: '230.6',  name: 'Carcinoma in situ of anus, unspecified '});
+
+CREATE (ICD9_230_7:ICD_9 { code: '230.7',  name: 'Carcinoma in situ of other and unspecified parts of intestine '});
+
+CREATE (ICD9_230_8:ICD_9 { code: '230.8',  name: 'Carcinoma in situ of liver and biliary system '});
+
+CREATE (ICD9_230_9:ICD_9 { code: '230.9',  name: 'Carcinoma in situ of other and unspecified digestive organs '});
+
+CREATE (ICD9_231:ICD_9 { code: '231',  name: 'Carcinoma in situ of respiratory system'});
+
+CREATE (ICD9_231_0:ICD_9 { code: '231.0',  name: 'Carcinoma in situ of larynx '});
+
+CREATE (ICD9_231_1:ICD_9 { code: '231.1',  name: 'Carcinoma in situ of trachea '});
+
+CREATE (ICD9_231_2:ICD_9 { code: '231.2',  name: 'Carcinoma in situ of bronchus and lung '});
+
+CREATE (ICD9_231_8:ICD_9 { code: '231.8',  name: 'Carcinoma in situ of other specified parts of respiratory system '});
+
+CREATE (ICD9_231_9:ICD_9 { code: '231.9',  name: 'Carcinoma in situ of respiratory system, part unspecified '});
+
+CREATE (ICD9_232:ICD_9 { code: '232',  name: 'Carcinoma in situ of skin'});
+
+CREATE (ICD9_232_0:ICD_9 { code: '232.0',  name: 'Carcinoma in situ of skin of lip '});
+
+CREATE (ICD9_232_1:ICD_9 { code: '232.1',  name: 'Carcinoma in situ of eyelid, including canthus '});
+
+CREATE (ICD9_232_2:ICD_9 { code: '232.2',  name: 'Carcinoma in situ of skin of ear and external auditory canal '});
+
+CREATE (ICD9_232_3:ICD_9 { code: '232.3',  name: 'Carcinoma in situ of skin of other and unspecified parts of face '});
+
+CREATE (ICD9_232_4:ICD_9 { code: '232.4',  name: 'Carcinoma in situ of scalp and skin of neck '});
+
+CREATE (ICD9_232_5:ICD_9 { code: '232.5',  name: 'Carcinoma in situ of skin of trunk, except scrotum '});
+
+CREATE (ICD9_232_6:ICD_9 { code: '232.6',  name: 'Carcinoma in situ of skin of upper limb, including shoulder '});
+
+CREATE (ICD9_232_7:ICD_9 { code: '232.7',  name: 'Carcinoma in situ of skin of lower limb, including hip '});
+
+CREATE (ICD9_232_8:ICD_9 { code: '232.8',  name: 'Carcinoma in situ of other specified sites of skin '});
+
+CREATE (ICD9_232_9:ICD_9 { code: '232.9',  name: 'Carcinoma in situ of skin, site unspecified '});
+
+CREATE (ICD9_233:ICD_9 { code: '233',  name: 'Carcinoma in situ of breast and genitourinary system'});
+
+CREATE (ICD9_233_0:ICD_9 { code: '233.0',  name: 'Carcinoma in situ of breast '});
+
+CREATE (ICD9_233_1:ICD_9 { code: '233.1',  name: 'Carcinoma in situ of cervix uteri '});
+
+CREATE (ICD9_233_2:ICD_9 { code: '233.2',  name: 'Carcinoma in situ of other and unspecified parts of uterus '});
+
+CREATE (ICD9_233_3:ICD_9 { code: '233.3',  name: 'Carcinoma in situ of other and unspecified female genital organs'});
+
+CREATE (ICD9_233_30:ICD_9 { code: '233.30',  name: 'Carcinoma in situ, unspecified female genital organ '});
+
+CREATE (ICD9_233_31:ICD_9 { code: '233.31',  name: 'Carcinoma in situ, vagina '});
+
+CREATE (ICD9_233_32:ICD_9 { code: '233.32',  name: 'Carcinoma in situ, vulva '});
+
+CREATE (ICD9_233_39:ICD_9 { code: '233.39',  name: 'Carcinoma in situ, other female genital organ '});
+
+CREATE (ICD9_233_4:ICD_9 { code: '233.4',  name: 'Carcinoma in situ of prostate '});
+
+CREATE (ICD9_233_5:ICD_9 { code: '233.5',  name: 'Carcinoma in situ of penis '});
+
+CREATE (ICD9_233_6:ICD_9 { code: '233.6',  name: 'Carcinoma in situ of other and unspecified male genital organs '});
+
+CREATE (ICD9_233_7:ICD_9 { code: '233.7',  name: 'Carcinoma in situ of bladder '});
+
+CREATE (ICD9_233_9:ICD_9 { code: '233.9',  name: 'Carcinoma in situ of other and unspecified urinary organs '});
+
+CREATE (ICD9_234:ICD_9 { code: '234',  name: 'Carcinoma in situ of other and unspecified sites'});
+
+CREATE (ICD9_234_0:ICD_9 { code: '234.0',  name: 'Carcinoma in situ of eye '});
+
+CREATE (ICD9_234_8:ICD_9 { code: '234.8',  name: 'Carcinoma in situ of other specified sites '});
+
+CREATE (ICD9_234_9:ICD_9 { code: '234.9',  name: 'Carcinoma in situ, site unspecified '});
+
+CREATE (ICD9_235_238:ICD_9_GROUP { group_code: '235-238',  name: 'Neoplasms Of Uncertain Behavior'});
+
+CREATE (ICD9_235:ICD_9 { code: '235',  name: 'Neoplasm of uncertain behavior of digestive and respiratory systems'});
+
+CREATE (ICD9_235_0:ICD_9 { code: '235.0',  name: 'Neoplasm of uncertain behavior of major salivary glands '});
+
+CREATE (ICD9_235_1:ICD_9 { code: '235.1',  name: 'Neoplasm of uncertain behavior of lip, oral cavity, and pharynx '});
+
+CREATE (ICD9_235_2:ICD_9 { code: '235.2',  name: 'Neoplasm of uncertain behavior of stomach, intestines, and rectum '});
+
+CREATE (ICD9_235_3:ICD_9 { code: '235.3',  name: 'Neoplasm of uncertain behavior of liver and biliary passages '});
+
+CREATE (ICD9_235_4:ICD_9 { code: '235.4',  name: 'Neoplasm of uncertain behavior of retroperitoneum and peritoneum '});
+
+CREATE (ICD9_235_5:ICD_9 { code: '235.5',  name: 'Neoplasm of uncertain behavior of other and unspecified digestive organs '});
+
+CREATE (ICD9_235_6:ICD_9 { code: '235.6',  name: 'Neoplasm of uncertain behavior of larynx '});
+
+CREATE (ICD9_235_7:ICD_9 { code: '235.7',  name: 'Neoplasm of uncertain behavior of trachea, bronchus, and lung '});
+
+CREATE (ICD9_235_8:ICD_9 { code: '235.8',  name: 'Neoplasm of uncertain behavior of pleura, thymus, and mediastinum '});
+
+CREATE (ICD9_235_9:ICD_9 { code: '235.9',  name: 'Neoplasm of uncertain behavior of other and unspecified respiratory organs '});
+
+CREATE (ICD9_236:ICD_9 { code: '236',  name: 'Neoplasm of uncertain behavior of genitourinary organs'});
+
+CREATE (ICD9_236_0:ICD_9 { code: '236.0',  name: 'Neoplasm of uncertain behavior of uterus '});
+
+CREATE (ICD9_236_1:ICD_9 { code: '236.1',  name: 'Neoplasm of uncertain behavior of placenta '});
+
+CREATE (ICD9_236_2:ICD_9 { code: '236.2',  name: 'Neoplasm of uncertain behavior of ovary '});
+
+CREATE (ICD9_236_3:ICD_9 { code: '236.3',  name: 'Neoplasm of uncertain behavior of other and unspecified female genital organs '});
+
+CREATE (ICD9_236_4:ICD_9 { code: '236.4',  name: 'Neoplasm of uncertain behavior of testis '});
+
+CREATE (ICD9_236_5:ICD_9 { code: '236.5',  name: 'Neoplasm of uncertain behavior of prostate '});
+
+CREATE (ICD9_236_6:ICD_9 { code: '236.6',  name: 'Neoplasm of uncertain behavior of other and unspecified male genital organs '});
+
+CREATE (ICD9_236_7:ICD_9 { code: '236.7',  name: 'Neoplasm of uncertain behavior of bladder '});
+
+CREATE (ICD9_236_9:ICD_9 { code: '236.9',  name: 'Neoplasm of uncertain behavior of other and unspecified urinary organs'});
+
+CREATE (ICD9_236_90:ICD_9 { code: '236.90',  name: 'Neoplasm of uncertain behavior of urinary organ, unspecified '});
+
+CREATE (ICD9_236_91:ICD_9 { code: '236.91',  name: 'Neoplasm of uncertain behavior of kidney and ureter '});
+
+CREATE (ICD9_236_99:ICD_9 { code: '236.99',  name: 'Neoplasm of uncertain behavior of other and unspecified urinary organs '});
+
+CREATE (ICD9_237:ICD_9 { code: '237',  name: 'Neoplasm of uncertain behavior of endocrine glands and nervous system'});
+
+CREATE (ICD9_237_0:ICD_9 { code: '237.0',  name: 'Neoplasm of uncertain behavior of pituitary gland and craniopharyngeal duct '});
+
+CREATE (ICD9_237_1:ICD_9 { code: '237.1',  name: 'Neoplasm of uncertain behavior of pineal gland '});
+
+CREATE (ICD9_237_2:ICD_9 { code: '237.2',  name: 'Neoplasm of uncertain behavior of adrenal gland '});
+
+CREATE (ICD9_237_3:ICD_9 { code: '237.3',  name: 'Neoplasm of uncertain behavior of paraganglia '});
+
+CREATE (ICD9_237_4:ICD_9 { code: '237.4',  name: 'Neoplasm of uncertain behavior of other and unspecified endocrine glands '});
+
+CREATE (ICD9_237_5:ICD_9 { code: '237.5',  name: 'Neoplasm of uncertain behavior of brain and spinal cord '});
+
+CREATE (ICD9_237_6:ICD_9 { code: '237.6',  name: 'Neoplasm of uncertain behavior of meninges '});
+
+CREATE (ICD9_237_7:ICD_9 { code: '237.7',  name: 'Neurofibromatosis'});
+
+CREATE (ICD9_237_70:ICD_9 { code: '237.70',  name: 'Neurofibromatosis, unspecified '});
+
+CREATE (ICD9_237_71:ICD_9 { code: '237.71',  name: 'Neurofibromatosis, type 1 [von recklinghausen's disease] '});
+
+CREATE (ICD9_237_72:ICD_9 { code: '237.72',  name: 'Neurofibromatosis, type 2 [acoustic neurofibromatosis] '});
+
+CREATE (ICD9_237_73:ICD_9 { code: '237.73',  name: 'Schwannomatosis '});
+
+CREATE (ICD9_237_79:ICD_9 { code: '237.79',  name: 'Other neurofibromatosis '});
+
+CREATE (ICD9_237_9:ICD_9 { code: '237.9',  name: 'Neoplasm of uncertain behavior of other and unspecified parts of nervous system '});
+
+CREATE (ICD9_238:ICD_9 { code: '238',  name: 'Neoplasm of uncertain behavior of other and unspecified sites and tissues'});
+
+CREATE (ICD9_238_0:ICD_9 { code: '238.0',  name: 'Neoplasm of uncertain behavior of bone and articular cartilage '});
+
+CREATE (ICD9_238_1:ICD_9 { code: '238.1',  name: 'Neoplasm of uncertain behavior of connective and other soft tissue '});
+
+CREATE (ICD9_238_2:ICD_9 { code: '238.2',  name: 'Neoplasm of uncertain behavior of skin '});
+
+CREATE (ICD9_238_3:ICD_9 { code: '238.3',  name: 'Neoplasm of uncertain behavior of breast '});
+
+CREATE (ICD9_238_4:ICD_9 { code: '238.4',  name: 'Polycythemia vera '});
+
+CREATE (ICD9_238_5:ICD_9 { code: '238.5',  name: 'Neoplasm of uncertain behavior of histiocytic and mast cells '});
+
+CREATE (ICD9_238_6:ICD_9 { code: '238.6',  name: 'Neoplasm of uncertain behavior of plasma cells '});
+
+CREATE (ICD9_238_7:ICD_9 { code: '238.7',  name: 'Neoplasm of uncertain behavior of other lymphatic and hematopoietic tissues'});
+
+CREATE (ICD9_238_71:ICD_9 { code: '238.71',  name: 'Essential thrombocythemia '});
+
+CREATE (ICD9_238_72:ICD_9 { code: '238.72',  name: 'Low grade myelodysplastic syndrome lesions '});
+
+CREATE (ICD9_238_73:ICD_9 { code: '238.73',  name: 'High grade myelodysplastic syndrome lesions '});
+
+CREATE (ICD9_238_74:ICD_9 { code: '238.74',  name: 'Myelodysplastic syndrome with 5q deletion '});
+
+CREATE (ICD9_238_75:ICD_9 { code: '238.75',  name: 'Myelodysplastic syndrome, unspecified '});
+
+CREATE (ICD9_238_76:ICD_9 { code: '238.76',  name: 'Myelofibrosis with myeloid metaplasia '});
+
+CREATE (ICD9_238_77:ICD_9 { code: '238.77',  name: 'Post-transplant lymphoproliferative disorder (PTLD) '});
+
+CREATE (ICD9_238_79:ICD_9 { code: '238.79',  name: 'Other lymphatic and hematopoietic tissues '});
+
+CREATE (ICD9_238_8:ICD_9 { code: '238.8',  name: 'Neoplasm of uncertain behavior of other specified sites '});
+
+CREATE (ICD9_238_9:ICD_9 { code: '238.9',  name: 'Neoplasm of uncertain behavior, site unspecified '});
+
+CREATE (ICD9_239_239:ICD_9_GROUP { group_code: '239-239',  name: 'Neoplasms Of Unspecified Nature'});
+
+CREATE (ICD9_239:ICD_9 { code: '239',  name: 'Neoplasms of unspecified nature'});
+
+CREATE (ICD9_239_0:ICD_9 { code: '239.0',  name: 'Neoplasm of unspecified nature of digestive system '});
+
+CREATE (ICD9_239_1:ICD_9 { code: '239.1',  name: 'Neoplasm of unspecified nature of respiratory system '});
+
+CREATE (ICD9_239_2:ICD_9 { code: '239.2',  name: 'Neoplasm of unspecified nature of bone, soft tissue, and skin '});
+
+CREATE (ICD9_239_3:ICD_9 { code: '239.3',  name: 'Neoplasm of unspecified nature of breast '});
+
+CREATE (ICD9_239_4:ICD_9 { code: '239.4',  name: 'Neoplasm of unspecified nature of bladder '});
+
+CREATE (ICD9_239_5:ICD_9 { code: '239.5',  name: 'Neoplasm of unspecified nature of other genitourinary organs '});
+
+CREATE (ICD9_239_6:ICD_9 { code: '239.6',  name: 'Neoplasm of unspecified nature of brain '});
+
+CREATE (ICD9_239_7:ICD_9 { code: '239.7',  name: 'Neoplasm of unspecified nature of endocrine glands and other parts of nervous system '});
+
+CREATE (ICD9_239_8:ICD_9 { code: '239.8',  name: 'Neoplasm of unspecified nature of other specified sites'});
+
+CREATE (ICD9_239_81:ICD_9 { code: '239.81',  name: 'Neoplasms of unspecified nature, retina and choroid '});
+
+CREATE (ICD9_239_89:ICD_9 { code: '239.89',  name: 'Neoplasms of unspecified nature, other specified sites '});
+
+CREATE (ICD9_239_9:ICD_9 { code: '239.9',  name: 'Neoplasm of unspecified nature, site unspecified '});
+

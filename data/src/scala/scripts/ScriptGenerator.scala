@@ -49,8 +49,8 @@ class ScriptGenerator {
         pw.close
     }
 
-    //TODO: Create Relationship between "see also" histologies: Reg Ex: see also M\-([0-9]{4}/[0-9]
-    //TODO: Separate Name and Descirption on Histologies - clean up the names.
+    // Create Relationship between "see also" histologies: Reg Ex: see also M\-([0-9]{4}/[0-9]
+    // Separate Name and Descirption on Histologies - clean up the names.
     //  Get rid of sites; \((C[0-9]{2}\.[_[0-9]](, *)?)*\)
     //  Get rid of see also
 

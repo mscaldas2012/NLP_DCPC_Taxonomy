@@ -27,8 +27,7 @@ import java.util.List;
 public class HistologyRepositoryTest {
     @Autowired
     HistologyRepository histologyRepository;
-    @Autowired
-    //HistologyRepositoryImpl histologyRepo;
+
 
     @Test
     public void findByCode() {
